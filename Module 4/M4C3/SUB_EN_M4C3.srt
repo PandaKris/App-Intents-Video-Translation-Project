@@ -1,0 +1,364 @@
+1
+00:00:00,567 --> 00:00:03,136
+Hello! In the previous video,
+
+2
+00:00:03,203 --> 00:00:04,571
+we created an App Intent that look up
+
+3
+00:00:04,637 --> 00:00:06,406
+a product in our Coffee Shop.
+
+4
+00:00:06,840 --> 00:00:08,375
+We explore how to pass
+
+5
+00:00:08,441 --> 00:00:10,310
+parameters into intents,
+
+6
+00:00:10,810 --> 00:00:11,544
+how to return the
+
+7
+00:00:11,611 --> 00:00:13,179
+product price as a value,
+
+8
+00:00:13,680 --> 00:00:16,282
+and how to show a dialogue as output.
+
+9
+00:00:16,983 --> 00:00:19,352
+We also use the intent to manually create
+
+10
+00:00:19,419 --> 00:00:21,588
+shortcuts in the Shortcuts app.
+
+11
+00:00:21,955 --> 00:00:24,824
+In this video, let's go one step further.
+
+12
+00:00:27,660 --> 00:00:29,729
+We'll explore how this intent can
+
+13
+00:00:29,796 --> 00:00:32,132
+integrate more deeply with Siri.
+
+14
+00:00:32,899 --> 00:00:35,568
+and how it can return a custom SwiftUI
+
+15
+00:00:35,635 --> 00:00:37,303
+view as part of the response.
+
+16
+00:00:38,705 --> 00:00:41,041
+This let us show more refined
+
+17
+00:00:41,107 --> 00:00:42,642
+and detailed content,
+
+18
+00:00:42,709 --> 00:00:44,444
+making our interactions even richer.
+
+19
+00:00:45,512 --> 00:00:47,847
+Let's begin by creating a shortcut
+
+20
+00:00:47,914 --> 00:00:50,016
+for our Open Product Details intent.
+
+21
+00:00:51,017 --> 00:00:53,953
+We will rename it to my Coffee shortcut.
+
+22
+00:00:58,124 --> 00:00:59,692
+Now, if you ask Siri,
+
+23
+00:01:00,060 --> 00:01:02,162
+"Hey Siri, my coffee shortcut?"
+
+24
+00:01:03,963 --> 00:01:06,399
+It will ask us: "which product do you want?"
+
+25
+00:01:08,134 --> 00:01:09,869
+We can reply with something like
+
+26
+00:01:09,936 --> 00:01:13,873
+"espresso" or "panini" and see you return
+
+27
+00:01:13,940 --> 00:01:15,508
+the price of that item.
+
+28
+00:01:16,309 --> 00:01:18,745
+Just like that, we are interacting
+
+29
+00:01:18,812 --> 00:01:20,847
+with our app intent through natural voice.
+
+30
+00:01:22,949 --> 00:01:25,552
+But we can take this even further.
+
+31
+00:01:26,920 --> 00:01:28,088
+Let's create the shortcut programmatically,
+
+32
+00:01:28,154 --> 00:01:31,224
+so it's available by
+
+33
+00:01:31,291 --> 00:01:33,860
+default when the user installs the app.
+
+34
+00:01:35,228 --> 00:01:37,330
+In our project, we will add a new
+
+35
+00:01:37,397 --> 00:01:39,532
+shortcut to the CoffeeShortcutsProvider.
+
+36
+00:01:40,333 --> 00:01:41,701
+This class conforms to the
+
+37
+00:01:41,768 --> 00:01:42,969
+AppShortcutsProvider
+
+38
+00:01:43,036 --> 00:01:45,138
+protocol and defines available
+
+39
+00:01:45,205 --> 00:01:46,372
+shortcuts through the
+
+40
+00:01:46,439 --> 00:01:47,440
+AppShortcuts property.
+
+41
+00:01:49,909 --> 00:01:52,078
+Let's include both the shortcut created
+
+42
+00:01:52,145 --> 00:01:54,747
+by Giovanna in the previous model and
+
+43
+00:01:54,814 --> 00:01:56,683
+a new one for product details.
+
+44
+00:01:57,784 --> 00:01:59,252
+Once the app is installed,
+
+45
+00:01:59,752 --> 00:02:01,654
+we can open the shortcuts app.
+
+46
+00:02:02,622 --> 00:02:05,658
+Go to the coffee section and see both
+
+47
+00:02:05,725 --> 00:02:08,328
+the open favorites and show product detail
+
+48
+00:02:08,394 --> 00:02:10,230
+shortcuts already available.
+
+49
+00:02:11,598 --> 00:02:12,665
+Let's try them out.
+
+50
+00:02:13,766 --> 00:02:16,269
+We can define up to 10 shortcuts this way,
+
+51
+00:02:16,336 --> 00:02:18,905
+and all the custom phrases we have
+
+52
+00:02:18,972 --> 00:02:20,807
+specified will work with Siri.
+
+53
+00:02:22,575 --> 00:02:24,944
+Now let's enhance our intense output
+
+54
+00:02:25,011 --> 00:02:27,046
+by including a custom SwiftUI view.
+
+55
+00:02:28,515 --> 00:02:31,484
+To do this, we'll make our IntentsPerform
+
+56
+00:02:31,551 --> 00:02:34,387
+method conforms to "ShowsSnippetView",
+
+57
+00:02:35,188 --> 00:02:36,890
+in addition to the other protocols.
+
+58
+00:02:37,757 --> 00:02:39,259
+We'll return a view called
+
+59
+00:02:39,325 --> 00:02:41,494
+"ManualItemIntentCard",
+
+60
+00:02:42,028 --> 00:02:44,531
+which is a pre-built SwiftUI view that
+
+61
+00:02:44,597 --> 00:02:46,766
+shows the selected product detail.
+
+62
+00:02:48,368 --> 00:02:50,336
+Here is the updated intent.
+
+63
+00:02:51,905 --> 00:02:53,106
+Let's see this action.
+
+64
+00:02:55,341 --> 00:02:57,143
+Ask Siri: "Hey Siri,
+
+65
+00:02:57,544 --> 00:02:59,212
+show product in coffee app".
+
+66
+00:03:01,347 --> 00:03:03,650
+It will prompt you to pick a product.
+
+67
+00:03:04,684 --> 00:03:07,754
+On receiving your answer, Siri will speak the price
+
+68
+00:03:07,820 --> 00:03:09,989
+and show a detailed SwiftUI View
+
+69
+00:03:10,456 --> 00:03:13,326
+with the product's image, name and more.
+
+70
+00:03:15,128 --> 00:03:16,429
+This is a big step
+
+71
+00:03:16,496 --> 00:03:18,331
+forward in user interaction.
+
+72
+00:03:19,165 --> 00:03:21,501
+Now we are combining voice,
+
+73
+00:03:21,568 --> 00:03:24,170
+visual interface and app logic naturally.
+
+74
+00:03:26,139 --> 00:03:27,507
+There's still room to improve.
+
+75
+00:03:28,007 --> 00:03:29,976
+For instance, in the next module,
+
+76
+00:03:30,510 --> 00:03:32,445
+we explore how to include parameters
+
+77
+00:03:32,512 --> 00:03:34,647
+directly in the activation phrase.
+
+78
+00:03:35,315 --> 00:03:36,783
+So users can skip the
+
+79
+00:03:36,849 --> 00:03:38,551
+prompt and say something like,
+
+80
+00:03:38,851 --> 00:03:39,886
+"Show espresso in
+
+81
+00:03:39,953 --> 00:03:41,721
+Coffee app..." right away.
+
+82
+00:03:44,424 --> 00:03:45,792
+In this video, we have
+
+83
+00:03:45,858 --> 00:03:47,860
+created a shortcut programmatically.
+
+84
+00:03:48,528 --> 00:03:49,462
+We see how to
+
+85
+00:03:49,529 --> 00:03:51,230
+interact with it using Siri.
+
+86
+00:03:52,098 --> 00:03:54,000
+We return a custom SwiftUI
+
+87
+00:03:54,067 --> 00:03:56,302
+view as output for our intent.
+
+88
+00:03:57,070 --> 00:03:59,138
+And in the next video, you'll see how to
+
+89
+00:03:59,205 --> 00:04:01,708
+configure a widget that uses these intent
+
+90
+00:04:01,774 --> 00:04:03,443
+parameters as its inputs.
+
+91
+00:04:04,744 --> 00:04:05,245
+See you there!
+

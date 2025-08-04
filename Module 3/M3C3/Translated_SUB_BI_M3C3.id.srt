@@ -1,0 +1,307 @@
+1
+00:00:00,600 --> 00:00:02,702
+Hai! Dalam video ini, kita akan membuat
+
+2
+00:00:02,769 --> 00:00:04,304
+pintasan menggunakan aplikasi
+
+3
+00:00:04,371 --> 00:00:06,272
+maksud yang kita bangun dalam video terakhir kita.
+
+4
+00:00:06,873 --> 00:00:08,708
+Kita akan melihat betapa mudahnya untuk mengubahnya
+
+5
+00:00:08,775 --> 00:00:10,076
+maksud menjadi jalan pintas
+
+6
+00:00:10,143 --> 00:00:12,178
+dengan sedikit kode tambahan.
+
+7
+00:00:13,046 --> 00:00:15,749
+Kami juga menjajaki cara menyesuaikannya.
+
+8
+00:00:18,485 --> 00:00:20,987
+Sekarang, mari kita membuat pintasan menggunakan
+
+9
+00:00:21,054 --> 00:00:22,722
+maksud aplikasi yang kita buat sebelumnya.
+
+10
+00:00:23,690 --> 00:00:25,658
+Kita mulai dengan membuat struktur baru
+
+11
+00:00:25,725 --> 00:00:27,193
+disebut CoffeeShortcuts.
+
+12
+00:00:27,894 --> 00:00:30,330
+Dan kami membuatnya sesuai dengan protokol
+
+13
+00:00:30,397 --> 00:00:32,098
+penyedia pintasan aplikasi.
+
+14
+00:00:33,066 --> 00:00:35,368
+Ini memberi tahu sistem bahwa struktur ini
+
+15
+00:00:35,435 --> 00:00:37,904
+akan menyediakan pintasan untuk aplikasi kita.
+
+16
+00:00:39,506 --> 00:00:42,175
+Di dalamnya, kita harus mendefinisikan daftar statis
+
+17
+00:00:42,242 --> 00:00:43,710
+disebut "appShortcuts",
+
+18
+00:00:44,444 --> 00:00:45,478
+dimana kita bisa mendaftar
+
+19
+00:00:45,545 --> 00:00:47,080
+satu atau lebih pintasan.
+
+20
+00:00:48,281 --> 00:00:51,317
+Di sini, kita membuat pintasan berdasarkan
+
+21
+00:00:51,384 --> 00:00:52,986
+maksud Favorit Terbuka.
+
+22
+00:00:54,954 --> 00:00:57,323
+Kami juga mendefinisikan daftar frasa yang
+
+23
+00:00:57,390 --> 00:00:59,793
+Pengguna dapat mengatakan untuk mengaktifkan pintasan ini.
+
+24
+00:01:00,393 --> 00:01:03,797
+Dalam kasus ini, buka Favorit Saya,
+
+25
+00:01:03,863 --> 00:01:05,498
+diikuti dengan nama aplikasi secara otomatis.
+
+26
+00:01:07,167 --> 00:01:09,135
+Frasa-frasa ini sangatlah penting
+
+27
+00:01:09,202 --> 00:01:11,504
+karena mereka memungkinkan pengguna untuk berinteraksi
+
+28
+00:01:11,571 --> 00:01:13,306
+dengan pintasan melalui Siri.
+
+29
+00:01:14,674 --> 00:01:16,876
+Untuk saat ini, kami membuatnya tetap sederhana
+
+30
+00:01:16,943 --> 00:01:18,478
+hanya dengan satu kalimat,
+
+31
+00:01:18,545 --> 00:01:20,346
+tapi di video berikutnya,
+
+32
+00:01:20,413 --> 00:01:22,949
+kami mengeksplorasi cara bekerja dengan beberapa frasa
+
+33
+00:01:23,016 --> 00:01:25,351
+dan membuat interaksi ini lebih kuat.
+
+34
+00:01:27,520 --> 00:01:29,656
+Terakhir kami berikan jalan pintasnya
+
+35
+00:01:29,722 --> 00:01:30,890
+"Judul Pendek", yang akan
+
+36
+00:01:30,957 --> 00:01:32,659
+ditampilkan di aplikasi Pintasan.
+
+37
+00:01:33,193 --> 00:01:35,428
+Dan kami menetapkan ikon untuk itu menggunakan
+
+38
+00:01:35,495 --> 00:01:37,564
+citra sistem yang disebut "Heart.fill".
+
+39
+00:01:38,865 --> 00:01:41,568
+Hanya dengan ini, jalan pintas kita sudah siap
+
+40
+00:01:41,634 --> 00:01:42,068
+dan akan muncul
+
+41
+00:01:42,135 --> 00:01:44,037
+secara otomatis di aplikasi Pintasan.
+
+42
+00:01:44,904 --> 00:01:46,573
+Sekarang mari kita lihat hasilnya.
+
+43
+00:01:47,507 --> 00:01:49,309
+Ketika Anda menjalankan aplikasi dan membuka
+
+44
+00:01:49,375 --> 00:01:52,278
+aplikasi Pintasan, kita sudah dapat melihat
+
+45
+00:01:52,345 --> 00:01:53,947
+pintasan baru tercantum secara otomatis.
+
+46
+00:01:54,347 --> 00:01:56,149
+Ini menunjukkan judul dan ikon
+
+47
+00:01:56,216 --> 00:01:58,785
+kami mendefinisikannya dalam kode, dan sudah sepenuhnya siap
+
+48
+00:01:58,852 --> 00:02:00,253
+untuk pengguna untuk memicu
+
+49
+00:02:00,320 --> 00:02:02,188
+secara manual atau dengan menggunakan Siri.
+
+50
+00:02:03,356 --> 00:02:04,624
+Integrasi ini terjadi
+
+51
+00:02:04,691 --> 00:02:06,659
+hanya dengan beberapa baris kode.
+
+52
+00:02:07,594 --> 00:02:09,829
+Selain menggunakan pintasan di dalam
+
+53
+00:02:09,896 --> 00:02:12,832
+aplikasi Pintasan, pengguna juga dapat
+
+54
+00:02:12,899 --> 00:02:14,601
+menambahkannya langsung ke layar beranda.
+
+55
+00:02:15,668 --> 00:02:17,804
+Dengan cara ini, mereka dapat meluncurkan pintasan
+
+56
+00:02:17,871 --> 00:02:20,940
+sama seperti mereka membuka aplikasi biasa,
+
+57
+00:02:21,374 --> 00:02:22,876
+membuat pengalaman menjadi lebih baik
+
+58
+00:02:22,942 --> 00:02:24,444
+lebih cepat dan lebih nyaman.
+
+59
+00:02:25,578 --> 00:02:27,580
+Penting untuk mengetahui bahwa aplikasi Anda
+
+60
+00:02:27,647 --> 00:02:29,249
+dapat menyediakan hingga 10 pintasan.
+
+61
+00:02:30,250 --> 00:02:32,385
+Mereka akan muncul di aplikasi Pintasan
+
+62
+00:02:32,452 --> 00:02:35,555
+mengikuti urutan yang tepat yang Anda definisikan di
+
+63
+00:02:35,622 --> 00:02:37,323
+susunan di dalam Coffee Shortcuts.
+
+64
+00:02:38,625 --> 00:02:41,227
+Jadi, pintasan pertama yang Anda tambahkan adalah
+
+65
+00:02:41,294 --> 00:02:41,928
+yang pertama ditampilkan
+
+66
+00:02:41,995 --> 00:02:43,429
+kepada pengguna, dan seterusnya.
+
+67
+00:02:46,132 --> 00:02:47,200
+Dan selesai!
+
+68
+00:02:47,267 --> 00:02:49,102
+Pintasan pertama kami berhasil.
+
+69
+00:02:50,003 --> 00:02:51,971
+Hanya dengan beberapa baris kode,
+
+70
+00:02:52,038 --> 00:02:54,607
+kami menghubungkan aplikasi kami ke sistem pintasan
+
+71
+00:02:54,874 --> 00:02:57,043
+dan bahkan memungkinkan pengguna
+
+72
+00:02:57,110 --> 00:02:58,444
+untuk menambahkannya ke layar beranda mereka.
+
+73
+00:02:58,978 --> 00:03:00,980
+Pada video berikutnya, kita akan melihat cara menggunakannya
+
+74
+00:03:01,047 --> 00:03:02,482
+Siri dan Spotlight
+
+75
+00:03:02,549 --> 00:03:03,816
+untuk mengakses pintasan ini.
+
+76
+00:03:04,484 --> 00:03:05,585
+Terima kasih telah menonton dan
+
+77
+00:03:05,652 --> 00:03:06,786
+Sampai jumpa di video berikutnya.

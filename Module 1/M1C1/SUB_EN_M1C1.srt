@@ -1,0 +1,364 @@
+1
+00:00:00,467 --> 00:00:02,802
+Hello, everyone. Welcome. I'm Giovanna,
+
+2
+00:00:03,069 --> 00:00:04,704
+and today we'll be talking about
+
+3
+00:00:04,771 --> 00:00:06,906
+an essential concept for developing apps
+
+4
+00:00:06,973 --> 00:00:07,774
+in the Apple ecosystem,
+
+5
+00:00:08,341 --> 00:00:10,477
+which is system experience.
+
+6
+00:00:11,444 --> 00:00:12,946
+System experience is the deep
+
+7
+00:00:13,012 --> 00:00:15,048
+and consistent integration of an app
+
+8
+00:00:15,115 --> 00:00:17,417
+with native operating system functionalities,
+
+9
+00:00:17,717 --> 00:00:20,120
+enabling users to interact with the app
+
+10
+00:00:20,186 --> 00:00:22,422
+seamlessly throughout system-provided features,
+
+11
+00:00:22,489 --> 00:00:25,125
+even without opening it.
+
+12
+00:00:26,459 --> 00:00:27,160
+Hey Siri.
+
+13
+00:00:30,096 --> 00:00:31,731
+Play the System Experience class.
+
+14
+00:00:39,839 --> 00:00:41,641
+Some of the key technologies
+
+15
+00:00:41,708 --> 00:00:42,709
+provided by the system
+
+16
+00:00:42,776 --> 00:00:44,210
+to ensure this integration include
+
+17
+00:00:45,011 --> 00:00:47,847
+Spotlight, which allows content from
+
+18
+00:00:47,914 --> 00:00:50,683
+your app to appear in system searches enabling
+
+19
+00:00:50,750 --> 00:00:53,453
+users to discover and directly
+
+20
+00:00:53,520 --> 00:00:55,955
+access specific parts of your app
+
+21
+00:00:56,022 --> 00:00:58,358
+without manually opening it.
+
+22
+00:00:58,992 --> 00:01:01,361
+Siri, which lets your app respond
+
+23
+00:01:01,428 --> 00:01:03,029
+to voice commands,
+
+24
+00:01:03,096 --> 00:01:04,697
+offering customized actions
+
+25
+00:01:05,031 --> 00:01:07,667
+like send a message or log a task
+
+26
+00:01:07,734 --> 00:01:09,803
+through voice interactions.
+
+27
+00:01:10,804 --> 00:01:13,339
+Shortcuts, empowering your app to provide
+
+28
+00:01:13,406 --> 00:01:15,875
+reusable and automatable actions that
+
+29
+00:01:15,942 --> 00:01:18,311
+users can combine with other apps.
+
+30
+00:01:19,212 --> 00:01:21,648
+Ideal for creating quick and personalized
+
+31
+00:01:21,714 --> 00:01:23,950
+experiences without any UI.
+
+32
+00:01:25,518 --> 00:01:27,420
+Controls, available in the new Control Center,
+
+33
+00:01:27,487 --> 00:01:30,323
+allowing your app to expose
+
+34
+00:01:30,390 --> 00:01:32,459
+functionalities as system-accessible
+
+35
+00:01:32,525 --> 00:01:33,993
+buttons at any time.
+
+36
+00:01:34,994 --> 00:01:37,964
+Widgets, displaying information
+
+37
+00:01:38,031 --> 00:01:40,667
+or actions from your app directly
+
+38
+00:01:40,733 --> 00:01:43,269
+on the home screen, lock screen or StandBy,
+
+39
+00:01:43,837 --> 00:01:45,438
+enable users to interact
+
+40
+00:01:45,505 --> 00:01:47,941
+quickly without opening your app.
+
+41
+00:01:49,709 --> 00:01:52,078
+Live activities, providing real-time
+
+42
+00:01:52,145 --> 00:01:54,447
+updates on the lock screen and dynamic island,
+
+43
+00:01:54,514 --> 00:01:57,050
+perfect for tracking deliveries,
+
+44
+00:01:57,317 --> 00:01:58,985
+timers or live scores.
+
+45
+00:02:00,019 --> 00:02:02,822
+Focus integration, enables your app
+
+46
+00:02:02,889 --> 00:02:05,692
+to suggest content filters or adapt
+
+47
+00:02:05,758 --> 00:02:07,827
+its behavior based on the user's current context,
+
+48
+00:02:07,894 --> 00:02:09,696
+such as work,
+
+49
+00:02:10,163 --> 00:02:12,098
+personal or sleep modes.
+
+50
+00:02:13,199 --> 00:02:15,602
+And hardware interactions,
+
+51
+00:02:15,668 --> 00:02:18,171
+like the action button or Apple pencil gestures,
+
+52
+00:02:18,671 --> 00:02:21,207
+allowing your app to respond to physical,
+
+53
+00:02:21,608 --> 00:02:23,710
+customizable actions like triggering
+
+54
+00:02:23,776 --> 00:02:26,312
+features or activating shortcuts quickly.
+
+55
+00:02:27,347 --> 00:02:29,482
+It's essential for your app to be deeply
+
+56
+00:02:29,549 --> 00:02:32,051
+integrated with the system to meet user
+
+57
+00:02:32,118 --> 00:02:34,153
+expectations and remain relevant.
+
+58
+00:02:35,255 --> 00:02:37,390
+With Apple Intelligence,
+
+59
+00:02:37,457 --> 00:02:39,225
+users will increasingly access your app's
+
+60
+00:02:39,292 --> 00:02:41,828
+functionality without even opening it,
+
+61
+00:02:41,895 --> 00:02:43,463
+making these integrations
+
+62
+00:02:43,530 --> 00:02:44,998
+more important than ever.
+
+63
+00:02:48,501 --> 00:02:49,969
+Fortunately, all the technologies
+
+64
+00:02:50,036 --> 00:02:51,538
+mentioned earlier are
+
+65
+00:02:51,604 --> 00:02:53,306
+already available, and you can
+
+66
+00:02:53,373 --> 00:02:55,475
+start preparing your app right now
+
+67
+00:02:55,542 --> 00:02:56,509
+for this growing demand.
+
+68
+00:02:57,777 --> 00:02:59,512
+The good news is that implementing these
+
+69
+00:02:59,579 --> 00:03:01,915
+integrations require far less code
+
+70
+00:03:01,981 --> 00:03:03,116
+and effort than it might
+
+71
+00:03:03,216 --> 00:03:04,050
+initially seem.
+
+72
+00:03:05,218 --> 00:03:07,353
+This seamless, proactive experience
+
+73
+00:03:07,420 --> 00:03:08,288
+is quickly becoming the
+
+74
+00:03:08,354 --> 00:03:10,857
+standard user expect,
+
+75
+00:03:10,924 --> 00:03:12,091
+shaping the future of interaction
+
+76
+00:03:12,158 --> 00:03:13,960
+across the Apple ecosystem.
+
+77
+00:03:16,763 --> 00:03:17,730
+Thank you so much
+
+78
+00:03:17,797 --> 00:03:18,998
+for your time and attention.
+
+79
+00:03:19,566 --> 00:03:21,701
+Throughout this course, our goal
+
+80
+00:03:21,768 --> 00:03:23,536
+will be to deepen your knowledge about these
+
+81
+00:03:23,603 --> 00:03:24,604
+native technologies,
+
+82
+00:03:25,004 --> 00:03:27,340
+exploring in detail how they work and the
+
+83
+00:03:27,407 --> 00:03:28,708
+possibilities they offer.
+
+84
+00:03:29,342 --> 00:03:31,211
+You'll see multiple hands-on examples
+
+85
+00:03:31,277 --> 00:03:32,745
+to help you clearly understand
+
+86
+00:03:32,812 --> 00:03:34,380
+and implement these integrations.
+
+87
+00:03:35,081 --> 00:03:37,684
+Ultimately, we aim to empower you
+
+88
+00:03:37,750 --> 00:03:40,286
+to confidently identify use cases
+
+89
+00:03:40,353 --> 00:03:41,688
+and integrate them effectively
+
+90
+00:03:42,055 --> 00:03:43,656
+into the apps you are developing.
+
+91
+00:03:44,424 --> 00:03:45,458
+Until the next video!
+

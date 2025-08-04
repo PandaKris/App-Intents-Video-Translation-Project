@@ -1,0 +1,308 @@
+1
+00:00:00,600 --> 00:00:02,702
+Hi! In this video, we are going to create
+
+2
+00:00:02,769 --> 00:00:04,304
+a shortcut using the app
+
+3
+00:00:04,371 --> 00:00:06,272
+intent we built in our last video.
+
+4
+00:00:06,873 --> 00:00:08,708
+We'll see how easy it is to turn
+
+5
+00:00:08,775 --> 00:00:10,076
+an intent into a shortcut
+
+6
+00:00:10,143 --> 00:00:12,178
+with very little extra code.
+
+7
+00:00:13,046 --> 00:00:15,749
+We also explore how to customize it.
+
+8
+00:00:18,485 --> 00:00:20,987
+Now, let's create a shortcut using
+
+9
+00:00:21,054 --> 00:00:22,722
+the app intent we built earlier.
+
+10
+00:00:23,690 --> 00:00:25,658
+We start by creating a new structure
+
+11
+00:00:25,725 --> 00:00:27,193
+called CoffeeShortcuts.
+
+12
+00:00:27,894 --> 00:00:30,330
+And we make it conform to the protocol
+
+13
+00:00:30,397 --> 00:00:32,098
+app shortcuts provider.
+
+14
+00:00:33,066 --> 00:00:35,368
+This tells the system that this structure
+
+15
+00:00:35,435 --> 00:00:37,904
+will provide shortcuts for our app.
+
+16
+00:00:39,506 --> 00:00:42,175
+Inside it, we must define a static list
+
+17
+00:00:42,242 --> 00:00:43,710
+called "appShortcuts",
+
+18
+00:00:44,444 --> 00:00:45,478
+where we can register
+
+19
+00:00:45,545 --> 00:00:47,080
+one or more shortcuts.
+
+20
+00:00:48,281 --> 00:00:51,317
+Here, we create a shortcut based on
+
+21
+00:00:51,384 --> 00:00:52,986
+the Open Favorites intent.
+
+22
+00:00:54,954 --> 00:00:57,323
+We also define a list of phrases that
+
+23
+00:00:57,390 --> 00:00:59,793
+the user can say to activate this shortcut.
+
+24
+00:01:00,393 --> 00:01:03,797
+In this case, open My Favorites,
+
+25
+00:01:03,863 --> 00:01:05,498
+followed by the app's name automatically.
+
+26
+00:01:07,167 --> 00:01:09,135
+These phrases are especially important
+
+27
+00:01:09,202 --> 00:01:11,504
+because they allow the user to interact
+
+28
+00:01:11,571 --> 00:01:13,306
+with the shortcut through Siri.
+
+29
+00:01:14,674 --> 00:01:16,876
+For now, we are keeping it simple
+
+30
+00:01:16,943 --> 00:01:18,478
+with just one phrase,
+
+31
+00:01:18,545 --> 00:01:20,346
+but in the next video,
+
+32
+00:01:20,413 --> 00:01:22,949
+we explore how to work with multiple phrases
+
+33
+00:01:23,016 --> 00:01:25,351
+and make this interaction even more powerful.
+
+34
+00:01:27,520 --> 00:01:29,656
+Finally, we give the shortcut
+
+35
+00:01:29,722 --> 00:01:30,890
+a "Short Title", which will be
+
+36
+00:01:30,957 --> 00:01:32,659
+displayed in the Shortcuts app.
+
+37
+00:01:33,193 --> 00:01:35,428
+And we set an icon for it using
+
+38
+00:01:35,495 --> 00:01:37,564
+the system image called "Heart.fill".
+
+39
+00:01:38,865 --> 00:01:41,568
+With just this, our shortcut is ready
+
+40
+00:01:41,634 --> 00:01:42,068
+and will appear
+
+41
+00:01:42,135 --> 00:01:44,037
+automatically in the Shortcuts app.
+
+42
+00:01:44,904 --> 00:01:46,573
+Now let's take a look at the result.
+
+43
+00:01:47,507 --> 00:01:49,309
+When you run the app and open
+
+44
+00:01:49,375 --> 00:01:52,278
+the Shortcuts app, we can already see our
+
+45
+00:01:52,345 --> 00:01:53,947
+new shortcut listed automatically.
+
+46
+00:01:54,347 --> 00:01:56,149
+It shows the title and the icon
+
+47
+00:01:56,216 --> 00:01:58,785
+we defined in the code, and it's fully ready
+
+48
+00:01:58,852 --> 00:02:00,253
+for the user to trigger
+
+49
+00:02:00,320 --> 00:02:02,188
+manually or by using Siri.
+
+50
+00:02:03,356 --> 00:02:04,624
+This integration happened
+
+51
+00:02:04,691 --> 00:02:06,659
+with just a few lines of code.
+
+52
+00:02:07,594 --> 00:02:09,829
+In addition to using the shortcuts inside
+
+53
+00:02:09,896 --> 00:02:12,832
+the Shortcuts app, the user can also
+
+54
+00:02:12,899 --> 00:02:14,601
+add it directly to the home screen.
+
+55
+00:02:15,668 --> 00:02:17,804
+This way, they can launch the shortcut
+
+56
+00:02:17,871 --> 00:02:20,940
+just like they would open a regular app,
+
+57
+00:02:21,374 --> 00:02:22,876
+making the experience even
+
+58
+00:02:22,942 --> 00:02:24,444
+faster and more convenient.
+
+59
+00:02:25,578 --> 00:02:27,580
+It's important to know that your app
+
+60
+00:02:27,647 --> 00:02:29,249
+can provide up to 10 shortcuts.
+
+61
+00:02:30,250 --> 00:02:32,385
+They will appear in the Shortcuts app
+
+62
+00:02:32,452 --> 00:02:35,555
+following the exact order you defined in
+
+63
+00:02:35,622 --> 00:02:37,323
+the array inside Coffee Shortcuts.
+
+64
+00:02:38,625 --> 00:02:41,227
+So, the first shortcut you add will be
+
+65
+00:02:41,294 --> 00:02:41,928
+the first shown
+
+66
+00:02:41,995 --> 00:02:43,429
+to the user, and so on.
+
+67
+00:02:46,132 --> 00:02:47,200
+And that's it!
+
+68
+00:02:47,267 --> 00:02:49,102
+Our first shortcut is working.
+
+69
+00:02:50,003 --> 00:02:51,971
+With just a few lines of code,
+
+70
+00:02:52,038 --> 00:02:54,607
+we connected our app to the shortcut system
+
+71
+00:02:54,874 --> 00:02:57,043
+and even made it possible for users
+
+72
+00:02:57,110 --> 00:02:58,444
+to add it to their home screen.
+
+73
+00:02:58,978 --> 00:03:00,980
+In the next video, we'll see how to use
+
+74
+00:03:01,047 --> 00:03:02,482
+Siri and Spotlight
+
+75
+00:03:02,549 --> 00:03:03,816
+to access this shortcut.
+
+76
+00:03:04,484 --> 00:03:05,585
+Thanks for watching and
+
+77
+00:03:05,652 --> 00:03:06,786
+I'll see you in the next video.
+

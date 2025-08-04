@@ -1,0 +1,311 @@
+1
+00:00:00,166 --> 00:00:02,535
+Hai! Dalam video ini, kami akan menunjukkan cara
+
+2
+00:00:02,602 --> 00:00:04,404
+sesuaikan tampilan aplikasi Anda
+
+3
+00:00:04,471 --> 00:00:06,339
+pintasan di aplikasi Pintasan.
+
+4
+00:00:07,240 --> 00:00:09,542
+Ini bukan topik yang umum dan tidak
+
+5
+00:00:09,609 --> 00:00:10,910
+terdokumentasi dengan baik, tetapi itu
+
+6
+00:00:10,977 --> 00:00:12,412
+dapat membuat perbedaan besar.
+
+7
+00:00:12,879 --> 00:00:15,248
+Kami akan menjelaskan langkah demi langkah cara mendefinisikan
+
+8
+00:00:15,315 --> 00:00:16,149
+warna yang
+
+9
+00:00:16,216 --> 00:00:17,917
+sistem akan digunakan saat menampilkan
+
+10
+00:00:17,984 --> 00:00:18,752
+jalan pintas Anda.
+
+11
+00:00:21,855 --> 00:00:23,523
+Secara default, saat Anda membuat aplikasi
+
+12
+00:00:23,590 --> 00:00:25,358
+jalan pintas, sistem menggunakan
+
+13
+00:00:25,425 --> 00:00:27,260
+ikon aplikasi Anda dengan standar
+
+14
+00:00:27,694 --> 00:00:28,794
+warna.
+
+15
+00:00:29,095 --> 00:00:30,864
+Tapi, Anda dapat mengubah warna-warna ini
+
+16
+00:00:30,930 --> 00:00:32,232
+agar lebih sesuai dengan merek Anda.
+
+17
+00:00:33,299 --> 00:00:35,535
+Anda dapat menyesuaikan latar depan
+
+18
+00:00:35,602 --> 00:00:37,470
+dan latar belakang ubin pintasan.
+
+19
+00:00:38,772 --> 00:00:40,807
+Untuk mengubah tampilan pintasan,
+
+20
+00:00:40,874 --> 00:00:43,343
+Anda perlu mengedit info.plist aplikasi Anda.
+
+21
+00:00:44,210 --> 00:00:46,913
+Anda akan menambahkan bagian di bawah
+
+22
+00:00:46,980 --> 00:00:49,082
+kunci CFBundleIcons, di mana
+
+23
+00:00:49,149 --> 00:00:50,417
+Anda menentukan nama warna.
+
+24
+00:00:51,718 --> 00:00:53,253
+Nama-nama warna ini harus cocok
+
+25
+00:00:53,319 --> 00:00:55,355
+warna dalam katalog aset Anda.
+
+26
+00:00:55,889 --> 00:00:57,424
+Berikut adalah kode persisnya
+
+27
+00:00:57,490 --> 00:00:59,292
+harus ditambahkan ke info.plist Anda.
+
+28
+00:01:00,593 --> 00:01:02,595
+Nama warna yang Anda tentukan terserah Anda.
+
+29
+00:01:03,196 --> 00:01:05,298
+Mereka tidak perlu persis seperti ShortcutsForeground
+
+30
+00:01:05,365 --> 00:01:07,801
+atau ShortcutsBackgroundTop.
+
+31
+00:01:08,701 --> 00:01:10,503
+Yang penting adalah nama-nama Anda
+
+32
+00:01:10,570 --> 00:01:12,639
+info.plist cocok persis
+
+33
+00:01:12,705 --> 00:01:14,541
+nama warna pada aset Anda
+
+34
+00:01:14,607 --> 00:01:15,075
+katalog.
+
+35
+00:01:15,942 --> 00:01:18,044
+Setelah selesai, buatlah pencocokannya
+
+36
+00:01:18,111 --> 00:01:20,113
+set warna dalam katalog aset.
+
+37
+00:01:20,647 --> 00:01:22,148
+Anda dapat menyediakan satu atau
+
+38
+00:01:22,215 --> 00:01:23,450
+dua warna latar belakang.
+
+39
+00:01:24,517 --> 00:01:26,219
+Jika Anda menggunakan dua, sistemnya
+
+40
+00:01:26,286 --> 00:01:27,954
+akan membuat gradien vertikal.
+
+41
+00:01:29,055 --> 00:01:30,657
+Jika Anda hanya menggunakan satu,
+
+42
+00:01:30,723 --> 00:01:31,891
+Latar belakangnya akan solid.
+
+43
+00:01:32,859 --> 00:01:35,295
+Warna latar depan digunakan untuk ikon
+
+44
+00:01:35,361 --> 00:01:36,896
+dan teks pintasan.
+
+45
+00:01:37,597 --> 00:01:39,566
+Warna latar belakang menciptakan visual
+
+46
+00:01:39,632 --> 00:01:41,134
+pangkalan di belakang ikon.
+
+47
+00:01:42,302 --> 00:01:44,904
+Ini memberi pintasan Anda tampilan yang berbeda
+
+48
+00:01:44,971 --> 00:01:46,840
+dan penampilan bermerek di seluruh sistem.
+
+49
+00:01:47,674 --> 00:01:49,042
+Mari kita lihat demo singkatnya.
+
+50
+00:01:49,742 --> 00:01:50,977
+Saya menambahkan kunci ke saya
+
+51
+00:01:51,044 --> 00:01:53,112
+info.plist persis seperti yang ditunjukkan.
+
+52
+00:01:53,880 --> 00:01:56,549
+Kemudian, di katalog aset, saya membuat
+
+53
+00:01:56,616 --> 00:01:57,884
+warna putih disebut
+
+54
+00:01:57,951 --> 00:01:58,952
+PintasanLatar Depan.
+
+55
+00:02:00,453 --> 00:02:02,489
+Untuk latar belakang, saya menggunakan gradien
+
+56
+00:02:02,555 --> 00:02:03,790
+dari hijau muda menjadi
+
+57
+00:02:03,857 --> 00:02:05,391
+sedikit lebih gelap, dengan nama-nama
+
+58
+00:02:05,658 --> 00:02:07,527
+PintasanLatar BelakangAtas dan
+
+59
+00:02:07,594 --> 00:02:09,095
+PintasanLatarBelakangBawah.
+
+60
+00:02:11,231 --> 00:02:13,333
+Setelah membangun dan menjalankan aplikasi,
+
+61
+00:02:13,399 --> 00:02:14,834
+Saya membuka aplikasi pintasan.
+
+62
+00:02:15,768 --> 00:02:17,036
+Sekarang, jalan pintas saya
+
+63
+00:02:17,103 --> 00:02:18,538
+muncul dengan warna baru.
+
+64
+00:02:19,339 --> 00:02:20,740
+Gradiennya terlihat halus
+
+65
+00:02:20,807 --> 00:02:23,042
+dan ikonnya menonjol dengan baik.
+
+66
+00:02:24,677 --> 00:02:26,980
+Menyesuaikan warna-warna ini akan memberikan aplikasi Anda
+
+67
+00:02:27,046 --> 00:02:28,281
+pengalaman yang lebih baik.
+
+68
+00:02:29,682 --> 00:02:31,918
+Ini menunjukkan perhatian terhadap detail dan meningkatkan
+
+69
+00:02:31,985 --> 00:02:33,953
+pengenalan di dalam sistem.
+
+70
+00:02:35,221 --> 00:02:37,257
+Meskipun ini adalah hal kecil,
+
+71
+00:02:37,323 --> 00:02:38,858
+ini membantu aplikasi Anda menonjol.
+
+72
+00:02:41,394 --> 00:02:43,396
+Dan selesai!
+
+73
+00:02:43,796 --> 00:02:45,231
+Sekarang Anda tahu cara menyesuaikannya
+
+74
+00:02:45,298 --> 00:02:46,833
+tampilan pintasan aplikasi Anda.
+
+75
+00:02:47,433 --> 00:02:49,402
+Ini adalah fitur tersembunyi, tapi mudah
+
+76
+00:02:49,469 --> 00:02:50,603
+untuk menerapkan dan memberikan
+
+77
+00:02:50,670 --> 00:02:51,604
+hasil visual yang luar biasa.
+
+78
+00:02:52,005 --> 00:02:52,672
+Terima kasih telah menonton!

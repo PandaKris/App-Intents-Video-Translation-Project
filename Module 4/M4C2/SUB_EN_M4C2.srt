@@ -1,0 +1,184 @@
+1
+00:00:00,533 --> 00:00:02,969
+Hi! In the last video, we created
+
+2
+00:00:03,036 --> 00:00:04,337
+an App intent that receives
+
+3
+00:00:04,404 --> 00:00:06,373
+a parameter and returns a value.
+
+4
+00:00:06,973 --> 00:00:09,576
+We also manually create a shortcut
+
+5
+00:00:09,642 --> 00:00:12,212
+that uses this value in a sequence of actions.
+
+6
+00:00:12,812 --> 00:00:14,447
+Now, let's check another
+
+7
+00:00:14,514 --> 00:00:16,416
+result an App Intent can provide
+
+8
+00:00:16,750 --> 00:00:17,717
+and how to create
+
+9
+00:00:17,784 --> 00:00:19,085
+a shortcut programmatically.
+
+10
+00:00:19,552 --> 00:00:20,220
+Let's Code!
+
+11
+00:00:23,089 --> 00:00:25,225
+In our ProductDetailIntent
+
+12
+00:00:25,291 --> 00:00:26,926
+perform function, let's add
+
+13
+00:00:26,993 --> 00:00:28,995
+Provides Dialog as a return,
+
+14
+00:00:29,462 --> 00:00:31,231
+so we return a dialog
+
+15
+00:00:31,297 --> 00:00:33,133
+to present it in a interactive way.
+
+16
+00:00:34,901 --> 00:00:35,902
+Here, we added
+
+17
+00:00:35,969 --> 00:00:37,704
+provides dialog as a return
+
+18
+00:00:37,971 --> 00:00:39,773
+of our intent perform function.
+
+19
+00:00:40,507 --> 00:00:42,475
+It gives us a dialog
+
+20
+00:00:42,542 --> 00:00:44,411
+as output in addition
+
+21
+00:00:44,611 --> 00:00:47,580
+to the return value that we also kept.
+
+22
+00:00:48,415 --> 00:00:50,016
+We added the IntentDialog
+
+23
+00:00:50,083 --> 00:00:51,851
+to the resulting structure
+
+24
+00:00:52,185 --> 00:00:55,288
+so the user can use these when
+
+25
+00:00:55,355 --> 00:00:56,856
+interacting with this intent.
+
+26
+00:00:58,158 --> 00:01:00,193
+We now have two possible ways of
+
+27
+00:01:00,260 --> 00:01:01,995
+interacting with our intent.
+
+28
+00:01:03,696 --> 00:01:04,364
+Let's create
+
+29
+00:01:04,431 --> 00:01:06,533
+a shortcut that uses our intent.
+
+30
+00:01:10,203 --> 00:01:12,872
+Let's rename it to My Coffee Shortcut.
+
+31
+00:01:17,110 --> 00:01:19,112
+Now, when using this shortcut,
+
+32
+00:01:19,412 --> 00:01:20,513
+it presents us the
+
+33
+00:01:20,580 --> 00:01:22,082
+dialog to input the product
+
+34
+00:01:22,415 --> 00:01:23,316
+and it presents the
+
+35
+00:01:23,383 --> 00:01:25,218
+output also in our dialog.
+
+36
+00:01:26,619 --> 00:01:28,822
+We can add the shortcut, set the
+
+37
+00:01:28,888 --> 00:01:30,190
+parameter in the intent
+
+38
+00:01:30,256 --> 00:01:32,592
+itself and it will use this
+
+39
+00:01:32,659 --> 00:01:34,894
+parameter to give us the price without
+
+40
+00:01:34,961 --> 00:01:36,229
+asking for the parameter.
+
+41
+00:01:39,499 --> 00:01:41,734
+In this video, we learn how to interact
+
+42
+00:01:41,801 --> 00:01:43,069
+with our intent using
+
+43
+00:01:43,136 --> 00:01:44,871
+shortcuts and dialogs.
+
+44
+00:01:45,538 --> 00:01:47,407
+In the next video, let's check how to
+
+45
+00:01:47,474 --> 00:01:49,042
+interact with it using Siri.
+
+46
+00:01:49,642 --> 00:01:50,243
+See you there!
+

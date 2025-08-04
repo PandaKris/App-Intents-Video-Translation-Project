@@ -1,0 +1,372 @@
+1
+00:00:00,633 --> 00:00:02,435
+Hi, so far you have
+
+2
+00:00:02,502 --> 00:00:04,170
+gone through several steps.
+
+3
+00:00:05,338 --> 00:00:07,707
+We create an app intent that retrieves
+
+4
+00:00:07,774 --> 00:00:10,477
+information about a product in Coffee Shop
+
+5
+00:00:10,543 --> 00:00:12,379
+shop using a parameter.
+
+6
+00:00:13,947 --> 00:00:16,950
+We made this intent return a value,
+
+7
+00:00:17,016 --> 00:00:18,752
+a dialog and a view
+
+8
+00:00:18,818 --> 00:00:20,019
+to present the search result.
+
+9
+00:00:20,687 --> 00:00:22,589
+This allowed us to interact with
+
+10
+00:00:22,655 --> 00:00:24,758
+the intent through shortcuts and Siri.
+
+11
+00:00:25,291 --> 00:00:27,894
+We create shortcuts both in the
+
+12
+00:00:27,961 --> 00:00:29,596
+Shortcuts App and programmatically.
+
+13
+00:00:30,096 --> 00:00:31,831
+Now, it's time to use the intent
+
+14
+00:00:31,898 --> 00:00:33,633
+parameters to populate a widget.
+
+15
+00:00:34,067 --> 00:00:34,968
+Let's dive in.
+
+16
+00:00:37,804 --> 00:00:40,306
+Let's start by creating an additional
+
+17
+00:00:40,373 --> 00:00:43,109
+target of type widget extension.
+
+18
+00:00:45,078 --> 00:00:47,447
+We'll call it Coffee Widget.
+
+19
+00:00:48,381 --> 00:00:49,349
+This creates
+
+20
+00:00:49,416 --> 00:00:50,850
+a template structure containing
+
+21
+00:00:51,851 --> 00:00:53,620
+the widget itself in the
+
+22
+00:00:53,686 --> 00:00:55,789
+CoffeeWidget.swift file.
+
+23
+00:00:57,223 --> 00:00:59,959
+the CoffeeWidgetBundle, which can expose
+
+24
+00:01:00,026 --> 00:01:02,195
+multiple widgets from the same extension.
+
+25
+00:01:03,329 --> 00:01:05,932
+We'll use just one for this example.
+
+26
+00:01:07,700 --> 00:01:10,303
+We also update the target membership
+
+27
+00:01:10,370 --> 00:01:11,771
+for any coffee app files
+
+28
+00:01:11,838 --> 00:01:13,273
+we need in the widget.
+
+29
+00:01:13,673 --> 00:01:15,141
+Include product detail
+
+30
+00:01:15,208 --> 00:01:16,943
+intent and its dependencies.
+
+31
+00:01:18,978 --> 00:01:20,780
+Here we are using App Intent
+
+32
+00:01:20,847 --> 00:01:22,482
+configuration to configure
+
+33
+00:01:22,549 --> 00:01:24,717
+the widget using our intent.
+
+34
+00:01:25,185 --> 00:01:28,421
+We have, kind, a unique identifier,
+
+35
+00:01:28,488 --> 00:01:29,989
+in this case, CoffeeWidget.
+
+36
+00:01:31,191 --> 00:01:33,726
+Intent, the app intent used as
+
+37
+00:01:33,793 --> 00:01:34,894
+configuration input,
+
+38
+00:01:35,328 --> 00:01:36,796
+product detail intent.
+
+39
+00:01:37,797 --> 00:01:40,433
+provider, a timeline provider that
+
+40
+00:01:40,500 --> 00:01:41,901
+determines how and
+
+41
+00:01:41,968 --> 00:01:43,303
+when the widgets updates.
+
+42
+00:01:44,671 --> 00:01:47,207
+and content, the view that renders widget
+
+43
+00:01:47,273 --> 00:01:49,609
+content using the provided entry.
+
+44
+00:01:50,310 --> 00:01:52,912
+The widget content is played using
+
+45
+00:01:52,979 --> 00:01:54,013
+CoffeeWidgetEntryView,
+
+46
+00:01:54,414 --> 00:01:55,748
+which we will define soon.
+
+47
+00:01:56,883 --> 00:01:58,418
+To use an intent for
+
+48
+00:01:58,485 --> 00:01:59,652
+widget configuration,
+
+49
+00:02:00,086 --> 00:02:01,888
+our intent must conform to the widget
+
+50
+00:02:01,955 --> 00:02:03,857
+configuration intent protocol.
+
+51
+00:02:05,725 --> 00:02:08,495
+The next step is therefore creating the
+
+52
+00:02:08,561 --> 00:02:10,563
+provider for those entries.
+
+53
+00:02:12,599 --> 00:02:14,033
+The provider is a type of
+
+54
+00:02:14,100 --> 00:02:15,969
+App Intent Timeline Provider.
+
+55
+00:02:16,603 --> 00:02:18,838
+It supplies data for three cases.
+
+56
+00:02:19,839 --> 00:02:23,610
+Placeholder, a temporary UI shown before
+
+57
+00:02:23,676 --> 00:02:24,978
+real data is loaded.
+
+58
+00:02:26,579 --> 00:02:28,014
+snapshot, a quick preview
+
+59
+00:02:28,081 --> 00:02:29,849
+based on the current state.
+
+60
+00:02:31,217 --> 00:02:33,353
+Timeline, a series of widgets
+
+61
+00:02:33,419 --> 00:02:35,688
+updates is scheduled in time.
+
+62
+00:02:36,189 --> 00:02:37,423
+This structure depends
+
+63
+00:02:37,490 --> 00:02:39,158
+on the entry structure.
+
+64
+00:02:39,993 --> 00:02:42,195
+This is the model passed to the widget
+
+65
+00:02:42,262 --> 00:02:44,764
+view that holds the timestamp and the
+
+66
+00:02:44,831 --> 00:02:46,833
+intent as a configuration element.
+
+67
+00:02:47,967 --> 00:02:49,669
+Now let's implement the view that
+
+68
+00:02:49,736 --> 00:02:52,205
+displays the product data in the widget.
+
+69
+00:02:53,072 --> 00:02:55,508
+This view uses the configuration from the
+
+70
+00:02:55,575 --> 00:02:57,377
+intent to extract the product name
+
+71
+00:02:57,877 --> 00:03:00,713
+and look it up in the model, showing the
+
+72
+00:03:00,780 --> 00:03:02,348
+corresponding widget card.
+
+73
+00:03:03,283 --> 00:03:05,051
+Finally, let's expose our
+
+74
+00:03:05,118 --> 00:03:06,819
+widget using the widget bundle.
+
+75
+00:03:08,021 --> 00:03:10,957
+The main attribute marks this as an entry
+
+76
+00:03:11,024 --> 00:03:12,926
+point of our widget extension.
+
+77
+00:03:14,827 --> 00:03:17,897
+We register our model dependency using
+
+78
+00:03:17,964 --> 00:03:19,265
+AppDependencyManager.
+
+79
+00:03:22,201 --> 00:03:22,902
+Now we can.
+
+80
+00:03:23,870 --> 00:03:25,238
+Tap and hold the Home screen.
+
+81
+00:03:26,973 --> 00:03:27,640
+Add it.
+
+82
+00:03:29,275 --> 00:03:29,842
+Add widget.
+
+83
+00:03:32,645 --> 00:03:35,248
+Search for coffee and select the widget.
+
+84
+00:03:35,815 --> 00:03:37,717
+Tap Edit widget and
+
+85
+00:03:37,784 --> 00:03:39,719
+provide a valid product name.
+
+86
+00:03:41,621 --> 00:03:44,023
+The widget now updates with info about
+
+87
+00:03:44,090 --> 00:03:45,291
+the selected product.
+
+88
+00:03:52,765 --> 00:03:54,968
+In this video, we explore how to
+
+89
+00:03:55,034 --> 00:03:56,736
+configure and use a widget
+
+90
+00:03:56,803 --> 00:03:58,271
+powered by an app intent.
+
+91
+00:03:58,738 --> 00:04:01,074
+In the next module, we'll dive deeper
+
+92
+00:04:01,140 --> 00:04:03,910
+into interactive App Intent use cases.
+
+93
+00:04:04,477 --> 00:04:05,645
+See you there, bye!
+

@@ -1,0 +1,363 @@
+1
+00:00:00,567 --> 00:00:03,136
+Halo! Di video sebelumnya,
+
+2
+00:00:03,203 --> 00:00:04,571
+kami membuat App Intent yang mencari
+
+3
+00:00:04,637 --> 00:00:06,406
+produk di Kedai Kopi kami.
+
+4
+00:00:06,840 --> 00:00:08,375
+Kami menjelajahi cara untuk lulus
+
+5
+00:00:08,441 --> 00:00:10,310
+parameter ke dalam maksud,
+
+6
+00:00:10,810 --> 00:00:11,544
+bagaimana cara mengembalikannya
+
+7
+00:00:11,611 --> 00:00:13,179
+harga produk sebagai nilai,
+
+8
+00:00:13,680 --> 00:00:16,282
+dan cara menampilkan dialog sebagai output.
+
+9
+00:00:16,983 --> 00:00:19,352
+Kami juga menggunakan maksud untuk membuat secara manual
+
+10
+00:00:19,419 --> 00:00:21,588
+pintasan di aplikasi Pintasan.
+
+11
+00:00:21,955 --> 00:00:24,824
+Dalam video ini, mari melangkah lebih jauh.
+
+12
+00:00:27,660 --> 00:00:29,729
+Kami akan mengeksplorasi bagaimana niat ini dapat
+
+13
+00:00:29,796 --> 00:00:32,132
+terintegrasi lebih dalam dengan Siri.
+
+14
+00:00:32,899 --> 00:00:35,568
+dan bagaimana cara mengembalikan SwiftUI khusus
+
+15
+00:00:35,635 --> 00:00:37,303
+lihat sebagai bagian dari respons.
+
+16
+00:00:38,705 --> 00:00:41,041
+Ini memungkinkan kami menunjukkan lebih halus
+
+17
+00:00:41,107 --> 00:00:42,642
+dan konten yang terperinci,
+
+18
+00:00:42,709 --> 00:00:44,444
+membuat interaksi kita lebih kaya.
+
+19
+00:00:45,512 --> 00:00:47,847
+Mari kita mulai dengan membuat pintasan
+
+20
+00:00:47,914 --> 00:00:50,016
+untuk tujuan Rincian Produk Terbuka kami.
+
+21
+00:00:51,017 --> 00:00:53,953
+Kita akan mengganti namanya menjadi pintasan Kopi saya.
+
+22
+00:00:58,124 --> 00:00:59,692
+Sekarang, jika Anda bertanya kepada Siri,
+
+23
+00:01:00,060 --> 00:01:02,162
+"Hai Siri, jalan pintas kopiku?"
+
+24
+00:01:03,963 --> 00:01:06,399
+Ia akan bertanya kepada kita: "produk mana yang Anda inginkan?"
+
+25
+00:01:08,134 --> 00:01:09,869
+Kita bisa membalas dengan sesuatu seperti
+
+26
+00:01:09,936 --> 00:01:13,873
+"espresso" atau "panini" dan sampai jumpa kembali
+
+27
+00:01:13,940 --> 00:01:15,508
+harga barang tersebut.
+
+28
+00:01:16,309 --> 00:01:18,745
+Begitu saja kita berinteraksi
+
+29
+00:01:18,812 --> 00:01:20,847
+dengan maksud aplikasi kita melalui suara alami.
+
+30
+00:01:22,949 --> 00:01:25,552
+Namun kita dapat melangkah lebih jauh lagi.
+
+31
+00:01:26,920 --> 00:01:28,088
+Mari kita buat pintasan secara terprogram,
+
+32
+00:01:28,154 --> 00:01:31,224
+jadi tersedia melalui
+
+33
+00:01:31,291 --> 00:01:33,860
+default saat pengguna menginstal aplikasi.
+
+34
+00:01:35,228 --> 00:01:37,330
+Dalam proyek kami, kami akan menambahkan yang baru
+
+35
+00:01:37,397 --> 00:01:39,532
+pintasan ke CoffeeShortcutsProvider.
+
+36
+00:01:40,333 --> 00:01:41,701
+Kelas ini sesuai dengan
+
+37
+00:01:41,768 --> 00:01:42,969
+Penyedia Pintasan Aplikasi
+
+38
+00:01:43,036 --> 00:01:45,138
+protokol dan definisi yang tersedia
+
+39
+00:01:45,205 --> 00:01:46,372
+jalan pintas melalui
+
+40
+00:01:46,439 --> 00:01:47,440
+Properti AppShortcuts.
+
+41
+00:01:49,909 --> 00:01:52,078
+Mari kita sertakan pintasan yang dibuat
+
+42
+00:01:52,145 --> 00:01:54,747
+oleh Giovanna pada model sebelumnya dan
+
+43
+00:01:54,814 --> 00:01:56,683
+yang baru untuk detail produk.
+
+44
+00:01:57,784 --> 00:01:59,252
+Setelah aplikasi terinstal,
+
+45
+00:01:59,752 --> 00:02:01,654
+kita dapat membuka aplikasi pintasan.
+
+46
+00:02:02,622 --> 00:02:05,658
+Pergi ke bagian kopi dan lihat keduanya
+
+47
+00:02:05,725 --> 00:02:08,328
+buka favorit dan tampilkan detail produk
+
+48
+00:02:08,394 --> 00:02:10,230
+pintasan sudah tersedia.
+
+49
+00:02:11,598 --> 00:02:12,665
+Mari kita mencobanya.
+
+50
+00:02:13,766 --> 00:02:16,269
+Kita dapat menentukan hingga 10 pintasan dengan cara ini,
+
+51
+00:02:16,336 --> 00:02:18,905
+dan semua frasa khusus yang kami miliki
+
+52
+00:02:18,972 --> 00:02:20,807
+yang ditentukan akan berfungsi dengan Siri.
+
+53
+00:02:22,575 --> 00:02:24,944
+Sekarang mari kita tingkatkan output intens kita
+
+54
+00:02:25,011 --> 00:02:27,046
+dengan menyertakan tampilan SwiftUI khusus.
+
+55
+00:02:28,515 --> 00:02:31,484
+Untuk melakukan ini, kita akan membuat IntentsPerform
+
+56
+00:02:31,551 --> 00:02:34,387
+metode sesuai dengan "ShowsSnippetView",
+
+57
+00:02:35,188 --> 00:02:36,890
+selain protokol lainnya.
+
+58
+00:02:37,757 --> 00:02:39,259
+Kami akan mengembalikan tampilan yang disebut
+
+59
+00:02:39,325 --> 00:02:41,494
+"KartuIntentItemManual",
+
+60
+00:02:42,028 --> 00:02:44,531
+yang merupakan tampilan SwiftUI yang sudah dibuat sebelumnya
+
+61
+00:02:44,597 --> 00:02:46,766
+menampilkan detail produk yang dipilih.
+
+62
+00:02:48,368 --> 00:02:50,336
+Berikut ini maksud yang diperbarui.
+
+63
+00:02:51,905 --> 00:02:53,106
+Mari kita lihat aksi ini.
+
+64
+00:02:55,341 --> 00:02:57,143
+Tanya Siri: "Hai Siri,
+
+65
+00:02:57,544 --> 00:02:59,212
+"tampilkan produk di aplikasi kopi".
+
+66
+00:03:01,347 --> 00:03:03,650
+Ini akan meminta Anda untuk memilih produk.
+
+67
+00:03:04,684 --> 00:03:07,754
+Saat menerima jawaban Anda, Siri akan mengucapkan harganya
+
+68
+00:03:07,820 --> 00:03:09,989
+dan menunjukkan Tampilan SwiftUI yang terperinci
+
+69
+00:03:10,456 --> 00:03:13,326
+dengan gambar produk, nama, dan lainnya.
+
+70
+00:03:15,128 --> 00:03:16,429
+Ini adalah sebuah langkah besar
+
+71
+00:03:16,496 --> 00:03:18,331
+maju dalam interaksi pengguna.
+
+72
+00:03:19,165 --> 00:03:21,501
+Sekarang kita menggabungkan suara,
+
+73
+00:03:21,568 --> 00:03:24,170
+antarmuka visual dan logika aplikasi secara alami.
+
+74
+00:03:26,139 --> 00:03:27,507
+Masih ada ruang untuk perbaikan.
+
+75
+00:03:28,007 --> 00:03:29,976
+Misalnya, pada modul berikutnya,
+
+76
+00:03:30,510 --> 00:03:32,445
+kami mengeksplorasi cara memasukkan parameter
+
+77
+00:03:32,512 --> 00:03:34,647
+langsung dalam frasa aktivasi.
+
+78
+00:03:35,315 --> 00:03:36,783
+Jadi pengguna dapat melewati
+
+79
+00:03:36,849 --> 00:03:38,551
+meminta dan mengatakan sesuatu seperti,
+
+80
+00:03:38,851 --> 00:03:39,886
+"Tampilkan espresso di
+
+81
+00:03:39,953 --> 00:03:41,721
+Aplikasi kopi..." segera.
+
+82
+00:03:44,424 --> 00:03:45,792
+Dalam video ini, kita memiliki
+
+83
+00:03:45,858 --> 00:03:47,860
+membuat pintasan secara terprogram.
+
+84
+00:03:48,528 --> 00:03:49,462
+Kita melihat bagaimana caranya
+
+85
+00:03:49,529 --> 00:03:51,230
+berinteraksi dengannya menggunakan Siri.
+
+86
+00:03:52,098 --> 00:03:54,000
+Kami mengembalikan SwiftUI khusus
+
+87
+00:03:54,067 --> 00:03:56,302
+tampilan sebagai keluaran untuk maksud kita.
+
+88
+00:03:57,070 --> 00:03:59,138
+Dan di video berikutnya, Anda akan melihat cara melakukannya
+
+89
+00:03:59,205 --> 00:04:01,708
+konfigurasikan widget yang menggunakan maksud ini
+
+90
+00:04:01,774 --> 00:04:03,443
+parameter sebagai inputnya.
+
+91
+00:04:04,744 --> 00:04:05,245
+Sampai jumpa di sana!

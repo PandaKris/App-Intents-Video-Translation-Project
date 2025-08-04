@@ -1,0 +1,616 @@
+1
+00:00:00,433 --> 00:00:03,003
+Hello everyone, welcome! In today's video
+
+2
+00:00:03,069 --> 00:00:03,970
+we are going to dive
+
+3
+00:00:04,037 --> 00:00:05,505
+deeper into one of the most
+
+4
+00:00:05,572 --> 00:00:07,774
+iconic features of the Apple ecosystem,
+
+5
+00:00:08,641 --> 00:00:10,443
+Siri. Our main objective
+
+6
+00:00:10,510 --> 00:00:12,078
+is to understand what Siri
+
+7
+00:00:12,178 --> 00:00:14,681
+really is, how it works, and what it
+
+8
+00:00:14,748 --> 00:00:17,717
+enables users to do across Apple devices.
+
+9
+00:00:20,220 --> 00:00:21,755
+Whether it's through voice commands,
+
+10
+00:00:22,155 --> 00:00:23,390
+smart suggestions,
+
+11
+00:00:23,456 --> 00:00:24,624
+or deep app integration,
+
+12
+00:00:25,258 --> 00:00:26,826
+Siri plays a key role in making
+
+13
+00:00:26,893 --> 00:00:28,795
+interactions more natural and intuitive.
+
+14
+00:00:29,396 --> 00:00:30,864
+And with the arrival of Apple Intelligence,
+
+15
+00:00:30,930 --> 00:00:32,232
+it's about to
+
+16
+00:00:32,298 --> 00:00:33,900
+become even more powerful.
+
+17
+00:00:35,235 --> 00:00:37,904
+Siri was introduced in 2011 as the
+
+18
+00:00:37,971 --> 00:00:39,205
+world's first widely
+
+19
+00:00:39,272 --> 00:00:40,774
+available virtual assistant,
+
+20
+00:00:41,408 --> 00:00:43,643
+with the goal of helping users interact
+
+21
+00:00:43,710 --> 00:00:44,644
+with their devices
+
+22
+00:00:44,711 --> 00:00:46,146
+using natural language.
+
+23
+00:00:46,846 --> 00:00:48,748
+Over the years, it has evolved from
+
+24
+00:00:48,815 --> 00:00:49,983
+handling simple voice commands,
+
+25
+00:00:50,050 --> 00:00:52,352
+like setting alarms or sending messages,
+
+26
+00:00:52,419 --> 00:00:55,021
+to supporting a wide
+
+27
+00:00:55,088 --> 00:00:56,656
+range of functionalities,
+
+28
+00:00:57,057 --> 00:00:58,591
+including controlling smart home devices,
+
+29
+00:01:01,100 --> 00:01:01,628
+launching apps,
+
+30
+00:01:01,694 --> 00:01:03,363
+providing proactive suggestions,
+
+31
+00:01:03,430 --> 00:01:05,131
+and executing custom shortcuts.
+
+32
+00:01:06,599 --> 00:01:08,802
+Its core purpose has always been to make
+
+33
+00:01:08,868 --> 00:01:11,604
+everyday tasks faster, more convenient,
+
+34
+00:01:12,072 --> 00:01:14,207
+and more accessible by reducing
+
+35
+00:01:14,274 --> 00:01:15,208
+the friction between
+
+36
+00:01:15,275 --> 00:01:16,876
+the user and the technology.
+
+37
+00:01:17,944 --> 00:01:20,647
+Today, Siri can be used in a wide range
+
+38
+00:01:20,713 --> 00:01:21,848
+of practical scenarios
+
+39
+00:01:21,915 --> 00:01:23,349
+across Apple devices.
+
+40
+00:01:24,317 --> 00:01:27,520
+For example, on an iPhone, a user can say
+
+41
+00:01:27,587 --> 00:01:30,857
+"Hey Siri, send a message to João saying
+
+42
+00:01:30,957 --> 00:01:33,593
+"I'll be there in 10 minutes."
+
+43
+00:01:33,660 --> 00:01:34,527
+And Siri will compose the message,
+
+44
+00:01:34,594 --> 00:01:36,229
+confirm the content,
+
+45
+00:01:36,563 --> 00:01:39,566
+and send it via the Messages app.
+
+46
+00:01:39,632 --> 00:01:42,368
+Another common use case is asking 
+
+47
+00:01:42,769 --> 00:01:44,838
+"Hey Siri, what's the weather like tomorrow in São Paulo?"
+
+48
+00:01:44,904 --> 00:01:47,407
+Which brings up
+
+49
+00:01:47,474 --> 00:01:48,975
+the weather app with a spoken
+
+50
+00:01:49,142 --> 00:01:52,445
+summary and visual forecast.
+
+51
+00:01:52,512 --> 00:01:55,515
+On Apple Watch, users can lift their wrist and say
+
+52
+00:01:55,582 --> 00:01:57,650
+"Start an outdoor walk."
+
+53
+00:01:58,518 --> 00:02:00,687
+And Siri will begin tracking the workout instantly.
+
+54
+00:02:00,753 --> 00:02:04,791
+For productivity, users can say
+
+55
+00:02:04,858 --> 00:02:06,759
+"Remind me to call
+
+56
+00:02:06,826 --> 00:02:09,729
+Anna when I get home." And Siri will use
+
+57
+00:02:09,796 --> 00:02:11,331
+geolocation to trigger that
+
+58
+00:02:11,397 --> 00:02:13,032
+reminder at the right moment.
+
+59
+00:02:13,933 --> 00:02:16,570
+Siri can also run custom shortcuts.
+
+60
+00:02:17,537 --> 00:02:20,140
+For instance, a user might say
+
+61
+00:02:20,573 --> 00:02:23,576
+"Hey Siri, order my usual coffee."
+
+62
+00:02:23,643 --> 00:02:24,744
+Which triggers a preconfigured shortcut
+
+63
+00:02:24,811 --> 00:02:26,479
+in a full delivery app.
+
+64
+00:02:27,146 --> 00:02:29,549
+These examples show how Siri
+
+65
+00:02:29,616 --> 00:02:31,518
+enables fast, contextual,
+
+66
+00:02:31,584 --> 00:02:33,253
+and hands-free interactions
+
+67
+00:02:33,319 --> 00:02:36,589
+that go beyond basic voice commands,
+
+68
+00:02:36,656 --> 00:02:38,591
+and enhances in the user experience through
+
+69
+00:02:38,658 --> 00:02:40,360
+intelligence automation.
+
+70
+00:02:42,160 --> 00:02:44,931
+Despite all its capabilities,
+
+71
+00:02:44,998 --> 00:02:46,165
+Siri still has some important limitations.
+
+72
+00:02:46,232 --> 00:02:48,801
+It may occasionally
+
+73
+00:02:48,868 --> 00:02:50,837
+misinterpret what the user says,
+
+74
+00:02:51,337 --> 00:02:52,572
+especially in noisy
+
+75
+00:02:52,639 --> 00:02:54,674
+environments or when dealing with less
+
+76
+00:02:54,741 --> 00:02:57,544
+common names and commands.
+
+77
+00:02:57,610 --> 00:03:00,013
+In more complex requests, it can struggle
+
+78
+00:03:00,079 --> 00:03:00,880
+to maintain the context of a conversation,
+
+79
+00:03:02,147 --> 00:03:03,683
+requiring the user
+
+80
+00:03:03,750 --> 00:03:04,784
+to repeat or rephrase instructions.
+
+81
+00:03:04,851 --> 00:03:07,187
+Additionally, while Siri
+
+82
+00:03:08,154 --> 00:03:10,823
+supports multiple languages,
+
+83
+00:03:10,890 --> 00:03:13,493
+its performance can vary.
+
+84
+00:03:13,560 --> 00:03:15,295
+Some languages or regions have more
+
+85
+00:03:15,361 --> 00:03:17,263
+limited functionality compared to English.
+
+86
+00:03:19,130 --> 00:03:20,867
+These limitations can affect
+
+87
+00:03:20,934 --> 00:03:22,435
+the overall user experience,
+
+88
+00:03:22,969 --> 00:03:25,638
+particularly for users relying on Siri
+
+89
+00:03:25,705 --> 00:03:27,440
+in non-English contexts
+
+90
+00:03:27,507 --> 00:03:28,942
+or expecting more natural,
+
+91
+00:03:29,008 --> 00:03:32,612
+conversational interactions.
+
+92
+00:03:32,679 --> 00:03:33,580
+With the introduction of App Intelligence,
+
+93
+00:03:33,646 --> 00:03:35,782
+many of Siri's current
+
+94
+00:03:35,848 --> 00:03:37,984
+limitations are expected to be
+
+95
+00:03:38,051 --> 00:03:40,920
+significantly reduced.
+
+96
+00:03:40,987 --> 00:03:42,488
+App Intelligence brings a new level
+
+97
+00:03:42,589 --> 00:03:44,791
+of understanding to Siri by combining
+
+98
+00:03:44,857 --> 00:03:46,559
+on-device processing with
+
+99
+00:03:46,626 --> 00:03:48,995
+large language models,
+
+100
+00:03:49,062 --> 00:03:51,598
+allowing for more accurate interpretations
+
+101
+00:03:51,664 --> 00:03:53,633
+of user commands, even when they
+
+102
+00:03:53,700 --> 00:03:55,702
+are complex or conversational.
+
+103
+00:03:56,402 --> 00:03:58,304
+This means Siri will be better
+
+104
+00:03:58,371 --> 00:03:59,572
+at following multi-step instructions,
+
+105
+00:03:59,639 --> 00:04:01,941
+remembering context
+
+106
+00:04:02,041 --> 00:04:04,210
+between interactions, and understanding
+
+107
+00:04:04,277 --> 00:04:05,345
+more natural language
+
+108
+00:04:05,411 --> 00:04:06,846
+without requiring perfect phrasing.
+
+109
+00:04:06,913 --> 00:04:10,149
+Another major improvement is
+
+110
+00:04:10,216 --> 00:04:13,753
+the use of personal contexts.
+
+111
+00:04:13,820 --> 00:04:14,821
+Siri will be able to draw from
+
+112
+00:04:14,887 --> 00:04:17,624
+the user's calendar, messages, emails,
+
+113
+00:04:17,924 --> 00:04:19,892
+and files, securely and privately
+
+114
+00:04:19,959 --> 00:04:22,228
+to provide smarter
+
+115
+00:04:22,295 --> 00:04:25,732
+and relevant responses. For example,
+
+116
+00:04:25,798 --> 00:04:27,533
+you might ask, "When is my
+
+117
+00:04:27,600 --> 00:04:29,836
+next meeting with Lucas?"
+
+118
+00:04:30,503 --> 00:04:32,939
+or "Send the file Anna shared with me last week."
+
+119
+00:04:33,006 --> 00:04:36,242
+And Siri will know exactly
+
+120
+00:04:36,309 --> 00:04:37,477
+what you are referring to.
+
+121
+00:04:38,211 --> 00:04:40,647
+In addition, Siri will be integrated
+
+122
+00:04:40,713 --> 00:04:43,016
+with ChatGPT, allowing users
+
+123
+00:04:43,082 --> 00:04:44,917
+to seamlessly access even
+
+124
+00:04:44,984 --> 00:04:47,286
+more powerful AI capabilities
+
+125
+00:04:47,353 --> 00:04:50,323
+when needed, such as writing an email,
+
+126
+00:04:50,390 --> 00:04:51,891
+draft or brainstorming ideas,
+
+127
+00:04:52,458 --> 00:04:55,395
+always with user permission. Altogether,
+
+128
+00:04:55,762 --> 00:04:58,197
+App Intelligence transforms Siri from
+
+129
+00:04:58,264 --> 00:05:01,067
+a command-based assistant in a truly
+
+130
+00:05:01,134 --> 00:05:03,569
+intelligent personal companion
+
+131
+00:05:03,636 --> 00:05:05,405
+that understands the user's world.
+
+132
+00:05:08,374 --> 00:05:09,942
+Thank you so much for your time
+
+133
+00:05:10,009 --> 00:05:11,811
+and attention. In this video,
+
+134
+00:05:11,878 --> 00:05:13,413
+we explore what Siri is,
+
+135
+00:05:13,479 --> 00:05:15,782
+how it works today, and how it's
+
+136
+00:05:15,848 --> 00:05:16,983
+about to evolve with the power
+
+137
+00:05:17,050 --> 00:05:18,084
+of App Intelligence.
+
+138
+00:05:18,618 --> 00:05:20,787
+As we continue through this course,
+
+139
+00:05:20,853 --> 00:05:21,988
+our goal is to help you
+
+140
+00:05:22,055 --> 00:05:23,723
+understand how to make your app
+
+141
+00:05:24,190 --> 00:05:26,626
+accessible through Siri using the right
+
+142
+00:05:26,693 --> 00:05:28,027
+technologies like App
+
+143
+00:05:28,094 --> 00:05:29,228
+Intents and shortcuts.
+
+144
+00:05:29,962 --> 00:05:31,931
+You'll see practical examples that show
+
+145
+00:05:31,998 --> 00:05:32,932
+how to implement these
+
+146
+00:05:32,999 --> 00:05:34,767
+integrations step by step.
+
+147
+00:05:35,435 --> 00:05:37,770
+It's important to remember that users are
+
+148
+00:05:37,837 --> 00:05:40,273
+increasingly expecting to interact with
+
+149
+00:05:40,340 --> 00:05:42,742
+apps using voice and natural language.
+
+150
+00:05:43,176 --> 00:05:44,744
+And with the improvements coming to Siri,
+
+151
+00:05:45,144 --> 00:05:47,980
+these expectations will only grow.
+
+152
+00:05:48,047 --> 00:05:50,416
+Making your app available through Siri is not
+
+153
+00:05:50,483 --> 00:05:51,584
+just a nice-to-have,
+
+154
+00:05:51,984 --> 00:05:55,388
+it's become essential. See you, bye!
+

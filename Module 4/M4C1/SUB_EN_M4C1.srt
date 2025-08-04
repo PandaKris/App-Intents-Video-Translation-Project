@@ -1,0 +1,276 @@
+1
+00:00:00,166 --> 00:00:02,002
+In the previous module, we saw how to
+
+2
+00:00:02,102 --> 00:00:02,936
+create an app intent.
+
+3
+00:00:03,737 --> 00:00:06,106
+Turn it into a shortcut, and make it
+
+4
+00:00:06,172 --> 00:00:08,241
+accessible through Siri and Spotlight.
+
+5
+00:00:08,942 --> 00:00:11,111
+That gave us several ways to expose
+
+6
+00:00:11,177 --> 00:00:13,413
+features from our app to the system.
+
+7
+00:00:13,880 --> 00:00:15,715
+But what you have built so far
+
+8
+00:00:15,782 --> 00:00:17,450
+is just the beginning.
+
+9
+00:00:20,286 --> 00:00:22,288
+Hello, my name is Sergio, and in this module,
+
+10
+00:00:22,355 --> 00:00:23,690
+we are going to
+
+11
+00:00:23,757 --> 00:00:25,291
+learn how to make App Intents parameterized,
+
+12
+00:00:25,358 --> 00:00:27,861
+adding a new layer of
+
+13
+00:00:27,927 --> 00:00:29,629
+interaction with the user.
+
+14
+00:00:31,164 --> 00:00:33,867
+Let's start by creating a second intent
+
+15
+00:00:33,933 --> 00:00:35,935
+called ProductDetailIntent.
+
+16
+00:00:37,170 --> 00:00:38,938
+It will present relevant information
+
+17
+00:00:39,005 --> 00:00:40,607
+about one of our products
+
+18
+00:00:40,673 --> 00:00:42,909
+without needing to open the app.
+
+19
+00:00:43,977 --> 00:00:45,178
+Here we declare a
+
+20
+00:00:45,245 --> 00:00:47,580
+dependency on our model class,
+
+21
+00:00:47,914 --> 00:00:49,215
+which we will use later
+
+22
+00:00:49,282 --> 00:00:51,051
+to look up product data.
+
+23
+00:00:52,819 --> 00:00:53,987
+Now let's look at the
+
+24
+00:00:54,054 --> 00:00:55,155
+CoffeeShop structure.
+
+25
+00:00:56,389 --> 00:00:58,391
+In the previous model, we saw how to
+
+26
+00:00:58,458 --> 00:01:00,360
+inject this dependency using
+
+27
+00:01:00,427 --> 00:01:01,694
+the AppDependencyManager.
+
+28
+00:01:02,929 --> 00:01:04,864
+Now let's update the ProductDetailIntent
+
+29
+00:01:04,931 --> 00:01:06,766
+to receive a parameter,
+
+30
+00:01:07,667 --> 00:01:09,102
+the product name that
+
+31
+00:01:09,169 --> 00:01:10,637
+the user can specify.
+
+32
+00:01:11,604 --> 00:01:14,040
+We use the parameter property wrapper
+
+33
+00:01:14,107 --> 00:01:15,408
+to define an optional string
+
+34
+00:01:15,475 --> 00:01:16,843
+that holds the product name.
+
+35
+00:01:18,111 --> 00:01:20,280
+Inside the perform method,
+
+36
+00:01:20,346 --> 00:01:22,549
+we check whether this value is already set.
+
+37
+00:01:23,183 --> 00:01:24,951
+If not, we ask the user
+
+38
+00:01:25,018 --> 00:01:26,920
+for it using request value,
+
+39
+00:01:27,353 --> 00:01:29,656
+which works in supported contexts
+
+40
+00:01:29,722 --> 00:01:31,758
+like Siri or the shortcuts app.
+
+41
+00:01:33,660 --> 00:01:36,262
+Now let's use this parameter to fetch
+
+42
+00:01:36,329 --> 00:01:38,431
+the actual product data from
+
+43
+00:01:38,498 --> 00:01:40,934
+the model and return its price.
+
+44
+00:01:43,269 --> 00:01:45,672
+Once your app is installed and compiled,
+
+45
+00:01:46,172 --> 00:01:47,474
+open the Shortcuts app.
+
+46
+00:01:48,441 --> 00:01:50,009
+Create a new shortcut.
+
+47
+00:01:51,978 --> 00:01:53,213
+Under the Coffee app,
+
+48
+00:01:53,680 --> 00:01:55,949
+select Open product details.
+
+49
+00:01:57,917 --> 00:02:01,321
+Then, add a second action, show result
+
+50
+00:02:01,387 --> 00:02:03,323
+and set it to display
+
+51
+00:02:03,389 --> 00:02:05,291
+the result of the previous intent.
+
+52
+00:02:07,393 --> 00:02:08,795
+Now test it.
+
+53
+00:02:09,696 --> 00:02:10,964
+Try entering a valid
+
+54
+00:02:11,030 --> 00:02:12,866
+product name like "Café".
+
+55
+00:02:16,336 --> 00:02:18,338
+You should see the correct price.
+
+56
+00:02:20,006 --> 00:02:20,940
+Try something invalid
+
+57
+00:02:21,007 --> 00:02:22,408
+like "Café com Leite".
+
+58
+00:02:25,145 --> 00:02:27,447
+and the result will be empty.
+
+59
+00:02:28,647 --> 00:02:29,947
+NIL
+
+60
+00:02:32,785 --> 00:02:35,922
+And that's it! We create a parameterized
+
+61
+00:02:35,989 --> 00:02:38,791
+app intent, process the input and return
+
+62
+00:02:38,858 --> 00:02:40,393
+a value based on it.
+
+63
+00:02:40,693 --> 00:02:42,929
+We also saw how to manually build
+
+64
+00:02:42,996 --> 00:02:45,064
+a shortcut to trigger that intent.
+
+65
+00:02:45,365 --> 00:02:47,400
+In the next video, we explore how to
+
+66
+00:02:47,467 --> 00:02:49,169
+provide other types of output
+
+67
+00:02:49,769 --> 00:02:50,837
+and how to create
+
+68
+00:02:50,904 --> 00:02:52,038
+shortcuts automatically.
+
+69
+00:02:52,972 --> 00:02:53,573
+See you there!
+

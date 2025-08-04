@@ -1,0 +1,336 @@
+1
+00:00:00,367 --> 00:00:02,769
+Hi! In this video, we are starting our
+
+2
+00:00:02,836 --> 00:00:04,838
+hands-on journey with App Intents
+
+3
+00:00:04,971 --> 00:00:06,439
+by showing the sample app
+
+4
+00:00:06,506 --> 00:00:08,441
+we will use in this course.
+
+5
+00:00:08,942 --> 00:00:11,644
+It's a simple coffee shop app made
+
+6
+00:00:11,711 --> 00:00:12,846
+to help us focus
+
+7
+00:00:12,912 --> 00:00:14,681
+on creating and testing intents.
+
+8
+00:00:15,715 --> 00:00:17,684
+We'll show the main screens,
+
+9
+00:00:17,751 --> 00:00:18,985
+talk about the tools we are using,
+
+10
+00:00:19,252 --> 00:00:21,454
+and explain how the app is set up to make
+
+11
+00:00:21,521 --> 00:00:23,089
+learning App Intents easier.
+
+12
+00:00:25,959 --> 00:00:26,960
+Now, let's talk about
+
+13
+00:00:27,027 --> 00:00:28,228
+the tools we are using.
+
+14
+00:00:29,229 --> 00:00:30,864
+I'm running macOS version
+
+15
+00:00:30,930 --> 00:00:35,101
+15.4.1 and Xcode version 16.3.
+
+16
+00:00:35,869 --> 00:00:37,871
+If you are using macOS 15
+
+17
+00:00:37,937 --> 00:00:40,106
+or higher and Xcode 16 or above,
+
+18
+00:00:40,707 --> 00:00:41,674
+everything should work
+
+19
+00:00:41,741 --> 00:00:43,243
+just fine for this project.
+
+20
+00:00:44,978 --> 00:00:46,946
+I'm going to give you a quick demo
+
+21
+00:00:47,013 --> 00:00:48,882
+of the app we will use during this course.
+
+22
+00:00:49,849 --> 00:00:51,117
+It's a coffee shop app
+
+23
+00:00:51,184 --> 00:00:52,752
+with a few simple screens.
+
+24
+00:00:53,319 --> 00:00:54,954
+This is the menu, where
+
+25
+00:00:55,021 --> 00:00:56,156
+you can see a list of drinks
+
+26
+00:00:56,222 --> 00:00:57,724
+and snacks inspired by
+
+27
+00:00:57,791 --> 00:00:58,825
+coffee break traditions
+
+28
+00:00:58,992 --> 00:00:59,993
+from different countries.
+
+29
+00:01:02,495 --> 00:01:03,897
+It's a simple screen where
+
+30
+00:01:03,963 --> 00:01:05,799
+you can see each item's name,
+
+31
+00:01:06,199 --> 00:01:07,867
+price, and buttons to add
+
+32
+00:01:07,934 --> 00:01:09,769
+your favorites or to your bag.
+
+33
+00:01:10,370 --> 00:01:12,772
+This is where your favorite items appear.
+
+34
+00:01:15,308 --> 00:01:16,209
+If you go back to the menu,
+
+35
+00:01:16,276 --> 00:01:18,945
+tap the heart on one item
+
+36
+00:01:19,546 --> 00:01:21,114
+and return to the favorite screen,
+
+37
+00:01:21,581 --> 00:01:22,615
+you can see that the
+
+38
+00:01:22,682 --> 00:01:24,384
+item has been added here.
+
+39
+00:01:27,454 --> 00:01:29,189
+This screen shows the
+
+40
+00:01:29,255 --> 00:01:30,490
+orders you have made.
+
+41
+00:01:31,024 --> 00:01:33,026
+For now, we already have some
+
+42
+00:01:33,526 --> 00:01:34,627
+example orders listed here.
+
+43
+00:01:34,661 --> 00:01:35,995
+And when you add items
+
+44
+00:01:36,062 --> 00:01:37,597
+to your bag, they show up here.
+
+45
+00:01:38,264 --> 00:01:40,567
+If we go back to the menu, add an item
+
+46
+00:01:40,633 --> 00:01:42,035
+and return to the Bag screen,
+
+47
+00:01:42,702 --> 00:01:45,071
+you can change the quantity and
+
+48
+00:01:45,138 --> 00:01:46,973
+when you are ready, you can place an order.
+
+49
+00:01:48,708 --> 00:01:51,311
+This app was made simple on purpose,
+
+50
+00:01:51,377 --> 00:01:53,713
+so we can focus on learning how to use
+
+51
+00:01:53,780 --> 00:01:55,181
+App Intents without distractions.
+
+52
+00:01:56,249 --> 00:01:59,319
+For now, the list of items is fixed
+
+53
+00:01:59,385 --> 00:02:01,387
+and all of the data is saved only in memory.
+
+54
+00:02:01,855 --> 00:02:02,622
+There is no database
+
+55
+00:02:02,689 --> 00:02:03,923
+or permanent storage.
+
+56
+00:02:05,258 --> 00:02:07,427
+In the next videos, we'll start adding
+
+57
+00:02:07,494 --> 00:02:09,462
+App Intent files step by step.
+
+58
+00:02:10,029 --> 00:02:11,798
+And you only need to change
+
+59
+00:02:11,865 --> 00:02:13,333
+the app's code when it's really
+
+60
+00:02:13,399 --> 00:02:15,268
+necessary for a specific intent.
+
+61
+00:02:16,703 --> 00:02:17,971
+You can download the sample
+
+62
+00:02:18,037 --> 00:02:20,073
+project from the video page.
+
+63
+00:02:21,040 --> 00:02:23,610
+I recommend opening it in Xcode and
+
+64
+00:02:23,676 --> 00:02:24,677
+taking a few minutes
+
+65
+00:02:24,744 --> 00:02:26,112
+to explore the files and get
+
+66
+00:02:26,179 --> 00:02:28,515
+familiar with how the app is structured.
+
+67
+00:02:29,149 --> 00:02:30,917
+Don't worry, you don't need to understand
+
+68
+00:02:30,984 --> 00:02:32,619
+or memorize all of the code.
+
+69
+00:02:33,686 --> 00:02:35,522
+As we add App Intents in the next lessons,
+
+70
+00:02:35,588 --> 00:02:37,290
+we'll mostly be
+
+71
+00:02:37,357 --> 00:02:39,125
+writing new files, and in
+
+72
+00:02:39,192 --> 00:02:40,760
+most cases, we won't need
+
+73
+00:02:40,827 --> 00:02:42,295
+to change the existing code.
+
+74
+00:02:45,365 --> 00:02:46,966
+Thanks for watching, and we appreciate
+
+75
+00:02:47,033 --> 00:02:48,801
+you joining us on this journey.
+
+76
+00:02:49,569 --> 00:02:51,437
+In the next lessons, we'll work directly
+
+77
+00:02:51,504 --> 00:02:52,939
+with this app and code
+
+78
+00:02:53,006 --> 00:02:54,607
+to add useful and fun
+
+79
+00:02:54,674 --> 00:02:56,476
+integrations using App Intents.
+
+80
+00:02:57,043 --> 00:02:58,945
+You'll see how easy it is to make
+
+81
+00:02:59,012 --> 00:03:00,480
+your app more powerful
+
+82
+00:03:00,547 --> 00:03:02,048
+and connected across the system.
+
+83
+00:03:02,482 --> 00:03:03,583
+See you in the next video.
+
+84
+00:03:03,983 --> 00:03:04,217
+Bye!
+

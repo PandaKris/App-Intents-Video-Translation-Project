@@ -1,0 +1,675 @@
+1
+00:00:00,166 --> 00:00:02,502
+Halo, dalam video ini saya akan menyajikan
+
+2
+00:00:02,569 --> 00:00:05,038
+pedoman kegunaan untuk merancang sistem
+
+3
+00:00:05,105 --> 00:00:07,273
+pengalaman dengan agen AI
+
+4
+00:00:07,607 --> 00:00:10,243
+untuk membuat lebih intuitif dan transparan
+
+5
+00:00:10,310 --> 00:00:12,012
+interaksi yang selaras
+
+6
+00:00:12,078 --> 00:00:13,580
+dengan harapan pengguna.
+
+7
+00:00:16,483 --> 00:00:19,753
+Tapi pertama-tama, mari kita pahami apa itu AI
+
+8
+00:00:19,819 --> 00:00:21,688
+agen menurut definisinya.
+
+9
+00:00:23,456 --> 00:00:26,793
+Agen AI adalah sistem cerdas
+
+10
+00:00:26,860 --> 00:00:29,028
+yang mempersepsikan lingkungan,
+
+11
+00:00:29,095 --> 00:00:32,365
+membuat keputusan dan melaksanakan tugas tanpa
+
+12
+00:00:32,432 --> 00:00:35,101
+kebutuhan untuk interaksi manusia yang konstan dengan
+
+13
+00:00:35,168 --> 00:00:37,203
+antarmuka, seperti Siri.
+
+14
+00:00:38,571 --> 00:00:40,673
+Penting untuk diingat bahwa ini
+
+15
+00:00:40,740 --> 00:00:42,809
+Pedoman sebagian didasarkan pada
+
+16
+00:00:42,876 --> 00:00:46,346
+10 heuristik kegunaan Nielsen,
+
+17
+00:00:46,413 --> 00:00:48,415
+yang telah terbukti selama bertahun-tahun.
+
+18
+00:00:49,449 --> 00:00:51,985
+Dan karena ini adalah interaksi antara
+
+19
+00:00:52,051 --> 00:00:54,220
+manusia dan mesin,
+
+20
+00:00:54,287 --> 00:00:56,189
+mereka dapat diterapkan pada agen AI.
+
+21
+00:00:57,424 --> 00:00:59,092
+Mari kita sampaikan pedoman ini.
+
+22
+00:01:00,126 --> 00:01:02,796
+Pertama, tetapkan ekspektasi yang jelas di awal.
+
+23
+00:01:04,397 --> 00:01:07,534
+Pengguna harus tahu apa itu agen AI
+
+24
+00:01:07,600 --> 00:01:11,438
+apa yang mampu dilakukan dan apa yang tidak mampu dilakukan,
+
+25
+00:01:11,504 --> 00:01:13,239
+artinya mereka harus diberi tahu tentang
+
+26
+00:01:13,306 --> 00:01:16,242
+keterbatasan dan kemampuan ini
+
+27
+00:01:16,309 --> 00:01:19,479
+dengan cara yang sederhana dan objektif,
+
+28
+00:01:19,546 --> 00:01:21,748
+menghindari terciptanya harapan yang tidak realistis.
+
+29
+00:01:22,782 --> 00:01:25,518
+Misalnya, tujuan aplikasi adalah tips kesehatan
+
+30
+00:01:25,585 --> 00:01:27,620
+dalam aplikasi kebiasaan kesehatan.
+
+31
+00:01:28,555 --> 00:01:31,458
+Maksudnya bisa jadi: "Dapatkan tips kesehatan
+
+32
+00:01:31,524 --> 00:01:34,027
+dan Kebiasaan Kesehatan" dan menerima tanggapan seperti,
+
+33
+00:01:34,094 --> 00:01:36,296
+"Anda ingin mendapat tips tentang topik apa?
+
+34
+00:01:36,362 --> 00:01:38,298
+Ingat, aku tidak bisa
+
+35
+00:01:38,364 --> 00:01:39,866
+memberikan diagnosis medis."
+
+36
+00:01:41,034 --> 00:01:42,802
+Dengan cara ini, maksud aplikasi akan menjadi
+
+37
+00:01:42,869 --> 00:01:45,038
+dikonfigurasikan agar pengguna jelas
+
+38
+00:01:45,105 --> 00:01:47,540
+memahami asisten,
+
+39
+00:01:47,607 --> 00:01:50,076
+kemampuan dan keterbatasan,
+
+40
+00:01:50,143 --> 00:01:51,978
+menghindari ekspektasi yang tidak realistis.
+
+41
+00:01:53,446 --> 00:01:56,382
+Kedua, cocokkan perilaku agen dengan
+
+42
+00:01:56,449 --> 00:01:58,017
+konteks dan norma pengguna.
+
+43
+00:01:58,818 --> 00:02:01,421
+Agen AI harus mengidentifikasi konteksnya
+
+44
+00:02:01,488 --> 00:02:05,158
+dan saat pengguna berada di dalamnya,
+
+45
+00:02:05,225 --> 00:02:07,560
+agar tidak terganggu atau bahasanya
+
+46
+00:02:07,627 --> 00:02:09,429
+beradaptasi dengan konteks budaya.
+
+47
+00:02:10,730 --> 00:02:13,333
+Misalnya, maksud aplikasi dikonfigurasi
+
+48
+00:02:13,399 --> 00:02:16,002
+untuk mencegah pengguna menerima pengingat
+
+49
+00:02:16,069 --> 00:02:19,072
+atau pemberitahuan saat rapat.
+
+50
+00:02:19,772 --> 00:02:22,642
+Dengan cara ini, ia dapat mendeteksi bahwa pengguna
+
+51
+00:02:22,709 --> 00:02:26,679
+sedang dalam rapat melalui kalender
+
+52
+00:02:26,746 --> 00:02:29,015
+dan setelah itu berakhir,
+
+53
+00:02:29,082 --> 00:02:30,316
+mengirimkan pengingat atau pemberitahuan.
+
+54
+00:02:31,951 --> 00:02:34,220
+Tujuan aplikasi akan menghormati
+
+55
+00:02:34,287 --> 00:02:35,622
+konteks pengguna,
+
+56
+00:02:35,688 --> 00:02:38,458
+menghindari notifikasi pada saat yang tidak diinginkan.
+
+57
+00:02:39,392 --> 00:02:40,326
+Ketiga, menyediakan
+
+58
+00:02:40,393 --> 00:02:42,962
+transparansi dan kemudahan menjelaskan.
+
+59
+00:02:44,497 --> 00:02:46,499
+Berdasarkan heuristik kegunaan pertama,
+
+60
+00:02:47,700 --> 00:02:49,636
+visibilitas status sistem.
+
+61
+00:02:50,803 --> 00:02:53,706
+Agen AI harus memberikan umpan balik yang jelas
+
+62
+00:02:53,773 --> 00:02:57,110
+pada keputusan, yang dapat dilakukan melalui
+
+63
+00:02:57,176 --> 00:02:59,913
+pembenaran sederhana atau antarmuka
+
+64
+00:02:59,979 --> 00:03:01,514
+itu menunjukkan bagaimana hal itu sampai
+
+65
+00:03:01,581 --> 00:03:03,249
+pada rekomendasi itu.
+
+66
+00:03:04,317 --> 00:03:06,920
+Misalnya, maksud aplikasi berupa petunjuk kerja
+
+67
+00:03:06,986 --> 00:03:09,322
+dalam aplikasi peta.
+
+68
+00:03:10,890 --> 00:03:13,893
+Maksudnya bisa jadi: "Dapatkan petunjuk arah
+
+69
+00:03:13,960 --> 00:03:17,163
+untuk bekerja" dan akan kembali dengan pilihan rute
+
+70
+00:03:17,230 --> 00:03:18,965
+berdasarkan waktu dan jarak
+
+71
+00:03:19,032 --> 00:03:21,100
+dan pilihan terbaik.
+
+72
+00:03:21,568 --> 00:03:23,269
+Dalam kasus ini, maksud aplikasi akan
+
+73
+00:03:23,336 --> 00:03:25,772
+memberikan justifikasi yang jelas kepada pengguna
+
+74
+00:03:25,838 --> 00:03:29,108
+tentang mengapa rute itu disarankan,
+
+75
+00:03:30,243 --> 00:03:31,177
+mengizinkan mereka
+
+76
+00:03:31,244 --> 00:03:33,046
+untuk memahami logika sistem.
+
+77
+00:03:34,781 --> 00:03:36,249
+Keempat, mendukung pengguna
+
+78
+00:03:36,316 --> 00:03:38,184
+kontrol dan pelarian yang mudah.
+
+79
+00:03:39,285 --> 00:03:42,589
+Berdasarkan heuristik kegunaan ketiga,
+
+80
+00:03:42,655 --> 00:03:43,823
+kontrol dan kebebasan pengguna.
+
+81
+00:03:44,757 --> 00:03:47,594
+Pengguna harus memiliki kendali atas AI
+
+82
+00:03:47,660 --> 00:03:50,630
+mampu mengungkapkan, mengoreksi,
+
+83
+00:03:50,697 --> 00:03:52,832
+konfirmasi dan bahkan batalkan apa
+
+84
+00:03:52,899 --> 00:03:54,400
+disajikan dengan mudah.
+
+85
+00:03:55,401 --> 00:03:56,836
+Keputusan akhir harus
+
+86
+00:03:56,903 --> 00:03:58,605
+selalu menjadi milik pengguna.
+
+87
+00:03:59,672 --> 00:04:02,609
+Misalnya, maksud aplikasi ditingkatkan
+
+88
+00:04:02,675 --> 00:04:05,612
+gambar dalam aplikasi penyuntingan foto.
+
+89
+00:04:06,579 --> 00:04:09,782
+Maksudnya bisa jadi: "Dapatkan peningkatan otomatis"
+
+90
+00:04:10,617 --> 00:04:13,052
+Setelah selesai, itu bisa menunjukkan hasil dari
+
+91
+00:04:13,119 --> 00:04:15,021
+foto dengan opsi untuk mengubah kontras,
+
+92
+00:04:15,088 --> 00:04:17,657
+kecerahan dan saturasi.
+
+93
+00:04:19,425 --> 00:04:21,227
+Tujuan aplikasi ini adalah untuk memastikan bahwa
+
+94
+00:04:21,294 --> 00:04:23,329
+Pengguna memiliki kontrol total,
+
+95
+00:04:23,396 --> 00:04:25,231
+mencegah tindakan yang tidak diinginkan
+
+96
+00:04:25,298 --> 00:04:26,499
+dan memungkinkan penyesuaian cepat.
+
+97
+00:04:27,634 --> 00:04:29,602
+Kelima, menangani kesalahan
+
+98
+00:04:29,669 --> 00:04:31,537
+dan ketidakpastian dengan anggun.
+
+99
+00:04:32,538 --> 00:04:36,209
+Berdasarkan heuristik kegunaan kesembilan,
+
+100
+00:04:36,276 --> 00:04:38,011
+membantu pengguna mengenali, mendiagnosis
+
+101
+00:04:38,077 --> 00:04:40,213
+dan pulih dari kesalahan.
+
+102
+00:04:41,314 --> 00:04:44,283
+Agen AI harus mengenali kapan itu
+
+103
+00:04:44,350 --> 00:04:46,686
+salah atau tidak pasti dan
+
+104
+00:04:46,753 --> 00:04:48,855
+tangani ini secara intuitif.
+
+105
+00:04:50,323 --> 00:04:52,392
+Hal ini termasuk menghindari tindakan berisiko,
+
+106
+00:04:52,892 --> 00:04:55,695
+memberikan pesan kesalahan yang jelas dan selalu
+
+107
+00:04:55,762 --> 00:04:57,797
+menawarkan pengguna langkah berikutnya.
+
+108
+00:04:58,331 --> 00:05:01,000
+Misalnya, maksud aplikasi untuk menambah
+
+109
+00:05:01,067 --> 00:05:03,336
+daftar putar di aplikasi musik streaming.
+
+110
+00:05:04,304 --> 00:05:06,406
+Saat lagu sedang diputar, pengguna bisa
+
+111
+00:05:06,472 --> 00:05:07,707
+mengaktifkan maksudnya.
+
+112
+00:05:08,875 --> 00:05:11,978
+Tambahkan musik ke daftar putar Latihan dan terima
+
+113
+00:05:12,045 --> 00:05:14,314
+tanggapan seperti, "Saya tidak dapat menemukan
+
+114
+00:05:14,380 --> 00:05:16,182
+Daftar Putar Latihan.
+
+115
+00:05:16,249 --> 00:05:17,050
+"Apa yang ingin Anda lakukan?"
+
+116
+00:05:17,116 --> 00:05:20,386
+dan akan memberikan pilihan.
+
+117
+00:05:20,453 --> 00:05:22,922
+Buat Daftar Putar baru bernama Latihan
+
+118
+00:05:22,989 --> 00:05:25,158
+atau pilih daftar putar yang ada.
+
+119
+00:05:26,326 --> 00:05:28,028
+Dengan cara ini, maksud aplikasi bisa jadi
+
+120
+00:05:28,095 --> 00:05:31,065
+dikonfigurasi untuk menangani kasus-kasus di mana
+
+121
+00:05:31,131 --> 00:05:33,767
+daftar putar yang diminta tidak ditemukan,
+
+122
+00:05:33,834 --> 00:05:36,103
+menanggapi dengan cara yang ramah dan menawarkan
+
+123
+00:05:36,170 --> 00:05:37,338
+tindakan alternatif.
+
+124
+00:05:38,706 --> 00:05:39,973
+Keenam, aktifkan
+
+125
+00:05:40,040 --> 00:05:41,475
+umpan balik dan pembelajaran.
+
+126
+00:05:42,309 --> 00:05:44,511
+Cara sederhana untuk mengumpulkan umpan balik adalah
+
+127
+00:05:44,578 --> 00:05:46,113
+untuk menawarkan peringkat atau cepat
+
+128
+00:05:46,180 --> 00:05:48,215
+survei setelah interaksi.
+
+129
+00:05:49,149 --> 00:05:50,618
+Hal ini memungkinkan sistem untuk terus menerus
+
+130
+00:05:51,685 --> 00:05:54,355
+disesuaikan berdasarkan respons pengguna.
+
+131
+00:05:55,022 --> 00:05:57,358
+Misalnya, maksud aplikasi adalah film
+
+132
+00:05:57,424 --> 00:05:59,827
+dan rekomendasi serial di aplikasi streaming.
+
+133
+00:06:00,861 --> 00:06:01,962
+Maksudnya bisa jadi
+
+134
+00:06:02,029 --> 00:06:03,364
+merekomendasikan serial TV.
+
+135
+00:06:04,665 --> 00:06:06,700
+Aplikasi akan merespons dengan saran
+
+136
+00:06:06,767 --> 00:06:08,102
+dan ikuti pilihan umpan balik,
+
+137
+00:06:08,168 --> 00:06:11,572
+"Cintai" atau "Sarankan lebih sedikit".
+
+138
+00:06:12,439 --> 00:06:14,775
+Tergantung pada pilihan pengguna,
+
+139
+00:06:14,842 --> 00:06:17,211
+aplikasi akan menyesuaikan saran masa depannya,
+
+140
+00:06:17,845 --> 00:06:20,414
+membuat mereka lebih personal dan selaras
+
+141
+00:06:20,481 --> 00:06:22,416
+dengan selera mereka dari waktu ke waktu.
+
+142
+00:06:23,118 --> 00:06:24,452
+Ketujuh, belajar dari
+
+143
+00:06:24,519 --> 00:06:26,421
+perilaku pengguna dari waktu ke waktu.
+
+144
+00:06:27,055 --> 00:06:29,824
+Izinkan agen AI belajar dari pengguna
+
+145
+00:06:29,891 --> 00:06:31,292
+preferensi dari waktu ke waktu
+
+146
+00:06:31,359 --> 00:06:32,527
+secara transparan.
+
+147
+00:06:33,561 --> 00:06:35,764
+Personalisasi membuktikan pengalamannya,
+
+148
+00:06:36,364 --> 00:06:37,832
+tapi harus dilakukan dengan
+
+149
+00:06:37,899 --> 00:06:39,567
+persetujuan dan kontrol pengguna.
+
+150
+00:06:40,502 --> 00:06:42,303
+Misalnya, maksud aplikasi berupa jadwal
+
+151
+00:06:42,370 --> 00:06:44,005
+rapat di aplikasi rapat.
+
+152
+00:06:44,939 --> 00:06:47,408
+Maksudnya bisa jadi "Jadwalkan rapat untuk besok"
+
+153
+00:06:47,475 --> 00:06:50,111
+dan menerima respons seperti,
+
+154
+00:06:50,879 --> 00:06:52,981
+“Sepertinya Anda biasanya menjadwalkan
+
+155
+00:06:53,047 --> 00:06:56,951
+rapat jam 9 pagi, jadi saya akan memanfaatkan waktu itu.
+
+156
+00:06:57,418 --> 00:06:58,520
+"Kamu ingin menyebutnya apa?"
+
+157
+00:06:59,554 --> 00:07:01,322
+Jika pengguna mengonfirmasi bahwa rapat telah dibuat,
+
+158
+00:07:01,389 --> 00:07:04,025
+maksud aplikasi akan belajar
+
+159
+00:07:04,092 --> 00:07:06,294
+waktu yang disukai pengguna dengan mereka
+
+160
+00:07:06,361 --> 00:07:09,030
+izin untuk meningkatkan pengalaman masa depan.
+
+161
+00:07:09,998 --> 00:07:12,033
+Berikut adalah beberapa panduan untuk membuat
+
+162
+00:07:12,100 --> 00:07:14,836
+tujuan aplikasi yang lebih efisien dan efektif.
+
+163
+00:07:16,037 --> 00:07:18,339
+Dengan mengikuti praktik-praktik ini,
+
+164
+00:07:18,406 --> 00:07:20,108
+Anda meningkatkan integrasi aplikasi Anda dengan sistem
+
+165
+00:07:20,175 --> 00:07:22,977
+dan memberikan pengalaman pengguna yang lebih lancar.
+
+166
+00:07:28,315 --> 00:07:30,484
+Saya harap Anda menikmati konten kami tentang
+
+167
+00:07:30,551 --> 00:07:32,785
+desain untuk maksud aplikasi.
+
+168
+00:07:32,952 --> 00:07:34,754
+Terima kasih atas waktu dan perhatian Anda.
+
+169
+00:07:34,821 --> 00:07:36,923
+Sampai jumpa nanti. Selamat tinggal!

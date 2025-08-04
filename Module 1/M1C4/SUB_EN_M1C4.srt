@@ -1,0 +1,496 @@
+1
+00:00:00,367 --> 00:00:02,335
+Hi! In this video you are going to dive
+
+2
+00:00:02,402 --> 00:00:03,636
+into the building blocks
+
+3
+00:00:03,703 --> 00:00:05,205
+that make system interactions
+
+4
+00:00:05,472 --> 00:00:07,207
+like shortcuts,
+
+5
+00:00:07,273 --> 00:00:08,942
+Siri and Spotlight possible.
+
+6
+00:00:10,810 --> 00:00:13,346
+If you already explored what a shortcut is
+
+7
+00:00:13,413 --> 00:00:16,016
+and how it fits into the Apple ecosystem,
+
+8
+00:00:16,616 --> 00:00:18,752
+you are ready to go one layer deeper.
+
+9
+00:00:21,755 --> 00:00:23,590
+App intents are how your app
+
+10
+00:00:23,656 --> 00:00:25,291
+communicates with the system,
+
+11
+00:00:25,625 --> 00:00:26,659
+making features discoverable,
+
+12
+00:00:26,726 --> 00:00:29,729
+actionable and smarter.
+
+13
+00:00:31,030 --> 00:00:32,899
+Whether you are aiming to integrate
+
+14
+00:00:32,966 --> 00:00:35,035
+with Siri, power up your widgets
+
+15
+00:00:35,268 --> 00:00:38,038
+or prepare your app for app intelligence,
+
+16
+00:00:38,471 --> 00:00:40,673
+understanding App Intents is essential
+
+17
+00:00:40,740 --> 00:00:41,975
+to unlocking seamless
+
+18
+00:00:42,042 --> 00:00:43,910
+contextual experiences.
+
+19
+00:00:45,011 --> 00:00:47,881
+This diagram illustrates the role of App
+
+20
+00:00:47,947 --> 00:00:50,216
+Intents as the bridge between
+
+21
+00:00:50,283 --> 00:00:51,584
+your app and the system features
+
+22
+00:00:51,651 --> 00:00:53,987
+users interact with every day.
+
+23
+00:00:55,088 --> 00:00:57,157
+At the bottom, we have your app
+
+24
+00:00:57,223 --> 00:00:58,558
+containing all your logic,
+
+25
+00:00:58,625 --> 00:01:00,794
+features and data.
+
+26
+00:01:02,228 --> 00:01:03,363
+On top of that sits
+
+27
+00:01:03,430 --> 00:01:04,631
+the App Intents layer,
+
+28
+00:01:04,898 --> 00:01:07,600
+which exposes specific actions from your
+
+29
+00:01:07,667 --> 00:01:10,904
+app in a structured, system-readable way.
+
+30
+00:01:11,738 --> 00:01:14,741
+Then, at the very top, you see powerful
+
+31
+00:01:14,808 --> 00:01:16,076
+system experience like Siri,
+
+32
+00:01:16,142 --> 00:01:18,344
+Spotlight and Shortcuts.
+
+33
+00:01:20,313 --> 00:01:21,915
+These green tiles represent
+
+34
+00:01:21,981 --> 00:01:23,683
+the users' facing features
+
+35
+00:01:23,750 --> 00:01:26,553
+that become smarter and more useful when
+
+36
+00:01:26,619 --> 00:01:29,122
+your app provides well-defined intents.
+
+37
+00:01:30,256 --> 00:01:33,259
+In short, App Intents are how
+
+38
+00:01:33,326 --> 00:01:36,062
+your app plugs into the wider Apple ecosystem,
+
+39
+00:01:36,496 --> 00:01:38,731
+enabling seamless, natural
+
+40
+00:01:38,798 --> 00:01:40,767
+and intelligent user experiences.
+
+41
+00:01:43,403 --> 00:01:45,538
+So now that we understand where
+
+42
+00:01:45,605 --> 00:01:47,240
+App Intents fits in, let's talk
+
+43
+00:01:47,307 --> 00:01:50,577
+about what an intent actually is.
+
+44
+00:01:51,244 --> 00:01:53,813
+An intent is a clear, self-contained
+
+45
+00:01:53,880 --> 00:01:55,348
+action that represents
+
+46
+00:01:55,415 --> 00:01:57,217
+something your app can do.
+
+47
+00:01:58,518 --> 00:02:00,320
+It's not a screen or a feature, 
+
+48
+00:02:00,386 --> 00:02:02,655
+it's a specific task.
+
+49
+00:02:03,356 --> 00:02:07,961
+Like Log 500 mL of water,
+
+50
+00:02:08,027 --> 00:02:11,464
+start a strength workout or send 20 bucks to Alex.
+
+51
+00:02:12,332 --> 00:02:14,534
+Each intent is defined with the
+
+52
+00:02:14,601 --> 00:02:16,903
+information it needs to run,
+
+53
+00:02:16,970 --> 00:02:19,472
+like parameters, inputs and outputs,
+
+54
+00:02:20,140 --> 00:02:22,842
+so the system knows exactly
+
+55
+00:02:22,909 --> 00:02:24,210
+how to describe and execute it.
+
+56
+00:02:25,011 --> 00:02:27,046
+You can think of intents
+
+57
+00:02:27,113 --> 00:02:28,448
+as the vocabulary of your app.
+
+58
+00:02:29,015 --> 00:02:31,618
+The set of things it knows how to do,
+
+59
+00:02:31,885 --> 00:02:33,686
+described in a way that's both
+
+60
+00:02:33,753 --> 00:02:36,556
+human-friendly and machine-readable.
+
+61
+00:02:38,091 --> 00:02:39,225
+And here's where things
+
+62
+00:02:39,292 --> 00:02:40,827
+get even more interesting.
+
+63
+00:02:42,362 --> 00:02:44,497
+While, in the past, it was enough
+
+64
+00:02:44,564 --> 00:02:45,999
+to expose your app's main
+
+65
+00:02:46,065 --> 00:02:48,334
+features as intents,
+
+66
+00:02:48,401 --> 00:02:49,169
+Apple's new guidelines
+
+67
+00:02:49,235 --> 00:02:51,471
+encouraged a broader approach.
+
+68
+00:02:51,739 --> 00:02:53,473
+Everything your app does
+
+69
+00:02:54,941 --> 00:02:55,608
+should be an App intent.
+
+70
+00:02:58,611 --> 00:02:59,646
+This means every action,
+
+71
+00:02:59,712 --> 00:03:01,748
+no matter how small,
+
+72
+00:03:01,981 --> 00:03:03,983
+should be defined in a way that
+
+73
+00:03:04,050 --> 00:03:06,686
+the system can understand and interact with.
+
+74
+00:03:07,587 --> 00:03:08,388
+It's a shift toward
+
+75
+00:03:08,454 --> 00:03:10,089
+making your App more modular,
+
+76
+00:03:10,356 --> 00:03:12,825
+expressive and ready to work seamlessly
+
+77
+00:03:12,892 --> 00:03:14,627
+across the entire ecosystem.
+
+78
+00:03:16,262 --> 00:03:19,165
+Now that we have covered what App intents
+
+79
+00:03:19,232 --> 00:03:21,367
+are and why they matter,
+
+80
+00:03:21,801 --> 00:03:24,003
+it's time to look at the framework that
+
+81
+00:03:24,070 --> 00:03:25,672
+makes it all possible.
+
+82
+00:03:27,473 --> 00:03:29,976
+In the hands-on module, we'll focus on
+
+83
+00:03:30,043 --> 00:03:31,444
+the developer side
+
+84
+00:03:31,511 --> 00:03:32,845
+of the App intents framework,
+
+85
+00:03:33,246 --> 00:03:36,182
+exploring its capabilities,
+
+86
+00:03:36,249 --> 00:03:38,518
+understanding how to define and structure intents
+
+87
+00:03:38,985 --> 00:03:41,621
+and walking through lots of example code.
+
+88
+00:03:42,388 --> 00:03:43,856
+One of the best parts?
+
+89
+00:03:45,858 --> 00:03:48,061
+The entire framework is built to work
+
+90
+00:03:48,127 --> 00:03:50,129
+natively with Swift.
+
+91
+00:03:51,698 --> 00:03:52,599
+That means you can
+
+92
+00:03:52,665 --> 00:03:54,367
+define all your intents
+
+93
+00:03:54,434 --> 00:03:55,602
+and connect with system
+
+94
+00:03:55,668 --> 00:03:57,670
+features using just code,
+
+95
+00:03:58,137 --> 00:03:59,906
+not files or external
+
+96
+00:03:59,973 --> 00:04:01,140
+configuration needed.
+
+97
+00:04:02,342 --> 00:04:03,843
+These make it easier
+
+98
+00:04:03,910 --> 00:04:05,612
+to collaborate with teammates,
+
+99
+00:04:06,412 --> 00:04:08,381
+track changes through version control,
+
+100
+00:04:08,715 --> 00:04:09,415
+and keep your
+
+101
+00:04:09,482 --> 00:04:11,651
+workflow simple and scalable.
+
+102
+00:04:14,287 --> 00:04:15,188
+To wrap things up,
+
+103
+00:04:15,655 --> 00:04:17,357
+the goal of this model was
+
+104
+00:04:17,423 --> 00:04:19,125
+to help you better understand
+
+105
+00:04:19,459 --> 00:04:20,793
+the relevance of system
+
+106
+00:04:20,860 --> 00:04:22,996
+experience in the Apple ecosystem.
+
+107
+00:04:23,563 --> 00:04:25,798
+To get familiar with features like,
+
+108
+00:04:25,963 --> 00:04:26,600
+Siri
+
+109
+00:04:26,700 --> 00:04:27,500
+Shortcuts
+
+110
+00:04:27,800 --> 00:04:28,100
+and Spotlight
+
+111
+00:04:28,500 --> 00:04:31,900
+and to recognize that all of those are powered by
+
+112
+00:04:32,271 --> 00:04:34,707
+App Intents, defined by you, the developer.
+
+113
+00:04:36,242 --> 00:04:38,478
+These intents are what allow your app
+
+114
+00:04:38,544 --> 00:04:40,913
+to truly connect with the system
+
+115
+00:04:40,980 --> 00:04:43,483
+and deliver rich, personalized interactions.
+
+116
+00:04:47,553 --> 00:04:49,889
+There are countless possible use cases.
+
+117
+00:04:50,923 --> 00:04:53,259
+Your app should aim to support
+
+118
+00:04:53,326 --> 00:04:55,461
+all of those that make sense for your user.
+
+119
+00:04:57,730 --> 00:04:58,631
+Thanks for watching!
+
+120
+00:04:59,065 --> 00:05:01,200
+We hope it gives you a clear starting
+
+121
+00:05:01,267 --> 00:05:03,036
+point for making your apps more
+
+122
+00:05:03,102 --> 00:05:04,470
+intelligent, accessible
+
+123
+00:05:04,604 --> 00:05:06,039
+and deeply integrated.
+
+124
+00:05:06,873 --> 00:05:07,273
+Bye!
+

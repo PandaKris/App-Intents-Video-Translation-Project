@@ -1,0 +1,335 @@
+1
+00:00:00,367 --> 00:00:02,769
+Hai! Dalam video ini, kami memulai
+
+2
+00:00:02,836 --> 00:00:04,838
+perjalanan langsung dengan App Intents
+
+3
+00:00:04,971 --> 00:00:06,439
+dengan menunjukkan contoh aplikasi
+
+4
+00:00:06,506 --> 00:00:08,441
+akan kita gunakan dalam kursus ini.
+
+5
+00:00:08,942 --> 00:00:11,644
+Ini adalah aplikasi kedai kopi sederhana yang dibuat
+
+6
+00:00:11,711 --> 00:00:12,846
+untuk membantu kita fokus
+
+7
+00:00:12,912 --> 00:00:14,681
+tentang membuat dan menguji maksud.
+
+8
+00:00:15,715 --> 00:00:17,684
+Kami akan menunjukkan layar utama,
+
+9
+00:00:17,751 --> 00:00:18,985
+berbicara tentang alat yang kita gunakan,
+
+10
+00:00:19,252 --> 00:00:21,454
+dan menjelaskan bagaimana aplikasi tersebut diatur untuk membuat
+
+11
+00:00:21,521 --> 00:00:23,089
+mempelajari App Intent dengan lebih mudah.
+
+12
+00:00:25,959 --> 00:00:26,960
+Sekarang, mari kita bicara tentang
+
+13
+00:00:27,027 --> 00:00:28,228
+alat yang kami gunakan.
+
+14
+00:00:29,229 --> 00:00:30,864
+Saya menjalankan versi macOS
+
+15
+00:00:30,930 --> 00:00:35,101
+15.4.1 dan Xcode versi 16.3.
+
+16
+00:00:35,869 --> 00:00:37,871
+Jika Anda menggunakan macOS 15
+
+17
+00:00:37,937 --> 00:00:40,106
+atau lebih tinggi dan Xcode 16 atau lebih tinggi,
+
+18
+00:00:40,707 --> 00:00:41,674
+semuanya harus berfungsi
+
+19
+00:00:41,741 --> 00:00:43,243
+baik-baik saja untuk proyek ini.
+
+20
+00:00:44,978 --> 00:00:46,946
+Saya akan memberikan demo singkatnya
+
+21
+00:00:47,013 --> 00:00:48,882
+aplikasi yang akan kita gunakan selama kursus ini.
+
+22
+00:00:49,849 --> 00:00:51,117
+Ini adalah aplikasi kedai kopi
+
+23
+00:00:51,184 --> 00:00:52,752
+dengan beberapa layar sederhana.
+
+24
+00:00:53,319 --> 00:00:54,954
+Ini adalah menunya, dimana
+
+25
+00:00:55,021 --> 00:00:56,156
+Anda dapat melihat daftar minuman
+
+26
+00:00:56,222 --> 00:00:57,724
+dan camilan yang terinspirasi oleh
+
+27
+00:00:57,791 --> 00:00:58,825
+tradisi rehat kopi
+
+28
+00:00:58,992 --> 00:00:59,993
+dari berbagai negara.
+
+29
+00:01:02,495 --> 00:01:03,897
+Ini adalah layar sederhana di mana
+
+30
+00:01:03,963 --> 00:01:05,799
+Anda dapat melihat nama setiap item,
+
+31
+00:01:06,199 --> 00:01:07,867
+harga, dan tombol untuk menambahkan
+
+32
+00:01:07,934 --> 00:01:09,769
+favorit Anda atau ke tas Anda.
+
+33
+00:01:10,370 --> 00:01:12,772
+Di sinilah item favorit Anda muncul.
+
+34
+00:01:15,308 --> 00:01:16,209
+Jika Anda kembali ke menu,
+
+35
+00:01:16,276 --> 00:01:18,945
+ketuk hati pada satu item
+
+36
+00:01:19,546 --> 00:01:21,114
+dan kembali ke layar favorit,
+
+37
+00:01:21,581 --> 00:01:22,615
+Anda dapat melihat bahwa
+
+38
+00:01:22,682 --> 00:01:24,384
+item telah ditambahkan di sini.
+
+39
+00:01:27,454 --> 00:01:29,189
+Layar ini menunjukkan
+
+40
+00:01:29,255 --> 00:01:30,490
+pesanan yang telah Anda buat.
+
+41
+00:01:31,024 --> 00:01:33,026
+Untuk saat ini, kami sudah memiliki beberapa
+
+42
+00:01:33,526 --> 00:01:34,627
+contoh pesanan tercantum di sini.
+
+43
+00:01:34,661 --> 00:01:35,995
+Dan ketika Anda menambahkan item
+
+44
+00:01:36,062 --> 00:01:37,597
+ke tas Anda, mereka muncul di sini.
+
+45
+00:01:38,264 --> 00:01:40,567
+Jika kita kembali ke menu, tambahkan item
+
+46
+00:01:40,633 --> 00:01:42,035
+dan kembali ke layar Tas,
+
+47
+00:01:42,702 --> 00:01:45,071
+Anda dapat mengubah jumlah dan
+
+48
+00:01:45,138 --> 00:01:46,973
+bila Anda siap, Anda dapat memesan.
+
+49
+00:01:48,708 --> 00:01:51,311
+Aplikasi ini sengaja dibuat sederhana,
+
+50
+00:01:51,377 --> 00:01:53,713
+sehingga kita bisa fokus belajar cara menggunakannya
+
+51
+00:01:53,780 --> 00:01:55,181
+Maksud Aplikasi tanpa gangguan.
+
+52
+00:01:56,249 --> 00:01:59,319
+Untuk saat ini, daftar item sudah diperbaiki
+
+53
+00:01:59,385 --> 00:02:01,387
+dan semua data hanya disimpan dalam memori.
+
+54
+00:02:01,855 --> 00:02:02,622
+Tidak ada basis data
+
+55
+00:02:02,689 --> 00:02:03,923
+atau penyimpanan permanen.
+
+56
+00:02:05,258 --> 00:02:07,427
+Di video berikutnya, kita akan mulai menambahkan
+
+57
+00:02:07,494 --> 00:02:09,462
+File App Intent langkah demi langkah.
+
+58
+00:02:10,029 --> 00:02:11,798
+Dan Anda hanya perlu mengubahnya
+
+59
+00:02:11,865 --> 00:02:13,333
+kode aplikasi ketika itu benar-benar
+
+60
+00:02:13,399 --> 00:02:15,268
+diperlukan untuk maksud tertentu.
+
+61
+00:02:16,703 --> 00:02:17,971
+Anda dapat mengunduh sampelnya
+
+62
+00:02:18,037 --> 00:02:20,073
+proyek dari halaman video.
+
+63
+00:02:21,040 --> 00:02:23,610
+Saya sarankan untuk membukanya di Xcode dan
+
+64
+00:02:23,676 --> 00:02:24,677
+mengambil beberapa menit
+
+65
+00:02:24,744 --> 00:02:26,112
+untuk menjelajahi file dan mendapatkan
+
+66
+00:02:26,179 --> 00:02:28,515
+memahami bagaimana aplikasi tersebut terstruktur.
+
+67
+00:02:29,149 --> 00:02:30,917
+Jangan khawatir, kamu tidak perlu mengerti
+
+68
+00:02:30,984 --> 00:02:32,619
+atau hafalkan semua kodenya.
+
+69
+00:02:33,686 --> 00:02:35,522
+Saat kita menambahkan App Intent di pelajaran berikutnya,
+
+70
+00:02:35,588 --> 00:02:37,290
+kita sebagian besar akan
+
+71
+00:02:37,357 --> 00:02:39,125
+menulis file baru, dan di
+
+72
+00:02:39,192 --> 00:02:40,760
+dalam kebanyakan kasus, kita tidak membutuhkannya
+
+73
+00:02:40,827 --> 00:02:42,295
+untuk mengubah kode yang ada.
+
+74
+00:02:45,365 --> 00:02:46,966
+Terima kasih telah menonton, dan kami menghargai
+
+75
+00:02:47,033 --> 00:02:48,801
+Anda bergabung dengan kami dalam perjalanan ini.
+
+76
+00:02:49,569 --> 00:02:51,437
+Pada pelajaran berikutnya, kita akan bekerja secara langsung
+
+77
+00:02:51,504 --> 00:02:52,939
+dengan aplikasi dan kode ini
+
+78
+00:02:53,006 --> 00:02:54,607
+untuk menambahkan yang berguna dan menyenangkan
+
+79
+00:02:54,674 --> 00:02:56,476
+integrasi menggunakan App Intents.
+
+80
+00:02:57,043 --> 00:02:58,945
+Anda akan melihat betapa mudahnya membuatnya
+
+81
+00:02:59,012 --> 00:03:00,480
+aplikasi Anda lebih kuat
+
+82
+00:03:00,547 --> 00:03:02,048
+dan terhubung di seluruh sistem.
+
+83
+00:03:02,482 --> 00:03:03,583
+Sampai jumpa di video berikutnya.
+
+84
+00:03:03,983 --> 00:03:04,217
+Selamat tinggal!

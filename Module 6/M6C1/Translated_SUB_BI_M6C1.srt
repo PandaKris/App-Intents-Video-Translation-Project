@@ -1,0 +1,503 @@
+1
+00:00:00,533 --> 00:00:02,802
+Selamat datang! Dalam video ini, kita akan
+
+2
+00:00:02,869 --> 00:00:04,838
+untuk mempelajari tentang filter fokus pada iOS.
+
+3
+00:00:05,538 --> 00:00:07,841
+Anda melihat apa itu, bagaimana cara kerjanya,
+
+4
+00:00:07,907 --> 00:00:09,442
+dan cara menggunakannya di aplikasi Anda.
+
+5
+00:00:09,976 --> 00:00:11,945
+Kita akan membahas contoh sederhana,
+
+6
+00:00:12,012 --> 00:00:13,513
+lihat kodenya, dan tunjukkan caranya
+
+7
+00:00:13,580 --> 00:00:14,781
+untuk memperbarui antarmuka Anda
+
+8
+00:00:14,981 --> 00:00:16,816
+berdasarkan fokus pengguna saat ini.
+
+9
+00:00:19,486 --> 00:00:21,388
+Fokus adalah fitur sistem yang membantu
+
+10
+00:00:21,454 --> 00:00:23,156
+orang-orang tetap fokus dengan
+
+11
+00:00:23,223 --> 00:00:24,724
+mengurangi gangguan dari
+
+12
+00:00:24,791 --> 00:00:25,825
+aplikasi dan kontak.
+
+13
+00:00:26,693 --> 00:00:29,062
+Berguna pada saat-saat seperti bekerja,
+
+14
+00:00:29,596 --> 00:00:30,997
+istirahat, atau waktu pribadi.
+
+15
+00:00:31,798 --> 00:00:34,434
+Dengan Focus, pengguna dapat memilih aplikasi mana
+
+16
+00:00:34,501 --> 00:00:36,002
+dan orang-orang diizinkan
+
+17
+00:00:36,069 --> 00:00:36,970
+untuk mengirim pemberitahuan.
+
+18
+00:00:38,438 --> 00:00:40,540
+Filter fokus membuat ini lebih baik lagi
+
+19
+00:00:40,607 --> 00:00:41,674
+dengan mengizinkan aplikasi untuk berubah
+
+20
+00:00:41,741 --> 00:00:43,109
+perilaku mereka berdasarkan
+
+21
+00:00:43,176 --> 00:00:43,943
+fokus aktif.
+
+22
+00:00:44,811 --> 00:00:47,280
+Misalnya, aplikasi Kalender dapat menampilkan
+
+23
+00:00:47,347 --> 00:00:48,415
+hanya acara pribadi
+
+24
+00:00:48,481 --> 00:00:49,749
+selama fokus pribadi.
+
+25
+00:00:50,350 --> 00:00:52,018
+Aplikasi Mail hanya dapat menampilkan
+
+26
+00:00:52,085 --> 00:00:54,487
+email kantor selama fokus bekerja.
+
+27
+00:00:55,255 --> 00:00:57,657
+Aplikasi Anda juga dapat menggunakan filter fokus
+
+28
+00:00:57,724 --> 00:00:59,959
+untuk menampilkan atau menyembunyikan konten, mengganti akun,
+
+29
+00:01:00,026 --> 00:01:01,561
+mengubah penampilan,
+
+30
+00:01:02,028 --> 00:01:04,431
+atau mengurangi notifikasi, tergantung pada
+
+31
+00:01:04,497 --> 00:01:05,665
+apa yang dilakukan pengguna.
+
+32
+00:01:06,466 --> 00:01:08,501
+Untuk memahami cara kerjanya, mari kita lihat
+
+33
+00:01:08,568 --> 00:01:09,702
+pada diagram sederhana.
+
+34
+00:01:10,570 --> 00:01:12,439
+Di sisi kiri, kita memiliki aplikasi.
+
+35
+00:01:13,406 --> 00:01:15,542
+Di sinilah pengembang mendefinisikan apa
+
+36
+00:01:15,608 --> 00:01:17,610
+dapat diubah menggunakan maksud aplikasi.
+
+37
+00:01:18,611 --> 00:01:20,680
+Misalnya, konten apa yang seharusnya
+
+38
+00:01:20,747 --> 00:01:22,782
+terlihat berdasarkan fokus saat ini.
+
+39
+00:01:23,817 --> 00:01:25,552
+Di tengah, kita memiliki sistem.
+
+40
+00:01:26,119 --> 00:01:28,755
+Sistem membaca apa yang didefinisikan oleh aplikasi
+
+41
+00:01:28,822 --> 00:01:30,690
+dan menunjukkannya dalam pengaturan fokus.
+
+42
+00:01:31,791 --> 00:01:33,760
+Di sisi kanan, kita memiliki pengguna.
+
+43
+00:01:34,761 --> 00:01:37,397
+Pengguna membuka pengaturan Fokus dan memilih
+
+44
+00:01:37,464 --> 00:01:38,431
+bagaimana aplikasi seharusnya
+
+45
+00:01:38,498 --> 00:01:40,567
+berperilaku saat fokus aktif.
+
+46
+00:01:41,167 --> 00:01:43,169
+Hal ini membuat pengalaman menjadi lebih personal
+
+47
+00:01:43,236 --> 00:01:44,971
+dan membantu mengurangi gangguan.
+
+48
+00:01:48,408 --> 00:01:50,043
+Sekarang setelah kita melihat gambaran besarnya,
+
+49
+00:01:50,410 --> 00:01:51,811
+mari kita lihat contoh nyata.
+
+50
+00:01:52,545 --> 00:01:54,347
+Dalam video ini, kita akan membuat fokus
+
+51
+00:01:54,414 --> 00:01:56,649
+filter yang memungkinkan pengguna memilih untuk melihat
+
+52
+00:01:56,716 --> 00:01:58,585
+minuman, makanan, atau keduanya.
+
+53
+00:01:59,652 --> 00:02:02,589
+Misalnya, selama fokus pekerjaan,
+
+54
+00:02:02,655 --> 00:02:04,791
+pengguna mungkin memilih untuk hanya melihat minuman.
+
+55
+00:02:05,859 --> 00:02:07,327
+Ini membuat menu lebih sederhana
+
+56
+00:02:07,393 --> 00:02:09,262
+dan membantu menghindari gangguan.
+
+57
+00:02:10,029 --> 00:02:12,298
+Dengan filter semacam ini, aplikasi menunjukkan
+
+58
+00:02:12,365 --> 00:02:14,701
+hanya apa yang diinginkan pengguna pada saat itu,
+
+59
+00:02:15,401 --> 00:02:16,269
+membuat pengalaman
+
+60
+00:02:16,336 --> 00:02:18,004
+lebih terfokus dan efisien.
+
+61
+00:02:19,506 --> 00:02:21,908
+Untuk melakukan ini, kami membuat filter fokus baru
+
+62
+00:02:21,975 --> 00:02:23,409
+menggunakan fokus yang ditetapkan
+
+63
+00:02:23,476 --> 00:02:25,078
+protokol maksud filter.
+
+64
+00:02:26,079 --> 00:02:27,413
+Di sinilah kami memberi tahu
+
+65
+00:02:27,480 --> 00:02:29,482
+sistem apa yang dapat disesuaikan oleh pengguna.
+
+66
+00:02:30,717 --> 00:02:31,951
+Pertama, kita mendefinisikan
+
+67
+00:02:32,018 --> 00:02:33,219
+judul dan deskripsi.
+
+68
+00:02:34,554 --> 00:02:36,723
+Ini akan muncul di pengaturan fokus.
+
+69
+00:02:37,924 --> 00:02:39,492
+Kemudian, kita menambahkan dua parameter,
+
+70
+00:02:40,326 --> 00:02:42,028
+showDrinks dan showFoods.
+
+71
+00:02:43,496 --> 00:02:45,031
+Ini adalah nilai boolean.
+
+72
+00:02:46,199 --> 00:02:48,168
+Mereka membiarkan pengguna memilih jenis
+
+73
+00:02:48,234 --> 00:02:49,802
+item menu yang ingin mereka lihat.
+
+74
+00:02:50,770 --> 00:02:51,938
+Kedua parameter memiliki
+
+75
+00:02:52,005 --> 00:02:53,740
+nilai default ditetapkan ke benar.
+
+76
+00:02:55,108 --> 00:02:56,809
+Dalam pengaturan sistem, mereka
+
+77
+00:02:56,876 --> 00:02:58,645
+akan muncul sebagai tombol alih sederhana.
+
+78
+00:02:59,646 --> 00:03:02,081
+Kami juga mendefinisikan representasi tampilan.
+
+79
+00:03:03,983 --> 00:03:06,252
+Ini menambahkan subtitle dengan pengguna
+
+80
+00:03:06,319 --> 00:03:08,888
+pilihan, seperti minuman atau makanan.
+
+81
+00:03:10,456 --> 00:03:12,559
+Metode filter fokus yang disarankan
+
+82
+00:03:12,625 --> 00:03:14,127
+memberikan rekomendasi,
+
+83
+00:03:14,827 --> 00:03:16,462
+misalnya, hanya menampilkan
+
+84
+00:03:16,529 --> 00:03:18,364
+minuman saat fokus bekerja.
+
+85
+00:03:19,332 --> 00:03:20,700
+Terakhir, dalam metode perform,
+
+86
+00:03:20,767 --> 00:03:22,869
+kami mengambil pilihan pengguna
+
+87
+00:03:22,936 --> 00:03:25,171
+dan memperbarui aplikasi dengan informasi tersebut.
+
+88
+00:03:26,105 --> 00:03:27,273
+Setelah kita memiliki pilihan pengguna,
+
+89
+00:03:27,340 --> 00:03:29,342
+kami menerapkannya di aplikasi.
+
+90
+00:03:30,210 --> 00:03:32,111
+Kami menyimpan nilai-nilai ini di properti
+
+91
+00:03:32,178 --> 00:03:33,913
+disebut filter item menu
+
+92
+00:03:33,980 --> 00:03:36,749
+di dalam objek model bersama.
+
+93
+00:03:38,351 --> 00:03:39,719
+Properti ini diperbarui
+
+94
+00:03:39,786 --> 00:03:41,754
+setiap kali fokus berubah.
+
+95
+00:03:42,822 --> 00:03:45,058
+Pada tampilan menu, kami menggunakan properti ini
+
+96
+00:03:45,124 --> 00:03:46,993
+untuk memutuskan bagian mana yang harus terlihat.
+
+97
+00:03:47,727 --> 00:03:49,062
+Aplikasi ini hanya dapat menampilkan minuman,
+
+98
+00:03:49,128 --> 00:03:51,230
+hanya makanan atau keduanya.
+
+99
+00:03:52,231 --> 00:03:54,267
+Ini membuat antarmuka tetap diperbarui secara nyata
+
+100
+00:03:54,334 --> 00:03:55,969
+waktu dan memastikannya
+
+101
+00:03:56,035 --> 00:03:57,403
+sesuai dengan fokus saat ini.
+
+102
+00:03:58,571 --> 00:04:00,573
+Jika Anda ingin melangkah lebih jauh, fokuskan filter
+
+103
+00:04:00,640 --> 00:04:02,842
+juga dapat memengaruhi bagian lain dari aplikasi,
+
+104
+00:04:03,209 --> 00:04:04,210
+bukan hanya antarmuka.
+
+105
+00:04:05,044 --> 00:04:07,013
+Misalnya, Anda dapat memfilter notifikasi
+
+106
+00:04:07,080 --> 00:04:08,247
+jadi hanya yang paling
+
+107
+00:04:08,314 --> 00:04:09,649
+yang penting akan ditampilkan.
+
+108
+00:04:10,550 --> 00:04:12,452
+Anda juga dapat mengubah jumlah lencana aplikasi,
+
+109
+00:04:12,518 --> 00:04:14,354
+Untuk menunjukkan apa yang penting saja.
+
+110
+00:04:15,321 --> 00:04:16,656
+Fitur-fitur ini membuat
+
+111
+00:04:16,723 --> 00:04:18,291
+aplikasi terasa lebih terfokus.
+
+112
+00:04:19,259 --> 00:04:20,893
+Namun jika Anda ingin membuat perubahan saat
+
+113
+00:04:20,960 --> 00:04:22,228
+aplikasinya tidak terbuka,
+
+114
+00:04:22,295 --> 00:04:23,696
+seperti notifikasi, lencana,
+
+115
+00:04:24,030 --> 00:04:25,398
+atau widget, Anda perlu
+
+116
+00:04:25,465 --> 00:04:26,833
+untuk membuat ekstensi aplikasi.
+
+117
+00:04:27,767 --> 00:04:29,435
+Ini memungkinkan filter Anda berjalan di
+
+118
+00:04:29,502 --> 00:04:30,536
+latar belakang dan tetap
+
+119
+00:04:30,603 --> 00:04:32,038
+pengalaman yang konsisten.
+
+120
+00:04:36,209 --> 00:04:36,909
+Terima kasih telah menonton!
+
+121
+00:04:37,243 --> 00:04:39,178
+Saya harap video ini membantu Anda memahami
+
+122
+00:04:39,245 --> 00:04:41,547
+cara menggunakan filter fokus di aplikasi Anda.
+
+123
+00:04:42,015 --> 00:04:43,583
+Ini adalah cara yang bagus untuk membuat lebih banyak
+
+124
+00:04:43,650 --> 00:04:44,350
+pribadi dan bebas gangguan
+
+125
+00:04:44,417 --> 00:04:46,653
+pengalaman bagi pengguna Anda.
+
+126
+00:04:47,320 --> 00:04:48,821
+Sampai jumpa di video berikutnya! Sampai jumpa!

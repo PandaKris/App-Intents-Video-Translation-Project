@@ -1,0 +1,296 @@
+1
+00:00:00,233 --> 00:00:02,202
+Hi! In this video, we are going to talk
+
+2
+00:00:02,268 --> 00:00:03,670
+about a specific use case
+
+3
+00:00:03,737 --> 00:00:05,305
+for App Intents and Shortcuts,
+
+4
+00:00:05,872 --> 00:00:07,874
+using the squeeze gesture on
+
+5
+00:00:07,941 --> 00:00:09,376
+the Apple Pencil Pro. This is a good
+
+6
+00:00:09,442 --> 00:00:10,944
+example of how flexible these
+
+7
+00:00:11,011 --> 00:00:13,113
+tools are and how they can adapt to many
+
+8
+00:00:13,179 --> 00:00:14,247
+different ways users
+
+9
+00:00:14,314 --> 00:00:15,815
+interact with their devices.
+
+10
+00:00:19,853 --> 00:00:22,322
+The squeeze gesture is a small,
+
+11
+00:00:22,389 --> 00:00:24,557
+quick action that users can do by gently
+
+12
+00:00:24,624 --> 00:00:26,059
+pressing the Apple Pencil Pro.
+
+13
+00:00:26,126 --> 00:00:28,695
+It can be linked to different
+
+14
+00:00:28,762 --> 00:00:31,631
+features like opening a tool palette
+
+15
+00:00:31,698 --> 00:00:32,899
+or changing drawing modes
+
+16
+00:00:32,966 --> 00:00:35,135
+without interrupting the flow of what
+
+17
+00:00:35,201 --> 00:00:37,537
+the user is doing. It is just
+
+18
+00:00:37,604 --> 00:00:39,239
+one of the many ways the system
+
+19
+00:00:39,305 --> 00:00:41,007
+can respond to personal interaction styles.
+
+20
+00:00:41,074 --> 00:00:43,176
+As shown in the settings,
+
+21
+00:00:43,243 --> 00:00:45,145
+users can choose what
+
+22
+00:00:45,211 --> 00:00:46,880
+happens when they squeeze the pencil.
+
+23
+00:00:47,847 --> 00:00:48,782
+Some of the options
+
+24
+00:00:48,848 --> 00:00:50,417
+include showing the tool palette,
+
+25
+00:00:50,850 --> 00:00:53,186
+switching between tools or opening
+
+26
+00:00:53,253 --> 00:00:55,321
+the color picker. One of the
+
+27
+00:00:55,388 --> 00:00:56,890
+most powerful options is
+
+28
+00:00:56,956 --> 00:00:59,893
+selecting a shortcut. This allows users
+
+29
+00:00:59,959 --> 00:01:01,961
+to define exactly what they want the
+
+30
+00:01:02,028 --> 00:01:03,096
+gestures to trigger,
+
+31
+00:01:03,563 --> 00:01:05,465
+giving them full control over
+
+32
+00:01:05,532 --> 00:01:08,368
+the experience. With iPadOS, users can
+
+33
+00:01:08,435 --> 00:01:09,736
+connect this gesture to
+
+34
+00:01:09,803 --> 00:01:11,371
+a shortcut they have created in the
+
+35
+00:01:11,438 --> 00:01:13,973
+Shortcuts app. That means they can build
+
+36
+00:01:14,040 --> 00:01:15,208
+an automation that runs
+
+37
+00:01:15,308 --> 00:01:17,277
+instantly when they squeeze the pencil.
+
+38
+00:01:18,011 --> 00:01:19,279
+It is a very specific
+
+39
+00:01:19,345 --> 00:01:20,980
+scenario but as developers,
+
+40
+00:01:21,314 --> 00:01:23,216
+we can use the same App Intents and
+
+41
+00:01:23,283 --> 00:01:25,351
+Shortcuts we have already defined
+
+42
+00:01:25,418 --> 00:01:27,020
+to support it. This shows
+
+43
+00:01:27,087 --> 00:01:29,055
+how the work we do to support system
+
+44
+00:01:29,122 --> 00:01:30,657
+integrations can unlock
+
+45
+00:01:30,723 --> 00:01:32,725
+a wide range of user experiences.
+
+46
+00:01:33,359 --> 00:01:35,829
+From Shortcuts placed on the home screen
+
+47
+00:01:35,895 --> 00:01:37,597
+to very detailed gestures
+
+48
+00:01:37,664 --> 00:01:39,666
+like this one. Let's look at
+
+49
+00:01:39,732 --> 00:01:42,602
+a few examples. In a sketching app,
+
+50
+00:01:42,669 --> 00:01:44,103
+a squeeze might open the
+
+51
+00:01:44,170 --> 00:01:46,940
+brush picker. In a writing app,
+
+52
+00:01:47,006 --> 00:01:50,243
+it could switch between tools. But a user
+
+53
+00:01:50,310 --> 00:01:51,478
+could also create
+
+54
+00:01:51,544 --> 00:01:53,546
+a shortcut that opens ChatGPT
+
+55
+00:01:53,780 --> 00:01:56,316
+to ask a quick question or one that
+
+56
+00:01:56,382 --> 00:01:58,885
+starts a timer or pastes
+
+57
+00:01:58,952 --> 00:02:01,621
+a predefined text. Even small
+
+58
+00:02:01,688 --> 00:02:04,624
+automations like this can help users feel
+
+59
+00:02:04,691 --> 00:02:06,793
+more in control.
+
+60
+00:02:06,860 --> 00:02:08,795
+This gesture is just one case but it
+
+61
+00:02:08,895 --> 00:02:11,131
+highlights the power of App Intents
+
+62
+00:02:11,197 --> 00:02:13,266
+and Shortcuts. They are not
+
+63
+00:02:13,333 --> 00:02:15,401
+only for large actions or voice
+
+64
+00:02:15,468 --> 00:02:18,571
+commands. They can also support small
+
+65
+00:02:18,638 --> 00:02:20,039
+and precise interactions that
+
+66
+00:02:20,106 --> 00:02:21,574
+feel personal and natural.
+
+67
+00:02:25,178 --> 00:02:27,247
+Thanks for watching. Whether your app
+
+68
+00:02:27,313 --> 00:02:28,882
+supports drawing, writing
+
+69
+00:02:28,948 --> 00:02:30,483
+or something else entirely,
+
+70
+00:02:31,184 --> 00:02:32,852
+exploring different types of interactions
+
+71
+00:02:32,919 --> 00:02:34,220
+like this can help
+
+72
+00:02:34,287 --> 00:02:35,722
+you create a richer and
+
+73
+00:02:35,788 --> 00:02:36,556
+more responsive
+
+74
+00:02:36,623 --> 00:02:38,858
+experience for your app. Bye!
+

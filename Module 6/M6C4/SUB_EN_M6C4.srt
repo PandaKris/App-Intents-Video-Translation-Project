@@ -1,0 +1,312 @@
+1
+00:00:00,166 --> 00:00:02,535
+Hi! In this video, we'll show how to
+
+2
+00:00:02,602 --> 00:00:04,404
+customize the appearance of your app
+
+3
+00:00:04,471 --> 00:00:06,339
+shortcuts in the Shortcuts app.
+
+4
+00:00:07,240 --> 00:00:09,542
+This is not a common topic and it's not
+
+5
+00:00:09,609 --> 00:00:10,910
+well documented, but it
+
+6
+00:00:10,977 --> 00:00:12,412
+can make a big difference.
+
+7
+00:00:12,879 --> 00:00:15,248
+We'll explain step by step how to define
+
+8
+00:00:15,315 --> 00:00:16,149
+the colors that the
+
+9
+00:00:16,216 --> 00:00:17,917
+system will use when displaying
+
+10
+00:00:17,984 --> 00:00:18,752
+your shortcuts.
+
+11
+00:00:21,855 --> 00:00:23,523
+By default, when you create an app
+
+12
+00:00:23,590 --> 00:00:25,358
+shortcut, the system uses
+
+13
+00:00:25,425 --> 00:00:27,260
+your app icon with standard
+
+14
+00:00:27,694 --> 00:00:28,794
+colors.
+
+15
+00:00:29,095 --> 00:00:30,864
+But, you can change these colors
+
+16
+00:00:30,930 --> 00:00:32,232
+to better match your brand.
+
+17
+00:00:33,299 --> 00:00:35,535
+You can customize both the foreground
+
+18
+00:00:35,602 --> 00:00:37,470
+and the background of the shortcut tile.
+
+19
+00:00:38,772 --> 00:00:40,807
+To change the shortcut appearance,
+
+20
+00:00:40,874 --> 00:00:43,343
+you need to edit your app's info.plist.
+
+21
+00:00:44,210 --> 00:00:46,913
+You will add a section under
+
+22
+00:00:46,980 --> 00:00:49,082
+the CFBundleIcons key, where
+
+23
+00:00:49,149 --> 00:00:50,417
+you define color names.
+
+24
+00:00:51,718 --> 00:00:53,253
+These color names must match
+
+25
+00:00:53,319 --> 00:00:55,355
+colors in your asset catalog.
+
+26
+00:00:55,889 --> 00:00:57,424
+Here is the exact code you
+
+27
+00:00:57,490 --> 00:00:59,292
+should add to your info.plist.
+
+28
+00:01:00,593 --> 00:01:02,595
+The color names you define are up to you.
+
+29
+00:01:03,196 --> 00:01:05,298
+They don't need to be exactly ShortcutsForeground
+
+30
+00:01:05,365 --> 00:01:07,801
+or ShortcutsBackgroundTop.
+
+31
+00:01:08,701 --> 00:01:10,503
+What matters is that the names of your
+
+32
+00:01:10,570 --> 00:01:12,639
+info.plist match exactly
+
+33
+00:01:12,705 --> 00:01:14,541
+the color names in your asset
+
+34
+00:01:14,607 --> 00:01:15,075
+catalog.
+
+35
+00:01:15,942 --> 00:01:18,044
+Once that's done, create the matching
+
+36
+00:01:18,111 --> 00:01:20,113
+color sets in the asset catalog.
+
+37
+00:01:20,647 --> 00:01:22,148
+You can provide one or
+
+38
+00:01:22,215 --> 00:01:23,450
+two background colors.
+
+39
+00:01:24,517 --> 00:01:26,219
+If you use two, the system
+
+40
+00:01:26,286 --> 00:01:27,954
+will create a vertical gradient.
+
+41
+00:01:29,055 --> 00:01:30,657
+If you use just one, the
+
+42
+00:01:30,723 --> 00:01:31,891
+background will be solid.
+
+43
+00:01:32,859 --> 00:01:35,295
+The foreground color is used for the icon
+
+44
+00:01:35,361 --> 00:01:36,896
+and the text of the shortcut.
+
+45
+00:01:37,597 --> 00:01:39,566
+The background colors create the visual
+
+46
+00:01:39,632 --> 00:01:41,134
+base behind the icon.
+
+47
+00:01:42,302 --> 00:01:44,904
+This gives your shortcut a distinct
+
+48
+00:01:44,971 --> 00:01:46,840
+and branded appearance across the system.
+
+49
+00:01:47,674 --> 00:01:49,042
+Let's see a quick demo.
+
+50
+00:01:49,742 --> 00:01:50,977
+I added the keys to my
+
+51
+00:01:51,044 --> 00:01:53,112
+info.plist exactly as shown.
+
+52
+00:01:53,880 --> 00:01:56,549
+Then, in the asset catalog, I created
+
+53
+00:01:56,616 --> 00:01:57,884
+a white color called
+
+54
+00:01:57,951 --> 00:01:58,952
+ShortcutsForeground.
+
+55
+00:02:00,453 --> 00:02:02,489
+For the background, I used a gradient
+
+56
+00:02:02,555 --> 00:02:03,790
+from light green to a
+
+57
+00:02:03,857 --> 00:02:05,391
+bit darker, with the names
+
+58
+00:02:05,658 --> 00:02:07,527
+ShortcutsBackgroundTop and
+
+59
+00:02:07,594 --> 00:02:09,095
+ShortcutsBackgroundBottom.
+
+60
+00:02:11,231 --> 00:02:13,333
+After building and running the app,
+
+61
+00:02:13,399 --> 00:02:14,834
+I opened the shortcuts app.
+
+62
+00:02:15,768 --> 00:02:17,036
+Now, my shortcuts
+
+63
+00:02:17,103 --> 00:02:18,538
+appear with the new colors.
+
+64
+00:02:19,339 --> 00:02:20,740
+The gradient looks smooth
+
+65
+00:02:20,807 --> 00:02:23,042
+and the icon stands out nicely.
+
+66
+00:02:24,677 --> 00:02:26,980
+Customizing these colors gives your app
+
+67
+00:02:27,046 --> 00:02:28,281
+a more polished experience.
+
+68
+00:02:29,682 --> 00:02:31,918
+It shows attention to detail and improves
+
+69
+00:02:31,985 --> 00:02:33,953
+recognition inside the system.
+
+70
+00:02:35,221 --> 00:02:37,257
+Even though this is a small thing,
+
+71
+00:02:37,323 --> 00:02:38,858
+it helps your app stand out.
+
+72
+00:02:41,394 --> 00:02:43,396
+And that's it!
+
+73
+00:02:43,796 --> 00:02:45,231
+Now you know how to customize
+
+74
+00:02:45,298 --> 00:02:46,833
+the appearance of your app shortcuts.
+
+75
+00:02:47,433 --> 00:02:49,402
+It's a hidden feature, but it's easy
+
+76
+00:02:49,469 --> 00:02:50,603
+to implement and gives
+
+77
+00:02:50,670 --> 00:02:51,604
+a great visual result.
+
+78
+00:02:52,005 --> 00:02:52,672
+Thanks for watching!
+

@@ -1,0 +1,676 @@
+1
+00:00:00,166 --> 00:00:02,502
+Hello, in this video I will present
+
+2
+00:00:02,569 --> 00:00:05,038
+usability guidelines for designing system
+
+3
+00:00:05,105 --> 00:00:07,273
+experience with AI agents
+
+4
+00:00:07,607 --> 00:00:10,243
+to create more intuitive and transparent
+
+5
+00:00:10,310 --> 00:00:12,012
+interactions that align
+
+6
+00:00:12,078 --> 00:00:13,580
+with user expectations.
+
+7
+00:00:16,483 --> 00:00:19,753
+But first, let's understand what an AI
+
+8
+00:00:19,819 --> 00:00:21,688
+agent is by definition.
+
+9
+00:00:23,456 --> 00:00:26,793
+An AI agent is an intelligent system
+
+10
+00:00:26,860 --> 00:00:29,028
+that perceives the environment,
+
+11
+00:00:29,095 --> 00:00:32,365
+makes decisions and executes tasks without the
+
+12
+00:00:32,432 --> 00:00:35,101
+need for constant human interaction with
+
+13
+00:00:35,168 --> 00:00:37,203
+the interface, such as Siri.
+
+14
+00:00:38,571 --> 00:00:40,673
+It's important to remember that these
+
+15
+00:00:40,740 --> 00:00:42,809
+guidelines were partially based on
+
+16
+00:00:42,876 --> 00:00:46,346
+Nielsen's 10 usability heuristics,
+
+17
+00:00:46,413 --> 00:00:48,415
+which have been proven over the years.
+
+18
+00:00:49,449 --> 00:00:51,985
+And since this is an interaction between
+
+19
+00:00:52,051 --> 00:00:54,220
+humans and machines,
+
+20
+00:00:54,287 --> 00:00:56,189
+they can be applied to AI agents.
+
+21
+00:00:57,424 --> 00:00:59,092
+Let's present these guidelines.
+
+22
+00:01:00,126 --> 00:01:02,796
+First, set clear expectations up front.
+
+23
+00:01:04,397 --> 00:01:07,534
+Users must know what the AI agent
+
+24
+00:01:07,600 --> 00:01:11,438
+is capable of and what it is not capable of,
+
+25
+00:01:11,504 --> 00:01:13,239
+meaning they should be informed about
+
+26
+00:01:13,306 --> 00:01:16,242
+these limitations and capabilities
+
+27
+00:01:16,309 --> 00:01:19,479
+in a simple and objective way,
+
+28
+00:01:19,546 --> 00:01:21,748
+avoiding the creation of unrealistic expectations.
+
+29
+00:01:22,782 --> 00:01:25,518
+For example, an app intent of health tips
+
+30
+00:01:25,585 --> 00:01:27,620
+in a health habits app.
+
+31
+00:01:28,555 --> 00:01:31,458
+The intent could be: "Get wellness tips
+
+32
+00:01:31,524 --> 00:01:34,027
+and Health Habits" and receive a response like,
+
+33
+00:01:34,094 --> 00:01:36,296
+"What topic would you like a tip on?
+
+34
+00:01:36,362 --> 00:01:38,298
+Remember, I can't
+
+35
+00:01:38,364 --> 00:01:39,866
+provide medical diagnoses."
+
+36
+00:01:41,034 --> 00:01:42,802
+This way, the app intent would be
+
+37
+00:01:42,869 --> 00:01:45,038
+configured that the user clearly
+
+38
+00:01:45,105 --> 00:01:47,540
+understand the assistant's,
+
+39
+00:01:47,607 --> 00:01:50,076
+capabilities and limitations,
+
+40
+00:01:50,143 --> 00:01:51,978
+avoiding unrealistic expectations.
+
+41
+00:01:53,446 --> 00:01:56,382
+Second, match the agent's behavior with
+
+42
+00:01:56,449 --> 00:01:58,017
+the user's context and norms.
+
+43
+00:01:58,818 --> 00:02:01,421
+The AI agent must identify the context
+
+44
+00:02:01,488 --> 00:02:05,158
+and the moment the user is in,
+
+45
+00:02:05,225 --> 00:02:07,560
+so that they are not interrupted or the language
+
+46
+00:02:07,627 --> 00:02:09,429
+adapts to the cultural context.
+
+47
+00:02:10,730 --> 00:02:13,333
+For example, an app intent configured
+
+48
+00:02:13,399 --> 00:02:16,002
+to prevent the user from receiving reminders
+
+49
+00:02:16,069 --> 00:02:19,072
+or notifications while in a meeting.
+
+50
+00:02:19,772 --> 00:02:22,642
+This way, it could detect that the user
+
+51
+00:02:22,709 --> 00:02:26,679
+is in a meeting through the calendar
+
+52
+00:02:26,746 --> 00:02:29,015
+and once it has ended,
+
+53
+00:02:29,082 --> 00:02:30,316
+send a reminder or notification.
+
+54
+00:02:31,951 --> 00:02:34,220
+The app intent would respect
+
+55
+00:02:34,287 --> 00:02:35,622
+the user's context,
+
+56
+00:02:35,688 --> 00:02:38,458
+avoiding notifications at undesired moments.
+
+57
+00:02:39,392 --> 00:02:40,326
+Third, provide
+
+58
+00:02:40,393 --> 00:02:42,962
+transparency and explainability.
+
+59
+00:02:44,497 --> 00:02:46,499
+Based on the first usability heuristic,
+
+60
+00:02:47,700 --> 00:02:49,636
+visibility of system status.
+
+61
+00:02:50,803 --> 00:02:53,706
+The AI agent must provide clear feedback
+
+62
+00:02:53,773 --> 00:02:57,110
+on decision, which can be done through
+
+63
+00:02:57,176 --> 00:02:59,913
+a simple justification or an interface
+
+64
+00:02:59,979 --> 00:03:01,514
+that shows how it arrived
+
+65
+00:03:01,581 --> 00:03:03,249
+at that recommendation.
+
+66
+00:03:04,317 --> 00:03:06,920
+For example, an app intent of work directions
+
+67
+00:03:06,986 --> 00:03:09,322
+in a map's application.
+
+68
+00:03:10,890 --> 00:03:13,893
+The intent could be: "Get directions
+
+69
+00:03:13,960 --> 00:03:17,163
+to work" and would return with route options
+
+70
+00:03:17,230 --> 00:03:18,965
+based on time and distance
+
+71
+00:03:19,032 --> 00:03:21,100
+and the best option.
+
+72
+00:03:21,568 --> 00:03:23,269
+In this case, the app intent would
+
+73
+00:03:23,336 --> 00:03:25,772
+provide clear justification to the user
+
+74
+00:03:25,838 --> 00:03:29,108
+about why that route was suggested,
+
+75
+00:03:30,243 --> 00:03:31,177
+allowing them
+
+76
+00:03:31,244 --> 00:03:33,046
+to understand the system's logic.
+
+77
+00:03:34,781 --> 00:03:36,249
+Fourth, support user
+
+78
+00:03:36,316 --> 00:03:38,184
+control and easy escapes.
+
+79
+00:03:39,285 --> 00:03:42,589
+Based on third usability heuristic,
+
+80
+00:03:42,655 --> 00:03:43,823
+user control and freedom.
+
+81
+00:03:44,757 --> 00:03:47,594
+The user must have control over the AI
+
+82
+00:03:47,660 --> 00:03:50,630
+being able to reveal, correct,
+
+83
+00:03:50,697 --> 00:03:52,832
+confirm and even cancel what
+
+84
+00:03:52,899 --> 00:03:54,400
+is presented easily.
+
+85
+00:03:55,401 --> 00:03:56,836
+The final decision must
+
+86
+00:03:56,903 --> 00:03:58,605
+always belong to the user.
+
+87
+00:03:59,672 --> 00:04:02,609
+For example, an app intent of enhanced
+
+88
+00:04:02,675 --> 00:04:05,612
+image in a photo editing app.
+
+89
+00:04:06,579 --> 00:04:09,782
+The intent could be: "Get auto enhance"
+
+90
+00:04:10,617 --> 00:04:13,052
+Once done, it could show the result of
+
+91
+00:04:13,119 --> 00:04:15,021
+the photo with options to change contrast,
+
+92
+00:04:15,088 --> 00:04:17,657
+brightness and saturation.
+
+93
+00:04:19,425 --> 00:04:21,227
+This app intent would ensure that
+
+94
+00:04:21,294 --> 00:04:23,329
+the user has total control,
+
+95
+00:04:23,396 --> 00:04:25,231
+preventing undesired actions
+
+96
+00:04:25,298 --> 00:04:26,499
+and allowing quick adjustments.
+
+97
+00:04:27,634 --> 00:04:29,602
+Fifth, handle errors
+
+98
+00:04:29,669 --> 00:04:31,537
+and uncertainty gracefully.
+
+99
+00:04:32,538 --> 00:04:36,209
+Based on ninth usability heuristic,
+
+100
+00:04:36,276 --> 00:04:38,011
+help users recognize, diagnose
+
+101
+00:04:38,077 --> 00:04:40,213
+and recover from errors.
+
+102
+00:04:41,314 --> 00:04:44,283
+The AI agent must recognize when it's
+
+103
+00:04:44,350 --> 00:04:46,686
+wrong or uncertain and
+
+104
+00:04:46,753 --> 00:04:48,855
+handle this intuitively.
+
+105
+00:04:50,323 --> 00:04:52,392
+This includes avoiding risky actions,
+
+106
+00:04:52,892 --> 00:04:55,695
+providing clear error messages and always
+
+107
+00:04:55,762 --> 00:04:57,797
+offering the user a next step.
+
+108
+00:04:58,331 --> 00:05:01,000
+For example, an app intent of add to
+
+109
+00:05:01,067 --> 00:05:03,336
+playlist in a streaming music app.
+
+110
+00:05:04,304 --> 00:05:06,406
+When a song was playing, the user could
+
+111
+00:05:06,472 --> 00:05:07,707
+activate the intent.
+
+112
+00:05:08,875 --> 00:05:11,978
+Add music to playlist Workout and receive
+
+113
+00:05:12,045 --> 00:05:14,314
+a response like, "I couldn't find the
+
+114
+00:05:14,380 --> 00:05:16,182
+Playlist Workout.
+
+115
+00:05:16,249 --> 00:05:17,050
+What would you like to do?"
+
+116
+00:05:17,116 --> 00:05:20,386
+and would give the options.
+
+117
+00:05:20,453 --> 00:05:22,922
+Create a new Playlist called Workout
+
+118
+00:05:22,989 --> 00:05:25,158
+or choose an existing playlist.
+
+119
+00:05:26,326 --> 00:05:28,028
+This way, the app intent could be
+
+120
+00:05:28,095 --> 00:05:31,065
+configured to handle cases where
+
+121
+00:05:31,131 --> 00:05:33,767
+the requested playlist is not found,
+
+122
+00:05:33,834 --> 00:05:36,103
+responding in a friendly way and offering
+
+123
+00:05:36,170 --> 00:05:37,338
+alternative actions.
+
+124
+00:05:38,706 --> 00:05:39,973
+Sixth, enable
+
+125
+00:05:40,040 --> 00:05:41,475
+feedback loops and learning.
+
+126
+00:05:42,309 --> 00:05:44,511
+A simple way to collect feedback is
+
+127
+00:05:44,578 --> 00:05:46,113
+to offer ratings or quick
+
+128
+00:05:46,180 --> 00:05:48,215
+surveys after an interaction.
+
+129
+00:05:49,149 --> 00:05:50,618
+This allows the system to be continuously
+
+130
+00:05:51,685 --> 00:05:54,355
+adjusted based on users' response.
+
+131
+00:05:55,022 --> 00:05:57,358
+For example, an app intent of movie
+
+132
+00:05:57,424 --> 00:05:59,827
+and series recommender in a streaming app.
+
+133
+00:06:00,861 --> 00:06:01,962
+The intent could be
+
+134
+00:06:02,029 --> 00:06:03,364
+recommend a TV series.
+
+135
+00:06:04,665 --> 00:06:06,700
+The app would respond with a suggestion
+
+136
+00:06:06,767 --> 00:06:08,102
+and follow feedback options,
+
+137
+00:06:08,168 --> 00:06:11,572
+"Love" or "Suggest less".
+
+138
+00:06:12,439 --> 00:06:14,775
+Depending on the user's choice,
+
+139
+00:06:14,842 --> 00:06:17,211
+the app would adjust its future suggestions,
+
+140
+00:06:17,845 --> 00:06:20,414
+making them more personalized and aligned
+
+141
+00:06:20,481 --> 00:06:22,416
+with their tastes over time.
+
+142
+00:06:23,118 --> 00:06:24,452
+Seventh, learning from
+
+143
+00:06:24,519 --> 00:06:26,421
+user behavior over time.
+
+144
+00:06:27,055 --> 00:06:29,824
+Allow the AI agent to learn from user
+
+145
+00:06:29,891 --> 00:06:31,292
+preference over time
+
+146
+00:06:31,359 --> 00:06:32,527
+in a transparent manner.
+
+147
+00:06:33,561 --> 00:06:35,764
+Personalization proves the experience,
+
+148
+00:06:36,364 --> 00:06:37,832
+but must be done with the
+
+149
+00:06:37,899 --> 00:06:39,567
+user's consent and control.
+
+150
+00:06:40,502 --> 00:06:42,303
+For example, an app intent of a schedule
+
+151
+00:06:42,370 --> 00:06:44,005
+meeting in a meeting app.
+
+152
+00:06:44,939 --> 00:06:47,408
+The intent could be "Schedule a meeting for tomorrow"
+
+153
+00:06:47,475 --> 00:06:50,111
+and receive a response like,
+
+154
+00:06:50,879 --> 00:06:52,981
+"It looks like you usually schedule
+
+155
+00:06:53,047 --> 00:06:56,951
+meetings at 9am, so I will use that time.
+
+156
+00:06:57,418 --> 00:06:58,520
+What do you want to call it?"
+
+157
+00:06:59,554 --> 00:07:01,322
+If the user confirms the meeting is created,
+
+158
+00:07:01,389 --> 00:07:04,025
+the app intent would learn
+
+159
+00:07:04,092 --> 00:07:06,294
+the user's preferred times with their
+
+160
+00:07:06,361 --> 00:07:09,030
+permission to enhance future experience.
+
+161
+00:07:09,998 --> 00:07:12,033
+These are some guidelines for creating
+
+162
+00:07:12,100 --> 00:07:14,836
+more efficient and effective app intents.
+
+163
+00:07:16,037 --> 00:07:18,339
+By following these practices,
+
+164
+00:07:18,406 --> 00:07:20,108
+you improve your app's integration with the system
+
+165
+00:07:20,175 --> 00:07:22,977
+and deliver a smoother user experience.
+
+166
+00:07:28,315 --> 00:07:30,484
+I hope you enjoyed our content about
+
+167
+00:07:30,551 --> 00:07:32,785
+design for app intent.
+
+168
+00:07:32,952 --> 00:07:34,754
+Thank you for your time and attention.
+
+169
+00:07:34,821 --> 00:07:36,923
+See you later. Bye!
+

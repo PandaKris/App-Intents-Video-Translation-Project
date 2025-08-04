@@ -1,0 +1,475 @@
+1
+00:00:00,934 --> 00:00:03,470
+Hai, nama saya Sergio
+
+2
+00:00:03,536 --> 00:00:04,671
+dan dalam video ini kita akan
+
+3
+00:00:04,738 --> 00:00:06,573
+untuk menjelajahi apa itu jalan pintas.
+
+4
+00:00:06,840 --> 00:00:09,476
+Bagaimana aplikasi Pintasan cocok dengan pengguna
+
+5
+00:00:09,542 --> 00:00:10,710
+pengalaman dan bagaimana
+
+6
+00:00:10,777 --> 00:00:12,412
+otomatisasi dapat menciptakan sesuatu yang mulus,
+
+7
+00:00:12,779 --> 00:00:14,447
+interaksi kontekstual di seluruh perangkat.
+
+8
+00:00:15,514 --> 00:00:17,083
+Apakah Anda
+
+9
+00:00:17,150 --> 00:00:18,585
+ingin meningkatkan kemampuan Anda sendiri
+
+10
+00:00:18,651 --> 00:00:21,287
+alur kerja atau membuat aplikasi Anda lebih canggih
+
+11
+00:00:21,354 --> 00:00:22,389
+melalui integrasi,
+
+12
+00:00:22,856 --> 00:00:25,325
+memahami jalan pintas adalah langkah kunci dalam
+
+13
+00:00:25,392 --> 00:00:27,060
+membangun pengalaman yang lebih cerdas.
+
+14
+00:00:28,861 --> 00:00:32,599
+Pintasan adalah urutan khusus
+
+15
+00:00:32,665 --> 00:00:33,933
+dari tindakan yang dapat dilakukan
+
+16
+00:00:34,000 --> 00:00:36,202
+dipicu secara manual atau otomatis
+
+17
+00:00:36,269 --> 00:00:38,204
+untuk melakukan tugas di seluruh
+
+18
+00:00:38,271 --> 00:00:40,373
+aplikasi dan layanan sistem.
+
+19
+00:00:41,908 --> 00:00:44,144
+Anggap saja ini adalah otomatisasi yang ringan
+
+20
+00:00:44,210 --> 00:00:46,513
+alat yang tertanam langsung dalam ekosistem.
+
+21
+00:00:48,181 --> 00:00:50,650
+Misalnya, pengguna mungkin membuat
+
+22
+00:00:50,717 --> 00:00:53,219
+pintasan yang mencatat latihan terbaru mereka
+
+23
+00:00:53,286 --> 00:00:54,621
+dari aplikasi kebugaran,
+
+24
+00:00:55,188 --> 00:00:56,523
+memperbarui spreadsheet
+
+25
+00:00:56,589 --> 00:00:57,757
+dalam angka dengan data ini,
+
+26
+00:00:58,158 --> 00:01:00,326
+dan mengirimkan ringkasan ke alamat pribadi mereka
+
+27
+00:01:00,393 --> 00:01:03,797
+pelatih melalui pesan, semuanya sekaligus.
+
+28
+00:01:04,664 --> 00:01:08,001
+Orang lain mungkin menyiapkan pintasan yang memulai pengatur waktu,
+
+29
+00:01:08,067 --> 00:01:10,904
+aktifkan "Jangan Ganggu"
+
+30
+00:01:12,439 --> 00:01:14,674
+dan membuka aplikasi Fokus mereka saat
+
+31
+00:01:14,741 --> 00:01:16,810
+memulai sesi kerja yang mendalam.
+
+32
+00:01:18,845 --> 00:01:20,447
+Dari mengirim harian
+
+33
+00:01:20,513 --> 00:01:22,649
+laporan kemajuan melalui email,
+
+34
+00:01:23,116 --> 00:01:25,151
+untuk masuk menggunakan aplikasi kesehatan,
+
+35
+00:01:25,518 --> 00:01:27,787
+untuk menghasilkan suara menggunakan
+
+36
+00:01:27,854 --> 00:01:29,622
+data dari catatan atau kalender,
+
+37
+00:01:30,156 --> 00:01:31,057
+kemungkinan-kemungkinannya adalah
+
+38
+00:01:31,124 --> 00:01:33,159
+luas dan sangat dapat disesuaikan.
+
+39
+00:01:35,495 --> 00:01:37,664
+Untuk pengembang, mendukung pintasan
+
+40
+00:01:38,064 --> 00:01:39,332
+berarti memberdayakan pengguna
+
+41
+00:01:39,399 --> 00:01:40,700
+untuk mengintegrasikan aplikasi Anda
+
+42
+00:01:40,934 --> 00:01:42,435
+ke dalam aliran sehari-hari mereka
+
+43
+00:01:42,502 --> 00:01:44,370
+bahkan tanpa membukanya.
+
+44
+00:01:45,872 --> 00:01:48,308
+Aplikasi Pintasan adalah Visual Apple
+
+45
+00:01:48,374 --> 00:01:49,642
+antarmuka untuk membangun,
+
+46
+00:01:50,143 --> 00:01:52,078
+mengelola dan menjalankan pintasan.
+
+47
+00:01:53,513 --> 00:01:56,015
+Ini menyediakan editor gaya drag and drop
+
+48
+00:01:56,082 --> 00:01:57,851
+di mana pengguna dapat berantai
+
+49
+00:01:57,917 --> 00:01:59,586
+tindakan bersama dari keduanya
+
+50
+00:01:59,652 --> 00:02:02,422
+sistem dan aplikasi pihak ketiga, untuk membuat
+
+51
+00:02:02,489 --> 00:02:03,690
+otomatisasi yang kuat.
+
+52
+00:02:04,224 --> 00:02:05,425
+Tidak diperlukan kode.
+
+53
+00:02:06,926 --> 00:02:09,295
+Untuk pengembang, aplikasi Pintasan
+
+54
+00:02:09,362 --> 00:02:10,864
+adalah tempat aplikasi Anda terekspos
+
+55
+00:02:10,930 --> 00:02:12,866
+maksud aplikasi menjadi hidup,
+
+56
+00:02:12,966 --> 00:02:15,668
+memungkinkan pengguna untuk menemukan dan menggunakan
+
+57
+00:02:15,735 --> 00:02:18,371
+fungsionalitas dalam konteks yang sepenuhnya baru.
+
+58
+00:02:19,739 --> 00:02:22,242
+Ini bukan sekedar alat untuk pengguna tingkat lanjut.
+
+59
+00:02:22,742 --> 00:02:25,111
+Ini adalah bagian penting dari cara pengguna memperluas
+
+60
+00:02:25,645 --> 00:02:27,580
+dan mempersonalisasi perangkat Apple mereka.
+
+61
+00:02:29,349 --> 00:02:31,684
+Otomatisasi adalah jenis jalan pintas yang
+
+62
+00:02:31,751 --> 00:02:33,086
+berjalan secara otomatis berdasarkan
+
+63
+00:02:33,152 --> 00:02:34,554
+pada pemicu yang telah ditentukan sebelumnya,
+
+64
+00:02:35,288 --> 00:02:37,991
+seperti waktu, lokasi,
+
+65
+00:02:38,057 --> 00:02:40,326
+aktivitas perangkat, atau bahkan interaksi dengan
+
+66
+00:02:40,393 --> 00:02:43,663
+aksesori seperti tag NFC dan AirTags.
+
+67
+00:02:45,665 --> 00:02:48,735
+Tidak seperti pintasan biasa, otomatisasi
+
+68
+00:02:48,801 --> 00:02:51,271
+tidak memerlukan input manual untuk memulai,
+
+69
+00:02:51,871 --> 00:02:54,340
+meskipun beberapa mungkin meminta konfirmasi
+
+70
+00:02:54,407 --> 00:02:56,242
+tergantung pada konteksnya.
+
+71
+00:02:57,210 --> 00:03:00,079
+Misalnya, pengguna mungkin mengatur
+
+72
+00:03:00,146 --> 00:03:02,315
+otomatisasi untuk mulai memutar podcast
+
+73
+00:03:02,382 --> 00:03:04,517
+ketika mereka terhubung ke Bluetooth mobil
+
+74
+00:03:06,085 --> 00:03:08,555
+atau untuk menonaktifkan notifikasi saat
+
+75
+00:03:08,621 --> 00:03:10,256
+mereka membuka aplikasi meditasi.
+
+76
+00:03:11,424 --> 00:03:13,993
+Pengembang dapat memanfaatkan sistem ini
+
+77
+00:03:14,060 --> 00:03:15,562
+dengan mengekspos maksud aplikasi yang
+
+78
+00:03:15,628 --> 00:03:17,630
+pengguna dapat menggabungkan ke dalam otomatisasi,
+
+79
+00:03:17,697 --> 00:03:20,833
+memungkinkan aplikasi Anda merespons
+
+80
+00:03:20,900 --> 00:03:22,669
+ke pemicu dunia nyata
+
+81
+00:03:22,735 --> 00:03:24,304
+dan menjadi bagian dari sebuah kesatuan yang utuh,
+
+82
+00:03:24,804 --> 00:03:26,172
+pengalaman yang sadar konteks.
+
+83
+00:03:27,674 --> 00:03:30,143
+Inti dari setiap jalan pintas
+
+84
+00:03:30,210 --> 00:03:31,711
+atau otomatisasi adalah suatu tindakan.
+
+85
+00:03:32,579 --> 00:03:34,213
+satu tugas tunggal yang
+
+86
+00:03:34,280 --> 00:03:35,882
+dapat dilakukan oleh perangkat pengguna.
+
+87
+00:03:38,785 --> 00:03:40,853
+Sebagai pengembang, Anda bertanggung jawab
+
+88
+00:03:40,920 --> 00:03:42,121
+untuk mendefinisikan tindakan ini
+
+89
+00:03:42,188 --> 00:03:44,557
+dengan memaparkan fungsionalitas dari aplikasi Anda
+
+90
+00:03:44,924 --> 00:03:46,326
+melalui kerangka App Intents.
+
+91
+00:03:47,360 --> 00:03:48,561
+Tindakan yang Anda berikan
+
+92
+00:03:48,628 --> 00:03:50,063
+menjadi sebuah blok bangunan
+
+93
+00:03:50,129 --> 00:03:51,497
+yang dapat disertakan oleh pengguna
+
+94
+00:03:51,564 --> 00:03:53,132
+dengan jalan pintas mereka sendiri,
+
+95
+00:03:53,633 --> 00:03:56,369
+membuat aplikasi Anda lebih mudah diakses,
+
+96
+00:03:56,836 --> 00:03:58,871
+berguna dan terintegrasi di seluruh sistem.
+
+97
+00:03:59,372 --> 00:04:01,808
+Dengan merancang secara cermat makna,
+
+98
+00:04:02,208 --> 00:04:03,543
+tindakan yang sadar konteks,
+
+99
+00:04:04,010 --> 00:04:05,745
+Anda tidak hanya menambahkan fitur.
+
+100
+00:04:06,246 --> 00:04:08,281
+Anda memperluas aplikasi Anda ke
+
+101
+00:04:08,348 --> 00:04:09,682
+rutinitas harian pengguna
+
+102
+00:04:10,016 --> 00:04:12,385
+dengan cara yang kuat dan personal.
+
+103
+00:04:15,321 --> 00:04:16,422
+Terima kasih sudah menonton,
+
+104
+00:04:16,489 --> 00:04:17,824
+dan kami menghargai perhatian Anda
+
+105
+00:04:18,024 --> 00:04:19,392
+kali ini untuk menjelajah
+
+106
+00:04:19,459 --> 00:04:20,893
+pintasan Apple bersama kami.
+
+107
+00:04:21,327 --> 00:04:22,095
+Seperti yang telah Anda lihat,
+
+108
+00:04:22,662 --> 00:04:24,063
+pintasan dan otomatisasi
+
+109
+00:04:24,264 --> 00:04:27,266
+adalah cara yang ampuh untuk menciptakan lebih banyak cairan,
+
+110
+00:04:27,667 --> 00:04:28,434
+mempersonalisasi pengalaman
+
+111
+00:04:28,501 --> 00:04:30,603
+di seluruh ekosistem Apple.
+
+112
+00:04:31,471 --> 00:04:34,841
+Dan sebagai pengembang, Anda memainkan peran kunci
+
+113
+00:04:34,907 --> 00:04:36,542
+dalam mewujudkan hal itu.
+
+114
+00:04:37,076 --> 00:04:39,045
+Di video berikutnya, kita akan menyelami lebih dalam
+
+115
+00:04:39,145 --> 00:04:40,813
+ke dalam kerangka App Intents.
+
+116
+00:04:41,447 --> 00:04:43,116
+Kami akan memandu Anda melalui caranya
+
+117
+00:04:43,182 --> 00:04:45,018
+untuk mendefinisikan dan memaparkan tindakan
+
+118
+00:04:45,151 --> 00:04:47,453
+dari aplikasi Anda langkah demi langkah.
+
+119
+00:04:48,288 --> 00:04:48,721
+Sampai jumpa di sana.

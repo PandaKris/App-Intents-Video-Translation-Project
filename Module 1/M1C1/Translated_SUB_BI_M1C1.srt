@@ -1,0 +1,363 @@
+1
+00:00:00,467 --> 00:00:02,802
+Halo semuanya. Selamat datang. Saya Giovanna,
+
+2
+00:00:03,069 --> 00:00:04,704
+dan hari ini kita akan berbicara tentang
+
+3
+00:00:04,771 --> 00:00:06,906
+Bahasa Inggris: konsep penting untuk mengembangkan aplikasi
+
+4
+00:00:06,973 --> 00:00:07,774
+di ekosistem Apple,
+
+5
+00:00:08,341 --> 00:00:10,477
+yang merupakan pengalaman sistem.
+
+6
+00:00:11,444 --> 00:00:12,946
+Pengalaman sistem adalah pengalaman mendalam
+
+7
+00:00:13,012 --> 00:00:15,048
+dan integrasi aplikasi yang konsisten
+
+8
+00:00:15,115 --> 00:00:17,417
+dengan fungsi sistem operasi asli,
+
+9
+00:00:17,717 --> 00:00:20,120
+memungkinkan pengguna untuk berinteraksi dengan aplikasi
+
+10
+00:00:20,186 --> 00:00:22,422
+lancar melalui fitur yang disediakan sistem,
+
+11
+00:00:22,489 --> 00:00:25,125
+bahkan tanpa membukanya.
+
+12
+00:00:26,459 --> 00:00:27,160
+Hai Siri.
+
+13
+00:00:30,096 --> 00:00:31,731
+Mainkan kelas Pengalaman Sistem.
+
+14
+00:00:39,839 --> 00:00:41,641
+Beberapa teknologi utama
+
+15
+00:00:41,708 --> 00:00:42,709
+disediakan oleh sistem
+
+16
+00:00:42,776 --> 00:00:44,210
+untuk memastikan integrasi ini termasuk
+
+17
+00:00:45,011 --> 00:00:47,847
+Spotlight, yang memungkinkan konten dari
+
+18
+00:00:47,914 --> 00:00:50,683
+aplikasi Anda muncul dalam pencarian sistem yang memungkinkan
+
+19
+00:00:50,750 --> 00:00:53,453
+pengguna untuk menemukan dan langsung
+
+20
+00:00:53,520 --> 00:00:55,955
+mengakses bagian tertentu dari aplikasi Anda
+
+21
+00:00:56,022 --> 00:00:58,358
+tanpa membukanya secara manual.
+
+22
+00:00:58,992 --> 00:01:01,361
+Siri, yang memungkinkan aplikasi Anda merespons
+
+23
+00:01:01,428 --> 00:01:03,029
+untuk perintah suara,
+
+24
+00:01:03,096 --> 00:01:04,697
+menawarkan tindakan yang disesuaikan
+
+25
+00:01:05,031 --> 00:01:07,667
+seperti mengirim pesan atau mencatat tugas
+
+26
+00:01:07,734 --> 00:01:09,803
+melalui interaksi suara.
+
+27
+00:01:10,804 --> 00:01:13,339
+Pintasan, memberdayakan aplikasi Anda untuk menyediakan
+
+28
+00:01:13,406 --> 00:01:15,875
+tindakan yang dapat digunakan kembali dan diotomatisasi yang
+
+29
+00:01:15,942 --> 00:01:18,311
+pengguna dapat menggabungkan dengan aplikasi lain.
+
+30
+00:01:19,212 --> 00:01:21,648
+Ideal untuk membuat cepat dan personal
+
+31
+00:01:21,714 --> 00:01:23,950
+pengalaman tanpa UI apa pun.
+
+32
+00:01:25,518 --> 00:01:27,420
+Kontrol, tersedia di Pusat Kontrol baru,
+
+33
+00:01:27,487 --> 00:01:30,323
+memungkinkan aplikasi Anda untuk mengekspos
+
+34
+00:01:30,390 --> 00:01:32,459
+fungsionalitas yang dapat diakses oleh sistem
+
+35
+00:01:32,525 --> 00:01:33,993
+tombol kapan saja.
+
+36
+00:01:34,994 --> 00:01:37,964
+Widget, menampilkan informasi
+
+37
+00:01:38,031 --> 00:01:40,667
+atau tindakan langsung dari aplikasi Anda
+
+38
+00:01:40,733 --> 00:01:43,269
+di layar beranda, layar kunci atau StandBy,
+
+39
+00:01:43,837 --> 00:01:45,438
+memungkinkan pengguna untuk berinteraksi
+
+40
+00:01:45,505 --> 00:01:47,941
+dengan cepat tanpa membuka aplikasi Anda.
+
+41
+00:01:49,709 --> 00:01:52,078
+Aktivitas langsung, menyediakan waktu nyata
+
+42
+00:01:52,145 --> 00:01:54,447
+pembaruan pada layar kunci dan pulau dinamis,
+
+43
+00:01:54,514 --> 00:01:57,050
+sempurna untuk melacak pengiriman,
+
+44
+00:01:57,317 --> 00:01:58,985
+pengatur waktu atau skor langsung.
+
+45
+00:02:00,019 --> 00:02:02,822
+Integrasi fokus, memungkinkan aplikasi Anda
+
+46
+00:02:02,889 --> 00:02:05,692
+untuk menyarankan filter konten atau mengadaptasi
+
+47
+00:02:05,758 --> 00:02:07,827
+perilakunya berdasarkan konteks pengguna saat ini,
+
+48
+00:02:07,894 --> 00:02:09,696
+seperti pekerjaan,
+
+49
+00:02:10,163 --> 00:02:12,098
+mode pribadi atau tidur.
+
+50
+00:02:13,199 --> 00:02:15,602
+Dan interaksi perangkat keras,
+
+51
+00:02:15,668 --> 00:02:18,171
+seperti tombol tindakan atau gerakan pensil Apple,
+
+52
+00:02:18,671 --> 00:02:21,207
+memungkinkan aplikasi Anda merespons secara fisik,
+
+53
+00:02:21,608 --> 00:02:23,710
+tindakan yang dapat disesuaikan seperti memicu
+
+54
+00:02:23,776 --> 00:02:26,312
+fitur atau mengaktifkan pintasan dengan cepat.
+
+55
+00:02:27,347 --> 00:02:29,482
+Sangat penting bagi aplikasi Anda untuk menjadi sangat
+
+56
+00:02:29,549 --> 00:02:32,051
+terintegrasi dengan sistem untuk memenuhi kebutuhan pengguna
+
+57
+00:02:32,118 --> 00:02:34,153
+harapan dan tetap relevan.
+
+58
+00:02:35,255 --> 00:02:37,390
+Dengan Kecerdasan Apple,
+
+59
+00:02:37,457 --> 00:02:39,225
+Pengguna akan semakin banyak mengakses aplikasi Anda
+
+60
+00:02:39,292 --> 00:02:41,828
+fungsionalitas tanpa harus membukanya,
+
+61
+00:02:41,895 --> 00:02:43,463
+membuat integrasi ini
+
+62
+00:02:43,530 --> 00:02:44,998
+lebih penting dari sebelumnya.
+
+63
+00:02:48,501 --> 00:02:49,969
+Untungnya, semua teknologi
+
+64
+00:02:50,036 --> 00:02:51,538
+disebutkan sebelumnya adalah
+
+65
+00:02:51,604 --> 00:02:53,306
+sudah tersedia, dan Anda bisa
+
+66
+00:02:53,373 --> 00:02:55,475
+mulai persiapkan aplikasi Anda sekarang juga
+
+67
+00:02:55,542 --> 00:02:56,509
+untuk permintaan yang terus meningkat ini.
+
+68
+00:02:57,777 --> 00:02:59,512
+Kabar baiknya adalah penerapan hal ini
+
+69
+00:02:59,579 --> 00:03:01,915
+integrasi membutuhkan kode yang jauh lebih sedikit
+
+70
+00:03:01,981 --> 00:03:03,116
+dan usaha yang lebih dari yang seharusnya
+
+71
+00:03:03,216 --> 00:03:04,050
+awalnya tampak.
+
+72
+00:03:05,218 --> 00:03:07,353
+Pengalaman proaktif yang lancar ini
+
+73
+00:03:07,420 --> 00:03:08,288
+dengan cepat menjadi
+
+74
+00:03:08,354 --> 00:03:10,857
+pengguna standar mengharapkan,
+
+75
+00:03:10,924 --> 00:03:12,091
+membentuk masa depan interaksi
+
+76
+00:03:12,158 --> 00:03:13,960
+di seluruh ekosistem Apple.
+
+77
+00:03:16,763 --> 00:03:17,730
+Terima kasih banyak
+
+78
+00:03:17,797 --> 00:03:18,998
+atas waktu dan perhatian Anda.
+
+79
+00:03:19,566 --> 00:03:21,701
+Sepanjang kursus ini, tujuan kami
+
+80
+00:03:21,768 --> 00:03:23,536
+akan memperdalam pengetahuan Anda tentang ini
+
+81
+00:03:23,603 --> 00:03:24,604
+teknologi asli,
+
+82
+00:03:25,004 --> 00:03:27,340
+menjelajahi secara detail cara kerja mereka dan
+
+83
+00:03:27,407 --> 00:03:28,708
+kemungkinan yang mereka tawarkan.
+
+84
+00:03:29,342 --> 00:03:31,211
+Anda akan melihat beberapa contoh langsung
+
+85
+00:03:31,277 --> 00:03:32,745
+untuk membantu Anda memahami dengan jelas
+
+86
+00:03:32,812 --> 00:03:34,380
+dan menerapkan integrasi ini.
+
+87
+00:03:35,081 --> 00:03:37,684
+Pada akhirnya, tujuan kami adalah memberdayakan Anda
+
+88
+00:03:37,750 --> 00:03:40,286
+untuk mengidentifikasi kasus penggunaan dengan percaya diri
+
+89
+00:03:40,353 --> 00:03:41,688
+dan mengintegrasikannya secara efektif
+
+90
+00:03:42,055 --> 00:03:43,656
+ke dalam aplikasi yang sedang Anda kembangkan.
+
+91
+00:03:44,424 --> 00:03:45,458
+Sampai video berikutnya!

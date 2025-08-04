@@ -1,0 +1,495 @@
+1
+00:00:00,367 --> 00:00:02,335
+Hai! Dalam video ini Anda akan menyelam
+
+2
+00:00:02,402 --> 00:00:03,636
+ke dalam blok bangunan
+
+3
+00:00:03,703 --> 00:00:05,205
+yang membuat interaksi sistem
+
+4
+00:00:05,472 --> 00:00:07,207
+seperti jalan pintas,
+
+5
+00:00:07,273 --> 00:00:08,942
+Kemungkinan Siri dan Spotlight.
+
+6
+00:00:10,810 --> 00:00:13,346
+Jika Anda sudah menjelajahi apa itu jalan pintas
+
+7
+00:00:13,413 --> 00:00:16,016
+dan bagaimana hal itu cocok dengan ekosistem Apple,
+
+8
+00:00:16,616 --> 00:00:18,752
+Anda siap untuk menyelami satu lapisan lebih dalam.
+
+9
+00:00:21,755 --> 00:00:23,590
+Maksud aplikasi adalah bagaimana aplikasi Anda
+
+10
+00:00:23,656 --> 00:00:25,291
+berkomunikasi dengan sistem,
+
+11
+00:00:25,625 --> 00:00:26,659
+membuat fitur dapat ditemukan,
+
+12
+00:00:26,726 --> 00:00:29,729
+dapat ditindaklanjuti dan lebih cerdas.
+
+13
+00:00:31,030 --> 00:00:32,899
+Apakah Anda ingin mengintegrasikan
+
+14
+00:00:32,966 --> 00:00:35,035
+dengan Siri, nyalakan widget Anda
+
+15
+00:00:35,268 --> 00:00:38,038
+atau persiapkan aplikasi Anda untuk kecerdasan aplikasi,
+
+16
+00:00:38,471 --> 00:00:40,673
+memahami App Intent sangatlah penting
+
+17
+00:00:40,740 --> 00:00:41,975
+untuk membuka kunci yang mulus
+
+18
+00:00:42,042 --> 00:00:43,910
+pengalaman kontekstual.
+
+19
+00:00:45,011 --> 00:00:47,881
+Diagram ini menggambarkan peran Aplikasi
+
+20
+00:00:47,947 --> 00:00:50,216
+Maksud sebagai jembatan antara
+
+21
+00:00:50,283 --> 00:00:51,584
+aplikasi dan fitur sistem Anda
+
+22
+00:00:51,651 --> 00:00:53,987
+pengguna berinteraksi setiap hari.
+
+23
+00:00:55,088 --> 00:00:57,157
+Di bagian bawah, kami memiliki aplikasi Anda
+
+24
+00:00:57,223 --> 00:00:58,558
+berisi semua logika Anda,
+
+25
+00:00:58,625 --> 00:01:00,794
+fitur dan data.
+
+26
+00:01:02,228 --> 00:01:03,363
+Di atasnya duduk
+
+27
+00:01:03,430 --> 00:01:04,631
+lapisan Maksud Aplikasi,
+
+28
+00:01:04,898 --> 00:01:07,600
+yang mengekspos tindakan spesifik dari Anda
+
+29
+00:01:07,667 --> 00:01:10,904
+aplikasi dengan cara yang terstruktur dan dapat dibaca sistem.
+
+30
+00:01:11,738 --> 00:01:14,741
+Kemudian, di bagian paling atas, Anda melihat
+
+31
+00:01:14,808 --> 00:01:16,076
+pengalaman sistem seperti Siri,
+
+32
+00:01:16,142 --> 00:01:18,344
+Sorotan dan Pintasan.
+
+33
+00:01:20,313 --> 00:01:21,915
+Ubin hijau ini mewakili
+
+34
+00:01:21,981 --> 00:01:23,683
+fitur yang dihadapi pengguna
+
+35
+00:01:23,750 --> 00:01:26,553
+yang menjadi lebih pintar dan lebih berguna ketika
+
+36
+00:01:26,619 --> 00:01:29,122
+aplikasi Anda menyediakan maksud yang terdefinisi dengan baik.
+
+37
+00:01:30,256 --> 00:01:33,259
+Singkatnya, App Intents adalah bagaimana
+
+38
+00:01:33,326 --> 00:01:36,062
+aplikasi Anda terhubung ke ekosistem Apple yang lebih luas,
+
+39
+00:01:36,496 --> 00:01:38,731
+memungkinkan hal yang alami dan mulus
+
+40
+00:01:38,798 --> 00:01:40,767
+dan pengalaman pengguna yang cerdas.
+
+41
+00:01:43,403 --> 00:01:45,538
+Jadi sekarang kita sudah mengerti dimana
+
+42
+00:01:45,605 --> 00:01:47,240
+App Intents cocok, mari kita bicarakan
+
+43
+00:01:47,307 --> 00:01:50,577
+tentang apa sebenarnya maksud suatu maksud.
+
+44
+00:01:51,244 --> 00:01:53,813
+Maksud adalah suatu pernyataan yang jelas dan berdiri sendiri
+
+45
+00:01:53,880 --> 00:01:55,348
+tindakan yang mewakili
+
+46
+00:01:55,415 --> 00:01:57,217
+sesuatu yang dapat dilakukan aplikasi Anda.
+
+47
+00:01:58,518 --> 00:02:00,320
+Ini bukan layar atau fitur,
+
+48
+00:02:00,386 --> 00:02:02,655
+itu tugas yang spesifik.
+
+49
+00:02:03,356 --> 00:02:07,961
+Seperti Log 500 mL air,
+
+50
+00:02:08,027 --> 00:02:11,464
+mulai latihan kekuatan atau kirim 20 dolar ke Alex.
+
+51
+00:02:12,332 --> 00:02:14,534
+Setiap maksud didefinisikan dengan
+
+52
+00:02:14,601 --> 00:02:16,903
+informasi yang dibutuhkan untuk menjalankannya,
+
+53
+00:02:16,970 --> 00:02:19,472
+seperti parameter, input dan output,
+
+54
+00:02:20,140 --> 00:02:22,842
+jadi sistem tahu persisnya
+
+55
+00:02:22,909 --> 00:02:24,210
+bagaimana mendeskripsikan dan mengeksekusinya.
+
+56
+00:02:25,011 --> 00:02:27,046
+Anda dapat memikirkan maksudnya
+
+57
+00:02:27,113 --> 00:02:28,448
+sebagai kosakata aplikasi Anda.
+
+58
+00:02:29,015 --> 00:02:31,618
+Seperangkat hal yang dapat dilakukannya,
+
+59
+00:02:31,885 --> 00:02:33,686
+dijelaskan dengan cara yang
+
+60
+00:02:33,753 --> 00:02:36,556
+ramah manusia dan dapat dibaca mesin.
+
+61
+00:02:38,091 --> 00:02:39,225
+Dan di sinilah semuanya terjadi
+
+62
+00:02:39,292 --> 00:02:40,827
+menjadi lebih menarik.
+
+63
+00:02:42,362 --> 00:02:44,497
+Padahal, di masa lalu, hal itu sudah cukup
+
+64
+00:02:44,564 --> 00:02:45,999
+untuk mengekspos aplikasi utama Anda
+
+65
+00:02:46,065 --> 00:02:48,334
+fitur sebagai maksud,
+
+66
+00:02:48,401 --> 00:02:49,169
+Pedoman baru Apple
+
+67
+00:02:49,235 --> 00:02:51,471
+mendorong pendekatan yang lebih luas.
+
+68
+00:02:51,739 --> 00:02:53,473
+Segala hal yang dilakukan aplikasi Anda
+
+69
+00:02:54,941 --> 00:02:55,608
+harus berupa maksud Aplikasi.
+
+70
+00:02:58,611 --> 00:02:59,646
+Ini berarti setiap tindakan,
+
+71
+00:02:59,712 --> 00:03:01,748
+tidak peduli seberapa kecilnya,
+
+72
+00:03:01,981 --> 00:03:03,983
+harus didefinisikan dengan cara yang
+
+73
+00:03:04,050 --> 00:03:06,686
+sistem dapat memahami dan berinteraksi dengannya.
+
+74
+00:03:07,587 --> 00:03:08,388
+Ini adalah pergeseran ke arah
+
+75
+00:03:08,454 --> 00:03:10,089
+membuat Aplikasi Anda lebih modular,
+
+76
+00:03:10,356 --> 00:03:12,825
+ekspresif dan siap bekerja dengan lancar
+
+77
+00:03:12,892 --> 00:03:14,627
+di seluruh ekosistem.
+
+78
+00:03:16,262 --> 00:03:19,165
+Sekarang setelah kita membahas apa itu App Intent
+
+79
+00:03:19,232 --> 00:03:21,367
+apa itu dan mengapa hal itu penting,
+
+80
+00:03:21,801 --> 00:03:24,003
+Sudah saatnya untuk melihat kerangka kerja yang
+
+81
+00:03:24,070 --> 00:03:25,672
+membuat semuanya menjadi mungkin.
+
+82
+00:03:27,473 --> 00:03:29,976
+Dalam modul praktik, kita akan fokus pada
+
+83
+00:03:30,043 --> 00:03:31,444
+sisi pengembang
+
+84
+00:03:31,511 --> 00:03:32,845
+dari kerangka kerja maksud Aplikasi,
+
+85
+00:03:33,246 --> 00:03:36,182
+mengeksplorasi kemampuannya,
+
+86
+00:03:36,249 --> 00:03:38,518
+memahami cara mendefinisikan dan menyusun maksud
+
+87
+00:03:38,985 --> 00:03:41,621
+dan menelusuri banyak contoh kode.
+
+88
+00:03:42,388 --> 00:03:43,856
+Salah satu bagian terbaik?
+
+89
+00:03:45,858 --> 00:03:48,061
+Seluruh kerangka kerja dibangun untuk bekerja
+
+90
+00:03:48,127 --> 00:03:50,129
+secara asli dengan Swift.
+
+91
+00:03:51,698 --> 00:03:52,599
+Itu berarti kamu bisa
+
+92
+00:03:52,665 --> 00:03:54,367
+tentukan semua maksud Anda
+
+93
+00:03:54,434 --> 00:03:55,602
+dan terhubung dengan sistem
+
+94
+00:03:55,668 --> 00:03:57,670
+fitur hanya menggunakan kode,
+
+95
+00:03:58,137 --> 00:03:59,906
+bukan file atau eksternal
+
+96
+00:03:59,973 --> 00:04:01,140
+konfigurasi yang dibutuhkan.
+
+97
+00:04:02,342 --> 00:04:03,843
+Ini membuatnya lebih mudah
+
+98
+00:04:03,910 --> 00:04:05,612
+untuk berkolaborasi dengan rekan satu tim,
+
+99
+00:04:06,412 --> 00:04:08,381
+melacak perubahan melalui kontrol versi,
+
+100
+00:04:08,715 --> 00:04:09,415
+dan pertahankan
+
+101
+00:04:09,482 --> 00:04:11,651
+alur kerja sederhana dan terukur.
+
+102
+00:04:14,287 --> 00:04:15,188
+Untuk menyimpulkan semuanya,
+
+103
+00:04:15,655 --> 00:04:17,357
+Tujuan dari model ini adalah
+
+104
+00:04:17,423 --> 00:04:19,125
+untuk membantu Anda lebih memahami
+
+105
+00:04:19,459 --> 00:04:20,793
+relevansi sistem
+
+106
+00:04:20,860 --> 00:04:22,996
+pengalaman di ekosistem Apple.
+
+107
+00:04:23,563 --> 00:04:25,798
+Untuk mengenal fitur-fitur seperti,
+
+108
+00:04:25,963 --> 00:04:26,600
+Siri
+
+109
+00:04:26,700 --> 00:04:27,500
+Jalan Pintas
+
+110
+00:04:27,800 --> 00:04:28,100
+dan Sorotan
+
+111
+00:04:28,500 --> 00:04:31,900
+dan menyadari bahwa semua itu didukung oleh
+
+112
+00:04:32,271 --> 00:04:34,707
+Maksud Aplikasi, ditentukan oleh Anda, sang pengembang.
+
+113
+00:04:36,242 --> 00:04:38,478
+Maksud ini adalah apa yang memungkinkan aplikasi Anda
+
+114
+00:04:38,544 --> 00:04:40,913
+untuk benar-benar terhubung dengan sistem
+
+115
+00:04:40,980 --> 00:04:43,483
+dan memberikan interaksi yang kaya dan personal.
+
+116
+00:04:47,553 --> 00:04:49,889
+Ada banyak sekali kemungkinan kasus penggunaan.
+
+117
+00:04:50,923 --> 00:04:53,259
+Aplikasi Anda harus bertujuan untuk mendukung
+
+118
+00:04:53,326 --> 00:04:55,461
+semua hal yang masuk akal bagi pengguna Anda.
+
+119
+00:04:57,730 --> 00:04:58,631
+Terima kasih sudah menonton!
+
+120
+00:04:59,065 --> 00:05:01,200
+Kami harap ini memberi Anda awal yang jelas
+
+121
+00:05:01,267 --> 00:05:03,036
+titik untuk membuat aplikasi Anda lebih
+
+122
+00:05:03,102 --> 00:05:04,470
+cerdas, mudah diakses
+
+123
+00:05:04,604 --> 00:05:06,039
+dan terintegrasi secara mendalam.
+
+124
+00:05:06,873 --> 00:05:07,273
+Selamat tinggal!

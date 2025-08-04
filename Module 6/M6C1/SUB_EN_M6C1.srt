@@ -1,0 +1,504 @@
+1
+00:00:00,533 --> 00:00:02,802
+Welcome! In this video, we are going
+
+2
+00:00:02,869 --> 00:00:04,838
+to learn about focus filters on iOS.
+
+3
+00:00:05,538 --> 00:00:07,841
+You see what they are, how they work,
+
+4
+00:00:07,907 --> 00:00:09,442
+and how to use them in your app.
+
+5
+00:00:09,976 --> 00:00:11,945
+We'll go through a simple example,
+
+6
+00:00:12,012 --> 00:00:13,513
+look at the code, and show how
+
+7
+00:00:13,580 --> 00:00:14,781
+to update your interface
+
+8
+00:00:14,981 --> 00:00:16,816
+based on the user's current focus.
+
+9
+00:00:19,486 --> 00:00:21,388
+Focus is a system feature that helps
+
+10
+00:00:21,454 --> 00:00:23,156
+people stay focused by
+
+11
+00:00:23,223 --> 00:00:24,724
+reducing interruptions from
+
+12
+00:00:24,791 --> 00:00:25,825
+apps and contacts.
+
+13
+00:00:26,693 --> 00:00:29,062
+It is useful during moments like work,
+
+14
+00:00:29,596 --> 00:00:30,997
+rest, or personal time.
+
+15
+00:00:31,798 --> 00:00:34,434
+With Focus, users can choose which apps
+
+16
+00:00:34,501 --> 00:00:36,002
+and people are allowed
+
+17
+00:00:36,069 --> 00:00:36,970
+to send notifications.
+
+18
+00:00:38,438 --> 00:00:40,540
+Focus filters make this even better
+
+19
+00:00:40,607 --> 00:00:41,674
+by allowing apps to change
+
+20
+00:00:41,741 --> 00:00:43,109
+their behavior based on
+
+21
+00:00:43,176 --> 00:00:43,943
+the active focus.
+
+22
+00:00:44,811 --> 00:00:47,280
+For example, the Calendar app can show
+
+23
+00:00:47,347 --> 00:00:48,415
+only personal events
+
+24
+00:00:48,481 --> 00:00:49,749
+during personal focus.
+
+25
+00:00:50,350 --> 00:00:52,018
+The Mail app can show only
+
+26
+00:00:52,085 --> 00:00:54,487
+work emails during work focus.
+
+27
+00:00:55,255 --> 00:00:57,657
+Your app can also use focus filters
+
+28
+00:00:57,724 --> 00:00:59,959
+to show or hide content, switch accounts,
+
+29
+00:01:00,026 --> 00:01:01,561
+change appearance,
+
+30
+00:01:02,028 --> 00:01:04,431
+or reduce notifications, depending on
+
+31
+00:01:04,497 --> 00:01:05,665
+what the user is doing.
+
+32
+00:01:06,466 --> 00:01:08,501
+To understand how this works, let's look
+
+33
+00:01:08,568 --> 00:01:09,702
+at a simple diagram.
+
+34
+00:01:10,570 --> 00:01:12,439
+On the left side, we have the app.
+
+35
+00:01:13,406 --> 00:01:15,542
+This is where the developer defines what
+
+36
+00:01:15,608 --> 00:01:17,610
+can change using app intents.
+
+37
+00:01:18,611 --> 00:01:20,680
+For example, which content should be
+
+38
+00:01:20,747 --> 00:01:22,782
+visible based on the current focus.
+
+39
+00:01:23,817 --> 00:01:25,552
+In the center, we have the system.
+
+40
+00:01:26,119 --> 00:01:28,755
+The system reads what the app defines
+
+41
+00:01:28,822 --> 00:01:30,690
+and shows it in the focus settings.
+
+42
+00:01:31,791 --> 00:01:33,760
+On the right side, we have the user.
+
+43
+00:01:34,761 --> 00:01:37,397
+The user opens Focus settings and chooses
+
+44
+00:01:37,464 --> 00:01:38,431
+how the app should
+
+45
+00:01:38,498 --> 00:01:40,567
+behave when a focus is active.
+
+46
+00:01:41,167 --> 00:01:43,169
+This makes the experience more personal
+
+47
+00:01:43,236 --> 00:01:44,971
+and helps reduce distractions.
+
+48
+00:01:48,408 --> 00:01:50,043
+Now that we have seen the big picture,
+
+49
+00:01:50,410 --> 00:01:51,811
+let's look at a real example.
+
+50
+00:01:52,545 --> 00:01:54,347
+In this video, we'll create a focus
+
+51
+00:01:54,414 --> 00:01:56,649
+filter that lets the user choose to see
+
+52
+00:01:56,716 --> 00:01:58,585
+drinks, food, or both.
+
+53
+00:01:59,652 --> 00:02:02,589
+For example, during a work focus, the
+
+54
+00:02:02,655 --> 00:02:04,791
+user might choose to see only drinks.
+
+55
+00:02:05,859 --> 00:02:07,327
+This makes the menu simpler
+
+56
+00:02:07,393 --> 00:02:09,262
+and helps avoid distractions.
+
+57
+00:02:10,029 --> 00:02:12,298
+With this kind of filter, the app shows
+
+58
+00:02:12,365 --> 00:02:14,701
+only what the user wants in that moment,
+
+59
+00:02:15,401 --> 00:02:16,269
+making the experience
+
+60
+00:02:16,336 --> 00:02:18,004
+more focused and efficient.
+
+61
+00:02:19,506 --> 00:02:21,908
+To do this, we create a new focus filter
+
+62
+00:02:21,975 --> 00:02:23,409
+using the set focus
+
+63
+00:02:23,476 --> 00:02:25,078
+filter intent protocol.
+
+64
+00:02:26,079 --> 00:02:27,413
+This is where we tell the
+
+65
+00:02:27,480 --> 00:02:29,482
+system what the user can customize.
+
+66
+00:02:30,717 --> 00:02:31,951
+First, we define a
+
+67
+00:02:32,018 --> 00:02:33,219
+title and a description.
+
+68
+00:02:34,554 --> 00:02:36,723
+This will appear in the focus settings.
+
+69
+00:02:37,924 --> 00:02:39,492
+Then, we add two parameters,
+
+70
+00:02:40,326 --> 00:02:42,028
+showDrinks and showFoods.
+
+71
+00:02:43,496 --> 00:02:45,031
+These are boolean values.
+
+72
+00:02:46,199 --> 00:02:48,168
+They let the user choose what type of
+
+73
+00:02:48,234 --> 00:02:49,802
+menu items they want to see.
+
+74
+00:02:50,770 --> 00:02:51,938
+Both parameters have
+
+75
+00:02:52,005 --> 00:02:53,740
+default values set to true.
+
+76
+00:02:55,108 --> 00:02:56,809
+In the system settings, they
+
+77
+00:02:56,876 --> 00:02:58,645
+will appear as simple toggles.
+
+78
+00:02:59,646 --> 00:03:02,081
+We also define a display representation.
+
+79
+00:03:03,983 --> 00:03:06,252
+This adds a subtitle with the user
+
+80
+00:03:06,319 --> 00:03:08,888
+selections, like drinks or foods.
+
+81
+00:03:10,456 --> 00:03:12,559
+The suggested focus filters method
+
+82
+00:03:12,625 --> 00:03:14,127
+provides a recommendation,
+
+83
+00:03:14,827 --> 00:03:16,462
+for example, showing only
+
+84
+00:03:16,529 --> 00:03:18,364
+drinks during work focus.
+
+85
+00:03:19,332 --> 00:03:20,700
+Finally, in the perform method,
+
+86
+00:03:20,767 --> 00:03:22,869
+we take the user's choice
+
+87
+00:03:22,936 --> 00:03:25,171
+and update the app with that information.
+
+88
+00:03:26,105 --> 00:03:27,273
+Once we have the user's choice,
+
+89
+00:03:27,340 --> 00:03:29,342
+we apply them in the app.
+
+90
+00:03:30,210 --> 00:03:32,111
+We store these values in a property
+
+91
+00:03:32,178 --> 00:03:33,913
+called menu item filter
+
+92
+00:03:33,980 --> 00:03:36,749
+inside a shared model object.
+
+93
+00:03:38,351 --> 00:03:39,719
+This property is updated
+
+94
+00:03:39,786 --> 00:03:41,754
+every time the focus changes.
+
+95
+00:03:42,822 --> 00:03:45,058
+In the menu view, we use this property
+
+96
+00:03:45,124 --> 00:03:46,993
+to decide which sections should be visible.
+
+97
+00:03:47,727 --> 00:03:49,062
+The app can show only drinks,
+
+98
+00:03:49,128 --> 00:03:51,230
+only foods or both.
+
+99
+00:03:52,231 --> 00:03:54,267
+This keeps the interface updated in real
+
+100
+00:03:54,334 --> 00:03:55,969
+time and makes sure it
+
+101
+00:03:56,035 --> 00:03:57,403
+matches the current focus.
+
+102
+00:03:58,571 --> 00:04:00,573
+If you want to go further, focus filters
+
+103
+00:04:00,640 --> 00:04:02,842
+can also affect other parts of the app,
+
+104
+00:04:03,209 --> 00:04:04,210
+not just the interface.
+
+105
+00:04:05,044 --> 00:04:07,013
+For example, you can filter notifications
+
+106
+00:04:07,080 --> 00:04:08,247
+so only the most
+
+107
+00:04:08,314 --> 00:04:09,649
+important ones are shown.
+
+108
+00:04:10,550 --> 00:04:12,452
+You can also change the app's badge count,
+
+109
+00:04:12,518 --> 00:04:14,354
+To show only what matters.
+
+110
+00:04:15,321 --> 00:04:16,656
+These features make the
+
+111
+00:04:16,723 --> 00:04:18,291
+app feel even more focused.
+
+112
+00:04:19,259 --> 00:04:20,893
+But if you want to make changes when
+
+113
+00:04:20,960 --> 00:04:22,228
+the app is not open,
+
+114
+00:04:22,295 --> 00:04:23,696
+like your notifications, badges,
+
+115
+00:04:24,030 --> 00:04:25,398
+or widgets, you need
+
+116
+00:04:25,465 --> 00:04:26,833
+to create an app extension.
+
+117
+00:04:27,767 --> 00:04:29,435
+This lets your filter run in the
+
+118
+00:04:29,502 --> 00:04:30,536
+background and keeps
+
+119
+00:04:30,603 --> 00:04:32,038
+the experience consistent.
+
+120
+00:04:36,209 --> 00:04:36,909
+Thanks for watching!
+
+121
+00:04:37,243 --> 00:04:39,178
+I hope this video helps you understand
+
+122
+00:04:39,245 --> 00:04:41,547
+how to use focus filters in your app.
+
+123
+00:04:42,015 --> 00:04:43,583
+It is a great way to create a more
+
+124
+00:04:43,650 --> 00:04:44,350
+personal and distraction-free 
+
+125
+00:04:44,417 --> 00:04:46,653
+experience for your users.
+
+126
+00:04:47,320 --> 00:04:48,821
+See you in the next video! Bye!
+

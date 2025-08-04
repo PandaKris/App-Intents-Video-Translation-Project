@@ -1,0 +1,299 @@
+1
+00:00:00,934 --> 00:00:03,069
+Halo! Di video sebelumnya,
+
+2
+00:00:03,136 --> 00:00:04,437
+kami menjelajahi cara menggunakan Aplikasi
+
+3
+00:00:04,504 --> 00:00:06,172
+entitas dan kueri entitas
+
+4
+00:00:06,272 --> 00:00:08,341
+untuk meningkatkan interaksi antara
+
+5
+00:00:08,408 --> 00:00:10,710
+aplikasi kita dan sistem melalui Intents.
+
+6
+00:00:11,444 --> 00:00:13,613
+Sekarang mari kita lihat bagaimana kita dapat menyesuaikannya
+
+7
+00:00:13,680 --> 00:00:16,082
+widget untuk memanfaatkan pengaturan ini,
+
+8
+00:00:16,616 --> 00:00:18,251
+dan juga memperkenalkan yang baru
+
+9
+00:00:18,318 --> 00:00:20,320
+jenis widget, Widget Kontrol.
+
+10
+00:00:23,256 --> 00:00:24,557
+Mari kita mulai dengan cepat
+
+11
+00:00:24,624 --> 00:00:26,459
+pembaruan pada widget kopi kami.
+
+12
+00:00:27,727 --> 00:00:29,763
+Berikut tampilan entri widget kopi.
+
+13
+00:00:31,264 --> 00:00:33,333
+Karena Intent kita sudah dienkapsulasi
+
+14
+00:00:33,400 --> 00:00:34,467
+ke dalam konfigurasi,
+
+15
+00:00:35,068 --> 00:00:37,003
+kita hanya perlu membaca produknya saja,
+
+16
+00:00:38,204 --> 00:00:40,073
+nama opsional darinya.
+
+17
+00:00:40,974 --> 00:00:43,209
+Ini adalah properti kunci yang memungkinkan kita
+
+18
+00:00:43,276 --> 00:00:45,378
+untuk mengambil item menu yang benar.
+
+19
+00:00:45,912 --> 00:00:46,679
+Sekarang mari kita buat
+
+20
+00:00:46,746 --> 00:00:49,149
+sesuatu yang baru, Widget Kontrol.
+
+21
+00:00:51,084 --> 00:00:52,752
+Widget kontrol memungkinkan aplikasi Anda
+
+22
+00:00:52,819 --> 00:00:54,654
+untuk berinteraksi lebih dalam dengan sistem,
+
+23
+00:00:55,054 --> 00:00:57,390
+termasuk pusat kendali, layar kunci
+
+24
+00:00:57,457 --> 00:00:58,892
+dan bahkan tombol aksi
+
+25
+00:00:59,225 --> 00:01:01,261
+akan kita bahas di modul berikutnya.
+
+26
+00:01:02,328 --> 00:01:04,764
+Seperti widget interaktif, Widget Kontrol
+
+27
+00:01:04,831 --> 00:01:07,600
+juga dapat menggunakan Intent untuk melakukan tindakan.
+
+28
+00:01:09,402 --> 00:01:10,937
+Untuk contoh ini,
+
+29
+00:01:11,004 --> 00:01:13,506
+kami akan menggunakan kembali Intent Favorit Terbuka kami
+
+30
+00:01:13,706 --> 00:01:16,209
+untuk membuat Widget Kontrol sederhana
+
+31
+00:01:16,276 --> 00:01:18,745
+yang membuka layar Favorit di aplikasi.
+
+32
+00:01:20,613 --> 00:01:22,382
+Beginilah cara kami membuatnya.
+
+33
+00:01:23,983 --> 00:01:24,884
+Mari kita uraikan.
+
+34
+00:01:25,051 --> 00:01:28,354
+Ini sesuai dengan
+
+35
+00:01:28,421 --> 00:01:29,889
+Protokol ControlWidget.
+
+36
+00:01:30,890 --> 00:01:33,460
+Properti tubuh kembali
+
+37
+00:01:33,526 --> 00:01:34,894
+Konfigurasi Widget Kontrol.
+
+38
+00:01:35,862 --> 00:01:38,498
+Kami menggunakan StaticControlConfiguration,
+
+39
+00:01:39,032 --> 00:01:42,001
+yang mendefinisikan jenis yang unik,
+
+40
+00:01:42,068 --> 00:01:44,003
+pengenal string untuk widget ini.
+
+41
+00:01:45,305 --> 00:01:46,573
+Di dalam penutupan,
+
+42
+00:01:46,639 --> 00:01:48,475
+kami mendefinisikan UI widget yang sebenarnya.
+
+43
+00:01:49,209 --> 00:01:51,678
+Dalam kasus ini, ControlWidgetButton
+
+44
+00:01:51,744 --> 00:01:54,948
+yang memicu OpenFavoritesIntent kami.
+
+45
+00:01:56,149 --> 00:01:57,650
+Kami juga mendefinisikan displayName
+
+46
+00:01:57,717 --> 00:01:59,385
+dan deskripsi,
+
+47
+00:01:59,786 --> 00:02:00,753
+yang membantu pengguna
+
+48
+00:02:00,820 --> 00:02:03,022
+pahami apa fungsi widget ini.
+
+49
+00:02:03,857 --> 00:02:05,058
+Selanjutnya, kita perlu mempublikasikan
+
+50
+00:02:05,125 --> 00:02:06,726
+dalam bundel widget kami.
+
+51
+00:02:07,627 --> 00:02:09,863
+Kami cukup menambahkan widget baru ke
+
+52
+00:02:09,929 --> 00:02:11,664
+bundel dengan menyertakan FavoritesControlWidget
+
+53
+00:02:11,731 --> 00:02:13,533
+dalam tubuh.
+
+54
+00:02:15,134 --> 00:02:17,103
+Sekarang kita siap untuk mengujinya.
+
+55
+00:02:18,104 --> 00:02:19,639
+Tambahkan Kontrol baru dan lihat
+
+56
+00:02:19,706 --> 00:02:21,374
+untuk widget favorit kopi.
+
+57
+00:02:22,375 --> 00:02:23,510
+Tambahkan ke Kontrol
+
+58
+00:02:23,576 --> 00:02:26,246
+Pusatkan dan ubah ukurannya sesuai keinginan Anda.
+
+59
+00:02:27,413 --> 00:02:28,715
+Anda akan melihat bahwa itu berhasil
+
+60
+00:02:28,781 --> 00:02:30,650
+di semua ukuran widget,
+
+61
+00:02:30,984 --> 00:02:33,720
+dan ketika Anda mengetuknya, itu akan membuka aplikasi Anda
+
+62
+00:02:33,786 --> 00:02:35,688
+langsung di layar Favorit.
+
+63
+00:02:39,459 --> 00:02:42,328
+Dalam modul ini, Anda telah melihat cara menggunakan
+
+64
+00:02:42,395 --> 00:02:44,330
+Entitas Aplikasi dan Kueri Entitas
+
+65
+00:02:44,597 --> 00:02:47,000
+untuk mengekspos konsep dari aplikasi kami ke
+
+66
+00:02:47,066 --> 00:02:48,601
+sistem melalui maksud.
+
+67
+00:02:49,068 --> 00:02:50,170
+Terapkan ini di keduanya
+
+68
+00:02:50,236 --> 00:02:52,472
+widget interaktif dan kontrol.
+
+69
+00:02:53,006 --> 00:02:55,074
+Alat-alat ini membuat aplikasi kami lebih baik
+
+70
+00:02:55,141 --> 00:02:57,577
+integrasi dengan iOS dan lebih lancar
+
+71
+00:02:57,644 --> 00:02:58,945
+pengalaman bagi pengguna.
+
+72
+00:03:00,146 --> 00:03:02,715
+Pada modul berikutnya, kita akan menjelajahi lebih jauh
+
+73
+00:03:02,782 --> 00:03:03,850
+jenis interaksi
+
+74
+00:03:04,150 --> 00:03:05,418
+didukung oleh App Intents.
+
+75
+00:03:06,219 --> 00:03:06,419
+Selamat tinggal.

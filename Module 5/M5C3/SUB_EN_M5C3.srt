@@ -1,0 +1,300 @@
+1
+00:00:00,934 --> 00:00:03,069
+Hello! In the previous videos,
+
+2
+00:00:03,136 --> 00:00:04,437
+we explored how to use App
+
+3
+00:00:04,504 --> 00:00:06,172
+entities and entity queries
+
+4
+00:00:06,272 --> 00:00:08,341
+to improve the interactions between
+
+5
+00:00:08,408 --> 00:00:10,710
+our app and the system through Intents.
+
+6
+00:00:11,444 --> 00:00:13,613
+Now let's see how we can adjust our
+
+7
+00:00:13,680 --> 00:00:16,082
+widget to take advantage of this setup,
+
+8
+00:00:16,616 --> 00:00:18,251
+and also introduce a new
+
+9
+00:00:18,318 --> 00:00:20,320
+type of widget, Control Widget.
+
+10
+00:00:23,256 --> 00:00:24,557
+Let's start with a quick
+
+11
+00:00:24,624 --> 00:00:26,459
+update to our coffee widget.
+
+12
+00:00:27,727 --> 00:00:29,763
+Here's the coffee widget entry view.
+
+13
+00:00:31,264 --> 00:00:33,333
+Since our Intent is already encapsulated
+
+14
+00:00:33,400 --> 00:00:34,467
+into the configuration,
+
+15
+00:00:35,068 --> 00:00:37,003
+we just need to read the product,
+
+16
+00:00:38,204 --> 00:00:40,073
+optional name from it.
+
+17
+00:00:40,974 --> 00:00:43,209
+This is the key property that allows us
+
+18
+00:00:43,276 --> 00:00:45,378
+to retrieve the correct menu item.
+
+19
+00:00:45,912 --> 00:00:46,679
+Now let's create
+
+20
+00:00:46,746 --> 00:00:49,149
+something new, a Control Widget.
+
+21
+00:00:51,084 --> 00:00:52,752
+Control widgets allow your app
+
+22
+00:00:52,819 --> 00:00:54,654
+to interact more deeply with the system,
+
+23
+00:00:55,054 --> 00:00:57,390
+include the control center, lock screen
+
+24
+00:00:57,457 --> 00:00:58,892
+and even the action button
+
+25
+00:00:59,225 --> 00:01:01,261
+we will cover in the next module.
+
+26
+00:01:02,328 --> 00:01:04,764
+Like interactive widgets, Control Widgets
+
+27
+00:01:04,831 --> 00:01:07,600
+can also use Intents to perform actions.
+
+28
+00:01:09,402 --> 00:01:10,937
+For this example,
+
+29
+00:01:11,004 --> 00:01:13,506
+we'll reuse our Open Favorites Intent
+
+30
+00:01:13,706 --> 00:01:16,209
+to create a simple Control Widget
+
+31
+00:01:16,276 --> 00:01:18,745
+that opens the Favorites screen in the app.
+
+32
+00:01:20,613 --> 00:01:22,382
+Here's how we create it.
+
+33
+00:01:23,983 --> 00:01:24,884
+Let's break it down.
+
+34
+00:01:25,051 --> 00:01:28,354
+It conforms to the
+
+35
+00:01:28,421 --> 00:01:29,889
+ControlWidget protocol.
+
+36
+00:01:30,890 --> 00:01:33,460
+The body property returns
+
+37
+00:01:33,526 --> 00:01:34,894
+a ControlWidgetConfiguration.
+
+38
+00:01:35,862 --> 00:01:38,498
+We use a StaticControlConfiguration,
+
+39
+00:01:39,032 --> 00:01:42,001
+which defines a unique kind,
+
+40
+00:01:42,068 --> 00:01:44,003
+a string identifier for this widget.
+
+41
+00:01:45,305 --> 00:01:46,573
+Inside the closure,
+
+42
+00:01:46,639 --> 00:01:48,475
+we define the actual widget UI.
+
+43
+00:01:49,209 --> 00:01:51,678
+In this case, a ControlWidgetButton
+
+44
+00:01:51,744 --> 00:01:54,948
+that triggers our OpenFavoritesIntent.
+
+45
+00:01:56,149 --> 00:01:57,650
+We also define a displayName
+
+46
+00:01:57,717 --> 00:01:59,385
+and a description,
+
+47
+00:01:59,786 --> 00:02:00,753
+which helps users
+
+48
+00:02:00,820 --> 00:02:03,022
+understand what this widget does.
+
+49
+00:02:03,857 --> 00:02:05,058
+Next, we need to publish
+
+50
+00:02:05,125 --> 00:02:06,726
+it in our widget bundle.
+
+51
+00:02:07,627 --> 00:02:09,863
+We simply add the new widget to the
+
+52
+00:02:09,929 --> 00:02:11,664
+bundle by including FavoritesControlWidget
+
+53
+00:02:11,731 --> 00:02:13,533
+in the body.
+
+54
+00:02:15,134 --> 00:02:17,103
+Now we are ready to test it.
+
+55
+00:02:18,104 --> 00:02:19,639
+Add a new Control and look
+
+56
+00:02:19,706 --> 00:02:21,374
+for the coffee favorites widget.
+
+57
+00:02:22,375 --> 00:02:23,510
+Add it to the Control
+
+58
+00:02:23,576 --> 00:02:26,246
+Center and resize it as you like.
+
+59
+00:02:27,413 --> 00:02:28,715
+You'll see that it works
+
+60
+00:02:28,781 --> 00:02:30,650
+across all widget sizes,
+
+61
+00:02:30,984 --> 00:02:33,720
+and when you tap it, it opens your app
+
+62
+00:02:33,786 --> 00:02:35,688
+directly in the Favorites screen.
+
+63
+00:02:39,459 --> 00:02:42,328
+In this module, you have seen how to use
+
+64
+00:02:42,395 --> 00:02:44,330
+App Entities and Entity Queries
+
+65
+00:02:44,597 --> 00:02:47,000
+to expose concepts from our app to the
+
+66
+00:02:47,066 --> 00:02:48,601
+system through intents.
+
+67
+00:02:49,068 --> 00:02:50,170
+Apply this in both
+
+68
+00:02:50,236 --> 00:02:52,472
+interactive and control widgets.
+
+69
+00:02:53,006 --> 00:02:55,074
+These tools give our app better
+
+70
+00:02:55,141 --> 00:02:57,577
+integration with iOS and a smoother
+
+71
+00:02:57,644 --> 00:02:58,945
+experience to users.
+
+72
+00:03:00,146 --> 00:03:02,715
+In the next module, we explore even more
+
+73
+00:03:02,782 --> 00:03:03,850
+types of interactions
+
+74
+00:03:04,150 --> 00:03:05,418
+powered by App Intents.
+
+75
+00:03:06,219 --> 00:03:06,419
+Bye.
+

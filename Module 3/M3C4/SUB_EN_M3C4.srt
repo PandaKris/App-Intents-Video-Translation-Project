@@ -1,0 +1,252 @@
+1
+00:00:00,433 --> 00:00:02,535
+Hi! In this video, we are going to see
+
+2
+00:00:02,602 --> 00:00:03,603
+how to access this
+
+3
+00:00:03,670 --> 00:00:05,605
+shortcut we created using Siri.
+
+4
+00:00:06,439 --> 00:00:08,441
+We'll also explore how to add different
+
+5
+00:00:08,508 --> 00:00:11,111
+phrases to trigger the shortcut and check
+
+6
+00:00:11,177 --> 00:00:13,246
+how it appears in Spotlight Search.
+
+7
+00:00:16,182 --> 00:00:18,218
+The shortcut we created in the last video
+
+8
+00:00:18,284 --> 00:00:20,253
+is now fully integrated with Siri.
+
+9
+00:00:21,788 --> 00:00:23,223
+That means you can activate
+
+10
+00:00:23,289 --> 00:00:25,392
+it just by using your voice.
+
+11
+00:00:26,559 --> 00:00:29,396
+For example, you can say
+
+12
+00:00:29,462 --> 00:00:31,564
+"Open my favorites coffee" and
+
+13
+00:00:31,631 --> 00:00:33,366
+Siri will immediately run
+
+14
+00:00:33,433 --> 00:00:34,834
+the shortcut and open
+
+15
+00:00:34,901 --> 00:00:36,503
+the favorite screen in our app.
+
+16
+00:00:37,470 --> 00:00:38,738
+Now let's talk a bit more
+
+17
+00:00:38,805 --> 00:00:40,273
+about the Phrases property.
+
+18
+00:00:40,940 --> 00:00:42,909
+Each phrase you add here is interpreted
+
+19
+00:00:42,976 --> 00:00:45,178
+literally by Siri, so it's
+
+20
+00:00:45,245 --> 00:00:46,813
+important to think like your
+
+21
+00:00:46,913 --> 00:00:49,449
+users and try to anticipate the different
+
+22
+00:00:49,516 --> 00:00:51,484
+ways they might say the same command.
+
+23
+00:00:51,918 --> 00:00:54,521
+Also, every phrase must include the app's name.
+
+24
+00:00:54,587 --> 00:00:57,557
+That's why we use .applicationName
+
+25
+00:00:59,492 --> 00:01:01,694
+As a developer, it's a good practice
+
+26
+00:01:01,761 --> 00:01:03,496
+to provide several variations
+
+27
+00:01:03,563 --> 00:01:04,998
+of phrases for the same intent,
+
+28
+00:01:05,532 --> 00:01:07,934
+so users can naturally say what feels
+
+29
+00:01:08,001 --> 00:01:09,602
+right to them and still
+
+30
+00:01:09,669 --> 00:01:10,904
+get the expected result.
+
+31
+00:01:12,272 --> 00:01:14,140
+Here's an example where we added multiple
+
+32
+00:01:14,207 --> 00:01:16,042
+phrases to give the user more
+
+33
+00:01:16,109 --> 00:01:17,777
+flexibility when using Siri.
+
+34
+00:01:18,878 --> 00:01:20,880
+Now let's try out some of the phrases
+
+35
+00:01:20,947 --> 00:01:22,916
+we added and see how Siri responds.
+
+36
+00:01:23,917 --> 00:01:25,585
+I'm going to say a few
+
+37
+00:01:25,652 --> 00:01:28,021
+different variations, like 
+
+38
+00:01:28,088 --> 00:01:30,857
+"show my favorites in Coffee"
+
+39
+00:01:31,291 --> 00:01:33,293
+and "go to favorites in Coffee".
+
+40
+00:01:35,328 --> 00:01:37,664
+And as you will see, Siri correctly
+
+41
+00:01:37,730 --> 00:01:39,766
+recognizes each one and
+
+42
+00:01:39,833 --> 00:01:41,401
+runs the shortcut we created.
+
+43
+00:01:43,336 --> 00:01:45,138
+And the best part is that we don't need
+
+44
+00:01:45,205 --> 00:01:47,740
+to write any extra code for our shortcut
+
+45
+00:01:47,807 --> 00:01:48,808
+to appear in Spotlight.
+
+46
+00:01:49,609 --> 00:01:51,878
+The setup we already created is enough.
+
+47
+00:01:52,479 --> 00:01:54,647
+You can access it by pulling down to open
+
+48
+00:01:54,714 --> 00:01:57,016
+Spotlight and typing the name of the app
+
+49
+00:01:57,083 --> 00:01:59,552
+or even part of the shortcut's title.
+
+50
+00:02:03,656 --> 00:02:04,424
+And that's it for this
+
+51
+00:02:04,491 --> 00:02:05,859
+module, thanks for watching!
+
+52
+00:02:06,493 --> 00:02:08,394
+We have seen how to create an app intent,
+
+53
+00:02:08,728 --> 00:02:10,964
+turn it into a shortcut, and make it
+
+54
+00:02:11,030 --> 00:02:12,999
+accessible through Siri and Spotlight.
+
+55
+00:02:13,666 --> 00:02:15,735
+In the upcoming modules, we'll go further
+
+56
+00:02:15,802 --> 00:02:16,970
+and learn how to build
+
+57
+00:02:17,036 --> 00:02:18,371
+more complex intents,
+
+58
+00:02:18,671 --> 00:02:20,273
+integrated with additional system
+
+59
+00:02:20,340 --> 00:02:21,875
+features, to make your
+
+60
+00:02:21,941 --> 00:02:23,243
+app even more powerful.
+
+61
+00:02:24,444 --> 00:02:25,678
+Thanks for watching and I'll
+
+62
+00:02:25,745 --> 00:02:27,046
+see you in the next module.
+
+63
+00:02:27,580 --> 00:02:27,780
+Bye.
+

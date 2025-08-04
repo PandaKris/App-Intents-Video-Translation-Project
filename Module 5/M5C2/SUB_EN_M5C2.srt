@@ -1,0 +1,236 @@
+1
+00:00:00,533 --> 00:00:03,103
+Hi! In the last video, we learned how
+
+2
+00:00:03,169 --> 00:00:05,405
+to create an app entity to represent
+
+3
+00:00:05,472 --> 00:00:08,208
+a concept exposed by our app to the system.
+
+4
+00:00:08,508 --> 00:00:11,277
+We also explored how to use queries
+
+5
+00:00:11,344 --> 00:00:13,179
+to look up these entities and how
+
+6
+00:00:13,246 --> 00:00:15,315
+to integrate these into the app intents.
+
+7
+00:00:15,815 --> 00:00:18,018
+In this video, we are going to take this
+
+8
+00:00:18,084 --> 00:00:20,854
+a step further and use these intents
+
+9
+00:00:20,920 --> 00:00:22,322
+to create shortcuts, both
+
+10
+00:00:22,389 --> 00:00:23,923
+manually and programmatically.
+
+11
+00:00:27,460 --> 00:00:30,530
+Let's start by opening the Shortcuts app.
+
+12
+00:00:31,564 --> 00:00:33,666
+Tap the Add button to create a new shortcut.
+
+13
+00:00:33,733 --> 00:00:36,336
+Let's call it "Coffee".
+
+14
+00:00:38,805 --> 00:00:40,206
+Now, choose the action
+
+15
+00:00:40,273 --> 00:00:42,175
+"Open product details".
+
+16
+00:00:43,343 --> 00:00:45,745
+When you tap on "Product", we see a list
+
+17
+00:00:45,812 --> 00:00:47,380
+of items. These come
+
+18
+00:00:47,447 --> 00:00:49,315
+from our suggested entities.
+
+19
+00:00:50,350 --> 00:00:53,319
+As we start typing, the system call our
+
+20
+00:00:53,386 --> 00:00:55,789
+matching string function
+
+21
+00:00:55,855 --> 00:00:57,257
+to return the matching results.
+
+22
+00:00:58,324 --> 00:01:01,461
+Let's pick up a product. And done!
+
+23
+00:01:02,595 --> 00:01:05,732
+We now have a shortcut that uses our app
+
+24
+00:01:05,799 --> 00:01:07,500
+entity as a parameter.
+
+25
+00:01:08,568 --> 00:01:11,304
+We can also define this shortcut in code.
+
+26
+00:01:12,839 --> 00:01:14,207
+Let's take a look at
+
+27
+00:01:14,274 --> 00:01:16,309
+"CoffeeShortcuts.swift".
+
+28
+00:01:17,343 --> 00:01:19,345
+Notice the use of
+
+29
+00:01:19,412 --> 00:01:21,047
+"product" in the phrases.
+
+30
+00:01:22,549 --> 00:01:24,217
+This is only possible because we are
+
+31
+00:01:24,284 --> 00:01:26,753
+using an app entity, allowing us
+
+32
+00:01:26,820 --> 00:01:29,322
+to create dynamic, context aware phrases
+
+33
+00:01:29,389 --> 00:01:30,890
+that make Siri interactions
+
+34
+00:01:30,957 --> 00:01:33,226
+more natural and conversational.
+
+35
+00:01:34,160 --> 00:01:35,094
+Back in the Shortcuts app,
+
+36
+00:01:35,161 --> 00:01:36,329
+let's try it out.
+
+37
+00:01:37,330 --> 00:01:41,901
+Create a new shortcut again, search for
+
+38
+00:01:41,968 --> 00:01:43,703
+the "Coffee" actions,
+
+39
+00:01:43,770 --> 00:01:46,172
+and choose "Open product details".
+
+40
+00:01:47,907 --> 00:01:50,944
+Now tap on "Choose a product", and once
+
+41
+00:01:51,010 --> 00:01:52,545
+again, we see the menu
+
+42
+00:01:52,612 --> 00:01:53,880
+items from the query.
+
+43
+00:01:56,349 --> 00:01:57,617
+Type in a name "Triggers
+
+44
+00:01:57,684 --> 00:01:59,452
+our matching string function".
+
+45
+00:02:01,554 --> 00:02:03,323
+Let's test this with Siri.
+
+46
+00:02:04,624 --> 00:02:07,460
+Show espresso in coffee.
+
+47
+00:02:10,096 --> 00:02:12,532
+Siri understands the product name
+
+48
+00:02:12,599 --> 00:02:14,801
+and passes it straight to our intent.
+
+49
+00:02:15,635 --> 00:02:17,637
+This kind of interaction, where the user
+
+50
+00:02:17,704 --> 00:02:19,873
+speaks naturally and the app responds
+
+51
+00:02:19,939 --> 00:02:21,474
+meaningfully, is only
+
+52
+00:02:21,541 --> 00:02:23,910
+possible because of app entity.
+
+53
+00:02:29,382 --> 00:02:31,117
+So, in this video, we saw how
+
+54
+00:02:31,184 --> 00:02:33,086
+interactions with app intents through
+
+55
+00:02:33,152 --> 00:02:35,855
+shortcuts and Siri become much more fluid
+
+56
+00:02:35,922 --> 00:02:38,458
+and powerful when using app entities.
+
+57
+00:02:38,925 --> 00:02:40,827
+In the next video, we explore how to
+
+58
+00:02:40,894 --> 00:02:42,162
+bring this same power
+
+59
+00:02:42,228 --> 00:02:44,364
+to widgets. See you soon!
+

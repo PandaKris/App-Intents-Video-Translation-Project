@@ -1,0 +1,344 @@
+1
+00:00:00,233 --> 00:00:02,302
+Hi! In this video, we are going to talk
+
+2
+00:00:02,369 --> 00:00:03,403
+about a feature that
+
+3
+00:00:03,470 --> 00:00:05,071
+connects hardware and software
+
+4
+00:00:05,238 --> 00:00:07,240
+in a very practical way, the Action Button.
+
+5
+00:00:07,307 --> 00:00:08,875
+Many people don't
+
+6
+00:00:08,942 --> 00:00:10,443
+know about it, but it can be
+
+7
+00:00:10,510 --> 00:00:12,579
+a powerful way for users to interact
+
+8
+00:00:12,645 --> 00:00:14,280
+with your app, especially when
+
+9
+00:00:14,347 --> 00:00:16,082
+combined with shortcuts and app intents.
+
+10
+00:00:16,149 --> 00:00:18,518
+By the end of this video,
+
+11
+00:00:18,585 --> 00:00:19,219
+you'll know what the Action
+
+12
+00:00:19,285 --> 00:00:21,488
+Button is, how it works, and how
+
+13
+00:00:21,554 --> 00:00:23,623
+to use it with the shortcuts you created
+
+14
+00:00:23,690 --> 00:00:27,861
+during this course.
+
+15
+00:00:27,927 --> 00:00:29,529
+The Action Button is a physical button
+
+16
+00:00:29,629 --> 00:00:32,565
+found on some Apple devices, like certain
+
+17
+00:00:32,632 --> 00:00:34,200
+iPhone models and the Apple
+
+18
+00:00:34,267 --> 00:00:37,404
+Watch Ultra. On devices that
+
+19
+00:00:37,470 --> 00:00:40,206
+support it, the button replaces or adds
+
+20
+00:00:40,273 --> 00:00:41,541
+two traditional controls
+
+21
+00:00:41,608 --> 00:00:43,343
+and lets the user customize
+
+22
+00:00:43,410 --> 00:00:46,746
+what it does. For example, it can open
+
+23
+00:00:46,813 --> 00:00:48,348
+an app, run a shortcut,
+
+24
+00:00:48,748 --> 00:00:50,350
+or start a system action.
+
+25
+00:00:51,117 --> 00:00:53,119
+It's a quick way to do something even
+
+26
+00:00:53,186 --> 00:00:54,387
+when the screen is locked.
+
+27
+00:00:55,288 --> 00:00:57,090
+Because it's designed to be
+
+28
+00:00:57,157 --> 00:00:59,859
+used fast and often without looking at
+
+29
+00:00:59,926 --> 00:01:01,127
+the screen, the best
+
+30
+00:01:01,194 --> 00:01:02,929
+actions are the simple ones.
+
+31
+00:01:03,730 --> 00:01:05,865
+Many people use it to open the camera,
+
+32
+00:01:06,266 --> 00:01:07,500
+turn on the flashlight,
+
+33
+00:01:07,901 --> 00:01:09,202
+start a voice recording,
+
+34
+00:01:09,702 --> 00:01:13,239
+or activate a focus mode. These are all
+
+35
+00:01:13,306 --> 00:01:14,407
+the things that work well
+
+36
+00:01:14,474 --> 00:01:15,842
+when they happen right away,
+
+37
+00:01:16,142 --> 00:01:19,312
+without extra steps. For us developers,
+
+38
+00:01:19,646 --> 00:01:20,780
+the best part is that we
+
+39
+00:01:20,847 --> 00:01:22,115
+don't need to change anything.
+
+40
+00:01:22,182 --> 00:01:25,518
+If we already created a shortcut using
+
+41
+00:01:25,585 --> 00:01:26,786
+app intents, the user
+
+42
+00:01:26,853 --> 00:01:28,221
+can choose that shortcut
+
+43
+00:01:28,354 --> 00:01:31,858
+for the Action Button. This is done in
+
+44
+00:01:31,925 --> 00:01:32,659
+the device settings.
+
+45
+00:01:33,593 --> 00:01:35,495
+So, just by supporting app
+
+46
+00:01:35,562 --> 00:01:37,597
+intents, your app is already ready to
+
+47
+00:01:37,664 --> 00:01:38,898
+work with the Action Button.
+
+48
+00:01:39,599 --> 00:01:41,201
+It's another way to make your
+
+49
+00:01:41,267 --> 00:01:44,137
+app more useful. Let me show you how this
+
+50
+00:01:44,204 --> 00:01:46,039
+works. I'll open the
+
+51
+00:01:46,106 --> 00:01:47,974
+Settings app on my iPhone, go to
+
+52
+00:01:48,041 --> 00:01:50,577
+the Action Button section, and pick one
+
+53
+00:01:50,643 --> 00:01:51,644
+of the shortcuts we
+
+54
+00:01:51,711 --> 00:01:53,213
+built earlier in the course.
+
+55
+00:01:54,914 --> 00:01:57,150
+The system allows me to assign it to the
+
+56
+00:01:57,217 --> 00:01:59,185
+button. Now, every
+
+57
+00:01:59,252 --> 00:02:00,420
+time I press the button,
+
+58
+00:02:00,653 --> 00:02:03,456
+that shortcut will run. No extra steps
+
+59
+00:02:03,523 --> 00:02:05,692
+needed. This is a great
+
+60
+00:02:05,758 --> 00:02:07,894
+example of how app intents make
+
+61
+00:02:07,961 --> 00:02:11,164
+our work more flexible and powerful.
+
+62
+00:02:11,231 --> 00:02:12,198
+Make sure the Action Button
+
+63
+00:02:12,265 --> 00:02:13,399
+gives a good experience,
+
+64
+00:02:13,933 --> 00:02:15,335
+there are some guidelines we should follow.
+
+65
+00:02:15,401 --> 00:02:18,238
+The action should be quick and
+
+66
+00:02:18,304 --> 00:02:20,106
+simple. It should not
+
+67
+00:02:20,173 --> 00:02:22,675
+ask the user for extra input or confirmation.
+
+68
+00:02:22,742 --> 00:02:25,478
+The user might press the
+
+69
+00:02:25,545 --> 00:02:26,646
+button while the device
+
+70
+00:02:26,713 --> 00:02:30,416
+is locked or in a pocket. So, the action
+
+71
+00:02:30,483 --> 00:02:31,851
+should run right away.
+
+72
+00:02:33,019 --> 00:02:35,321
+It's also a good idea to give
+
+73
+00:02:35,388 --> 00:02:37,857
+some feedback, like a sound, a vibration,
+
+74
+00:02:38,191 --> 00:02:39,392
+or something on screen.
+
+75
+00:02:40,260 --> 00:02:41,661
+This helps the user know
+
+76
+00:02:41,794 --> 00:02:45,231
+that the button worked. And finally, use
+
+77
+00:02:45,298 --> 00:02:47,967
+short and clear labels for your actions.
+
+78
+00:02:48,968 --> 00:02:51,104
+Three words or less is a good rule.
+
+79
+00:02:54,207 --> 00:02:56,176
+And that's it for this video.
+
+80
+00:02:56,242 --> 00:02:57,343
+The Action Button may seem like a
+
+81
+00:02:57,410 --> 00:02:59,279
+small detail, but it gives users
+
+82
+00:02:59,379 --> 00:03:01,814
+another easy and direct way to use what
+
+83
+00:03:01,881 --> 00:03:03,783
+we have built. And if you
+
+84
+00:03:03,850 --> 00:03:05,552
+are already using app intents,
+
+85
+00:03:05,785 --> 00:03:08,021
+you're almost done. Thanks for watching,
+
+86
+00:03:08,087 --> 00:03:10,089
+and see you in the next lesson. Bye!
+

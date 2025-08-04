@@ -1,0 +1,295 @@
+1
+00:00:00,233 --> 00:00:02,202
+Hai! Di video ini, kita akan membahas
+
+2
+00:00:02,268 --> 00:00:03,670
+tentang kasus penggunaan tertentu
+
+3
+00:00:03,737 --> 00:00:05,305
+untuk Maksud dan Pintasan Aplikasi,
+
+4
+00:00:05,872 --> 00:00:07,874
+menggunakan gerakan meremas pada
+
+5
+00:00:07,941 --> 00:00:09,376
+Apple Pencil Pro. Ini bagus
+
+6
+00:00:09,442 --> 00:00:10,944
+contoh bagaimana fleksibelnya ini
+
+7
+00:00:11,011 --> 00:00:13,113
+alat-alat apa saja yang ada dan bagaimana alat-alat tersebut dapat beradaptasi dengan berbagai macam
+
+8
+00:00:13,179 --> 00:00:14,247
+berbagai cara pengguna
+
+9
+00:00:14,314 --> 00:00:15,815
+berinteraksi dengan perangkat mereka.
+
+10
+00:00:19,853 --> 00:00:22,322
+Gerakan meremas adalah gerakan kecil,
+
+11
+00:00:22,389 --> 00:00:24,557
+tindakan cepat yang dapat dilakukan pengguna dengan lembut
+
+12
+00:00:24,624 --> 00:00:26,059
+menekan Apple Pencil Pro.
+
+13
+00:00:26,126 --> 00:00:28,695
+Ini dapat dihubungkan ke berbagai
+
+14
+00:00:28,762 --> 00:00:31,631
+fitur seperti membuka palet alat
+
+15
+00:00:31,698 --> 00:00:32,899
+atau mengubah mode gambar
+
+16
+00:00:32,966 --> 00:00:35,135
+tanpa mengganggu aliran apa
+
+17
+00:00:35,201 --> 00:00:37,537
+pengguna sedang melakukan. Itu hanya
+
+18
+00:00:37,604 --> 00:00:39,239
+salah satu dari banyak cara sistem
+
+19
+00:00:39,305 --> 00:00:41,007
+dapat menanggapi gaya interaksi pribadi.
+
+20
+00:00:41,074 --> 00:00:43,176
+Seperti yang ditunjukkan dalam pengaturan,
+
+21
+00:00:43,243 --> 00:00:45,145
+pengguna dapat memilih apa
+
+22
+00:00:45,211 --> 00:00:46,880
+terjadi ketika mereka meremas pensil.
+
+23
+00:00:47,847 --> 00:00:48,782
+Beberapa pilihan
+
+24
+00:00:48,848 --> 00:00:50,417
+termasuk menampilkan palet alat,
+
+25
+00:00:50,850 --> 00:00:53,186
+beralih antar alat atau membuka
+
+26
+00:00:53,253 --> 00:00:55,321
+pemilih warna. Salah satu
+
+27
+00:00:55,388 --> 00:00:56,890
+pilihan paling kuat adalah
+
+28
+00:00:56,956 --> 00:00:59,893
+memilih pintasan. Ini memungkinkan pengguna
+
+29
+00:00:59,959 --> 00:01:01,961
+untuk mendefinisikan secara tepat apa yang mereka inginkan
+
+30
+00:01:02,028 --> 00:01:03,096
+gerakan untuk memicu,
+
+31
+00:01:03,563 --> 00:01:05,465
+memberi mereka kendali penuh atas
+
+32
+00:01:05,532 --> 00:01:08,368
+pengalaman. Dengan iPadOS, pengguna dapat
+
+33
+00:01:08,435 --> 00:01:09,736
+hubungkan gerakan ini ke
+
+34
+00:01:09,803 --> 00:01:11,371
+jalan pintas yang mereka buat di
+
+35
+00:01:11,438 --> 00:01:13,973
+Aplikasi pintasan. Artinya, mereka dapat membangun
+
+36
+00:01:14,040 --> 00:01:15,208
+otomatisasi yang berjalan
+
+37
+00:01:15,308 --> 00:01:17,277
+seketika saat mereka meremas pensil.
+
+38
+00:01:18,011 --> 00:01:19,279
+Ini adalah hal yang sangat spesifik
+
+39
+00:01:19,345 --> 00:01:20,980
+skenario tetapi sebagai pengembang,
+
+40
+00:01:21,314 --> 00:01:23,216
+kita dapat menggunakan App Intents yang sama dan
+
+41
+00:01:23,283 --> 00:01:25,351
+Pintasan yang telah kami definisikan
+
+42
+00:01:25,418 --> 00:01:27,020
+untuk mendukungnya. Ini menunjukkan
+
+43
+00:01:27,087 --> 00:01:29,055
+bagaimana pekerjaan yang kami lakukan untuk mendukung sistem
+
+44
+00:01:29,122 --> 00:01:30,657
+integrasi dapat membuka
+
+45
+00:01:30,723 --> 00:01:32,725
+berbagai pengalaman pengguna.
+
+46
+00:01:33,359 --> 00:01:35,829
+Dari Pintasan yang ditempatkan di layar beranda
+
+47
+00:01:35,895 --> 00:01:37,597
+untuk gerakan yang sangat detail
+
+48
+00:01:37,664 --> 00:01:39,666
+seperti ini. Mari kita lihat
+
+49
+00:01:39,732 --> 00:01:42,602
+beberapa contoh. Dalam aplikasi sketsa,
+
+50
+00:01:42,669 --> 00:01:44,103
+meremas mungkin akan membuka
+
+51
+00:01:44,170 --> 00:01:46,940
+pengambil kuas. Dalam aplikasi menulis,
+
+52
+00:01:47,006 --> 00:01:50,243
+bisa beralih antar alat. Namun, pengguna
+
+53
+00:01:50,310 --> 00:01:51,478
+juga bisa menciptakan
+
+54
+00:01:51,544 --> 00:01:53,546
+pintasan yang membuka ChatGPT
+
+55
+00:01:53,780 --> 00:01:56,316
+untuk menanyakan pertanyaan cepat atau pertanyaan yang
+
+56
+00:01:56,382 --> 00:01:58,885
+memulai pengatur waktu atau menempel
+
+57
+00:01:58,952 --> 00:02:01,621
+teks yang telah ditentukan. Bahkan teks kecil sekalipun
+
+58
+00:02:01,688 --> 00:02:04,624
+otomatisasi seperti ini dapat membantu pengguna merasa
+
+59
+00:02:04,691 --> 00:02:06,793
+lebih terkendali.
+
+60
+00:02:06,860 --> 00:02:08,795
+Gerakan ini hanya satu kasus tapi itu
+
+61
+00:02:08,895 --> 00:02:11,131
+menyoroti kekuatan App Intents
+
+62
+00:02:11,197 --> 00:02:13,266
+dan Pintasan. Mereka tidak
+
+63
+00:02:13,333 --> 00:02:15,401
+hanya untuk tindakan besar atau suara
+
+64
+00:02:15,468 --> 00:02:18,571
+perintah. Mereka juga dapat mendukung perintah kecil
+
+65
+00:02:18,638 --> 00:02:20,039
+dan interaksi yang tepat yang
+
+66
+00:02:20,106 --> 00:02:21,574
+terasa personal dan alami.
+
+67
+00:02:25,178 --> 00:02:27,247
+Terima kasih telah menonton. Apakah aplikasi Anda
+
+68
+00:02:27,313 --> 00:02:28,882
+mendukung menggambar, menulis
+
+69
+00:02:28,948 --> 00:02:30,483
+atau sesuatu yang lain secara keseluruhan,
+
+70
+00:02:31,184 --> 00:02:32,852
+menjelajahi berbagai jenis interaksi
+
+71
+00:02:32,919 --> 00:02:34,220
+seperti ini bisa membantu
+
+72
+00:02:34,287 --> 00:02:35,722
+Anda menciptakan yang lebih kaya dan
+
+73
+00:02:35,788 --> 00:02:36,556
+lebih responsif
+
+74
+00:02:36,623 --> 00:02:38,858
+pengalaman untuk aplikasi Anda. Sampai jumpa!
