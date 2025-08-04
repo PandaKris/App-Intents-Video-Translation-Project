@@ -8,27 +8,27 @@ dan hari ini kita akan berbicara tentang
 
 3
 00:00:04,771 --> 00:00:06,906
-Bahasa Inggris: konsep penting untuk mengembangkan aplikasi
+konsep penting untuk mengembangkan aplikasi di ekosistem Apple,
 
 4
-00:00:06,973 --> 00:00:07,774
-di ekosistem Apple,
+00:00:06,906 --> 00:00:07,774
+konsep penting untuk mengembangkan aplikasi di ekosistem Apple,
 
 5
-00:00:08,341 --> 00:00:10,477
-yang merupakan pengalaman sistem.
+00:00:08,341 --> 00:00:11,077
+yang merupakan pengalaman sistem (System Experiences).
 
 6
 00:00:11,444 --> 00:00:12,946
-Pengalaman sistem adalah pengalaman mendalam
+Pengalaman sistem adalah integrasi aplikasi yang mendalam dan konsisten dengan fungsi sistem operasi secara native,
 
 7
-00:00:13,012 --> 00:00:15,048
-dan integrasi aplikasi yang konsisten
+00:00:12,946 --> 00:00:15,048
+Pengalaman sistem adalah integrasi aplikasi yang mendalam dan konsisten dengan fungsi sistem operasi secara native,
 
 8
-00:00:15,115 --> 00:00:17,417
-dengan fungsi sistem operasi asli,
+00:00:15,048 --> 00:00:17,417
+Pengalaman sistem adalah integrasi aplikasi yang mendalam dan konsisten dengan fungsi sistem operasi secara native,
 
 9
 00:00:17,717 --> 00:00:20,120
@@ -36,30 +36,30 @@ memungkinkan pengguna untuk berinteraksi dengan aplikasi
 
 10
 00:00:20,186 --> 00:00:22,422
-lancar melalui fitur yang disediakan sistem,
+secara lancar melalui fitur yang disediakan sistem, bahkan tanpa membukanya.
 
 11
-00:00:22,489 --> 00:00:25,125
-bahkan tanpa membukanya.
+00:00:22,422 --> 00:00:25,825
+secara lancar melalui fitur yang disediakan sistem, bahkan tanpa membukanya.
 
 12
 00:00:26,459 --> 00:00:27,160
 Hai Siri.
 
 13
-00:00:30,096 --> 00:00:31,731
-Mainkan kelas Pengalaman Sistem.
+00:00:30,096 --> 00:00:32,731
+Mainkan kursus Pengalaman Sistem.
 
 14
 00:00:39,839 --> 00:00:41,641
-Beberapa teknologi utama
+Beberapa teknologi utama yang disediakan oleh sistem
 
 15
-00:00:41,708 --> 00:00:42,709
-disediakan oleh sistem
+00:00:41,641 --> 00:00:42,709
+Beberapa teknologi utama yang disediakan oleh sistem
 
 16
-00:00:42,776 --> 00:00:44,210
+00:00:42,776 --> 00:00:44,710
 untuk memastikan integrasi ini termasuk
 
 17
@@ -96,15 +96,15 @@ menawarkan tindakan yang disesuaikan
 
 25
 00:01:05,031 --> 00:01:07,667
-seperti mengirim pesan atau mencatat tugas
+seperti mengirim pesan atau mencatat tugas melalui interaksi suara.
 
 26
-00:01:07,734 --> 00:01:09,803
+00:01:07,667 --> 00:01:10,503
 melalui interaksi suara.
 
 27
 00:01:10,804 --> 00:01:13,339
-Pintasan, memberdayakan aplikasi Anda untuk menyediakan
+Shortcuts, memberdayakan aplikasi Anda untuk menyediakan
 
 28
 00:01:13,406 --> 00:01:15,875
@@ -119,36 +119,36 @@ pengguna dapat menggabungkan dengan aplikasi lain.
 Ideal untuk membuat cepat dan personal
 
 31
-00:01:21,714 --> 00:01:23,950
+00:01:21,714 --> 00:01:24,950
 pengalaman tanpa UI apa pun.
 
 32
-00:01:25,518 --> 00:01:27,420
-Kontrol, tersedia di Pusat Kontrol baru,
+00:01:25,518 --> 00:01:28,020
+Controls, tersedia di Control Center baru,
 
 33
-00:01:27,487 --> 00:01:30,323
+00:01:28,287 --> 00:01:30,323
 memungkinkan aplikasi Anda untuk mengekspos
 
 34
 00:01:30,390 --> 00:01:32,459
-fungsionalitas yang dapat diakses oleh sistem
+fungsionalitas yang dapat diakses oleh sistem tombol kapan saja.
 
 35
-00:01:32,525 --> 00:01:33,993
-tombol kapan saja.
+00:01:32,459 --> 00:01:34,793
+fungsionalitas yang dapat diakses oleh sistem tombol kapan saja.
 
 36
 00:01:34,994 --> 00:01:37,964
-Widget, menampilkan informasi
+Widget, menampilkan informasi atau tindakan langsung dari aplikasi Anda
 
 37
-00:01:38,031 --> 00:01:40,667
-atau tindakan langsung dari aplikasi Anda
+00:01:37,964 --> 00:01:40,667
+Widget, menampilkan informasi atau tindakan langsung dari aplikasi Anda
 
 38
-00:01:40,733 --> 00:01:43,269
-di layar beranda, layar kunci atau StandBy,
+00:01:40,733 --> 00:01:43,569
+dari layar beranda, layar kunci atau StandBy,
 
 39
 00:01:43,837 --> 00:01:45,438
@@ -160,23 +160,23 @@ dengan cepat tanpa membuka aplikasi Anda.
 
 41
 00:01:49,709 --> 00:01:52,078
-Aktivitas langsung, menyediakan waktu nyata
+Live Activities, menyediakan pembaruan waktu secara nyata
 
 42
-00:01:52,145 --> 00:01:54,447
-pembaruan pada layar kunci dan pulau dinamis,
+00:01:52,145 --> 00:01:55,347
+pada layar kunci dan Dynamic Island,
 
 43
-00:01:54,514 --> 00:01:57,050
+00:01:55,414 --> 00:01:57,050
 sempurna untuk melacak pengiriman,
 
 44
-00:01:57,317 --> 00:01:58,985
+00:01:57,317 --> 00:01:59,485
 pengatur waktu atau skor langsung.
 
 45
 00:02:00,019 --> 00:02:02,822
-Integrasi fokus, memungkinkan aplikasi Anda
+Focus Integration, memungkinkan aplikasi Anda
 
 46
 00:02:02,889 --> 00:02:05,692
@@ -212,7 +212,7 @@ tindakan yang dapat disesuaikan seperti memicu
 
 54
 00:02:23,776 --> 00:02:26,312
-fitur atau mengaktifkan pintasan dengan cepat.
+fitur atau mengaktifkan Shortcut dengan cepat.
 
 55
 00:02:27,347 --> 00:02:29,482
@@ -220,23 +220,23 @@ Sangat penting bagi aplikasi Anda untuk menjadi sangat
 
 56
 00:02:29,549 --> 00:02:32,051
-terintegrasi dengan sistem untuk memenuhi kebutuhan pengguna
+terintegrasi dengan sistem untuk memenuhi harapan pengguna dan tetap relevan.
 
 57
-00:02:32,118 --> 00:02:34,153
-harapan dan tetap relevan.
+00:02:32,051 --> 00:02:34,753
+terintegrasi dengan sistem untuk memenuhi harapan pengguna dan tetap relevan.
 
 58
 00:02:35,255 --> 00:02:37,390
-Dengan Kecerdasan Apple,
+Dengan Apple Intelligence,
 
 59
 00:02:37,457 --> 00:02:39,225
-Pengguna akan semakin banyak mengakses aplikasi Anda
+Pengguna akan semakin banyak mengakses fungsionalitas aplikasi Anda tanpa harus membukanya,
 
 60
-00:02:39,292 --> 00:02:41,828
-fungsionalitas tanpa harus membukanya,
+00:02:39,225 --> 00:02:41,828
+Pengguna akan semakin banyak mengakses fungsionalitas aplikasi Anda tanpa harus membukanya,
 
 61
 00:02:41,895 --> 00:02:43,463
@@ -263,7 +263,7 @@ sudah tersedia, dan Anda bisa
 mulai persiapkan aplikasi Anda sekarang juga
 
 67
-00:02:55,542 --> 00:02:56,509
+00:02:55,542 --> 00:02:57,209
 untuk permintaan yang terus meningkat ini.
 
 68
@@ -272,15 +272,15 @@ Kabar baiknya adalah penerapan hal ini
 
 69
 00:02:59,579 --> 00:03:01,915
-integrasi membutuhkan kode yang jauh lebih sedikit
+membutuhkan kode yang jauh lebih sedikit
 
 70
 00:03:01,981 --> 00:03:03,116
-dan usaha yang lebih dari yang seharusnya
+dan usaha yang lebih sedikit dari yang seharusnya.
 
 71
-00:03:03,216 --> 00:03:04,050
-awalnya tampak.
+00:03:03,116 --> 00:03:04,550
+dan usaha yang lebih sedikit dari yang seharusnya.
 
 72
 00:03:05,218 --> 00:03:07,353
@@ -288,19 +288,19 @@ Pengalaman proaktif yang lancar ini
 
 73
 00:03:07,420 --> 00:03:08,288
-dengan cepat menjadi
+dengan cepat menjadi standar yang diharapkan pengguna,
 
 74
-00:03:08,354 --> 00:03:10,857
-pengguna standar mengharapkan,
+00:03:08,288 --> 00:03:10,857
+dengan cepat menjadi standar yang diharapkan pengguna,
 
 75
 00:03:10,924 --> 00:03:12,091
-membentuk masa depan interaksi
+membentuk masa depan interaksi di seluruh ekosistem Apple.
 
 76
-00:03:12,158 --> 00:03:13,960
-di seluruh ekosistem Apple.
+00:03:12,091 --> 00:03:14,960
+membentuk masa depan interaksi di seluruh ekosistem Apple.
 
 77
 00:03:16,763 --> 00:03:17,730
@@ -316,11 +316,11 @@ Sepanjang kursus ini, tujuan kami
 
 80
 00:03:21,768 --> 00:03:23,536
-akan memperdalam pengetahuan Anda tentang ini
+akan memperdalam pengetahuan Anda tentang teknologi berbasis native,
 
 81
-00:03:23,603 --> 00:03:24,604
-teknologi asli,
+00:03:23,536 --> 00:03:24,604
+akan memperdalam pengetahuan Anda tentang teknologi berbasis native,
 
 82
 00:03:25,004 --> 00:03:27,340
