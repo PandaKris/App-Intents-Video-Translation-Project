@@ -8,75 +8,75 @@ dan dalam video ini kita akan
 
 3
 00:00:04,738 --> 00:00:06,573
-untuk menjelajahi apa itu jalan pintas.
+menjelajahi apa itu Shortcut.
 
 4
 00:00:06,840 --> 00:00:09,476
-Bagaimana aplikasi Pintasan cocok dengan pengguna
+Bagaimana aplikasi Shortcuts dapat disesuaikan dengan pengalaman pengguna dan bagaimana
 
 5
-00:00:09,542 --> 00:00:10,710
-pengalaman dan bagaimana
+00:00:09,476 --> 00:00:10,710
+Bagaimana aplikasi Shortcuts dapat disesuaikan dengan pengalaman pengguna dan bagaimana
 
 6
 00:00:10,777 --> 00:00:12,412
-otomatisasi dapat menciptakan sesuatu yang mulus,
+otomatisasi dapat menciptakan interaksi yang mulus dan kontekstual di seluruh perangkat.
 
 7
-00:00:12,779 --> 00:00:14,447
-interaksi kontekstual di seluruh perangkat.
+00:00:12,412 --> 00:00:15,447
+otomatisasi dapat menciptakan interaksi yang mulus dan kontekstual di seluruh perangkat.
 
 8
-00:00:15,514 --> 00:00:17,083
-Apakah Anda
+00:00:15,814 --> 00:00:17,083
+Antara Anda ingin meningkatkan alur kerja, atau membuat aplikasi Anda lebih canggih melalui integrasi,
 
 9
-00:00:17,150 --> 00:00:18,585
-ingin meningkatkan kemampuan Anda sendiri
+00:00:17,083 --> 00:00:18,585
+Antara Anda ingin meningkatkan alur kerja, atau membuat aplikasi Anda lebih canggih melalui integrasi,
 
 10
-00:00:18,651 --> 00:00:21,287
-alur kerja atau membuat aplikasi Anda lebih canggih
+00:00:18,585 --> 00:00:21,287
+Antara Anda ingin meningkatkan alur kerja, atau membuat aplikasi Anda lebih canggih melalui integrasi,
 
 11
-00:00:21,354 --> 00:00:22,389
-melalui integrasi,
+00:00:21,287 --> 00:00:22,389
+Antara Anda ingin meningkatkan alur kerja, atau membuat aplikasi Anda lebih canggih melalui integrasi,
 
 12
 00:00:22,856 --> 00:00:25,325
-memahami jalan pintas adalah langkah kunci dalam
+memahami Shortcut adalah langkah kunci dalam
 
 13
 00:00:25,392 --> 00:00:27,060
 membangun pengalaman yang lebih cerdas.
 
 14
-00:00:28,861 --> 00:00:32,599
-Pintasan adalah urutan khusus
+00:00:29,861 --> 00:00:32,599
+Shortcut adalah urutan tindakan yang dapat dilakukan secara manual atau otomatis
 
 15
-00:00:32,665 --> 00:00:33,933
-dari tindakan yang dapat dilakukan
+00:00:32,599 --> 00:00:33,933
+Shortcut adalah urutan tindakan yang dapat dilakukan secara manual atau otomatis
 
 16
-00:00:34,000 --> 00:00:36,202
-dipicu secara manual atau otomatis
+00:00:33,933 --> 00:00:36,202
+Shortcut adalah urutan tindakan yang dapat dilakukan secara manual atau otomatis
 
 17
 00:00:36,269 --> 00:00:38,204
 untuk melakukan tugas di seluruh
 
 18
-00:00:38,271 --> 00:00:40,373
+00:00:38,271 --> 00:00:40,773
 aplikasi dan layanan sistem.
 
 19
-00:00:41,908 --> 00:00:44,144
-Anggap saja ini adalah otomatisasi yang ringan
+00:00:41,908 --> 00:00:44,444
+Anggap saja ini seperti alat otomatisasi yang ringan
 
 20
-00:00:44,210 --> 00:00:46,513
-alat yang tertanam langsung dalam ekosistem.
+00:00:44,510 --> 00:00:47,513
+yang tertanam langsung dalam ekosistem.
 
 21
 00:00:48,181 --> 00:00:50,650
@@ -84,75 +84,75 @@ Misalnya, pengguna mungkin membuat
 
 22
 00:00:50,717 --> 00:00:53,219
-pintasan yang mencatat latihan terbaru mereka
+Shortcut yang mencatat latihan terbaru mereka
 
 23
 00:00:53,286 --> 00:00:54,621
-dari aplikasi kebugaran,
+dari aplikasi Fitness,
 
 24
 00:00:55,188 --> 00:00:56,523
-memperbarui spreadsheet
+memperbarui spreadsheet dalam Numbers dengan data ini,
 
 25
-00:00:56,589 --> 00:00:57,757
-dalam angka dengan data ini,
+00:00:56,523 --> 00:00:57,757
+memperbarui spreadsheet dalam Numbers dengan data ini,
 
 26
-00:00:58,158 --> 00:01:00,326
-dan mengirimkan ringkasan ke alamat pribadi mereka
+00:00:58,158 --> 00:01:01,326
+dan mengirimkan ringkasan ke pelatih pribadi mereka
 
 27
-00:01:00,393 --> 00:01:03,797
-pelatih melalui pesan, semuanya sekaligus.
+00:01:01,393 --> 00:01:03,797
+melalui Messages, semuanya sekaligus.
 
 28
-00:01:04,664 --> 00:01:08,001
-Orang lain mungkin menyiapkan pintasan yang memulai pengatur waktu,
+00:01:04,664 --> 00:01:08,701
+Orang lain mungkin menyiapkan Shortcut yang memulai pengatur waktu,
 
 29
-00:01:08,067 --> 00:01:10,904
-aktifkan "Jangan Ganggu"
+00:01:08,867 --> 00:01:10,904
+mengaktifkan "Jangan Ganggu"
 
 30
 00:01:12,439 --> 00:01:14,674
-dan membuka aplikasi Fokus mereka saat
+dan membuka aplikasi Focus mereka saat
 
 31
-00:01:14,741 --> 00:01:16,810
+00:01:14,741 --> 00:01:17,810
 memulai sesi kerja yang mendalam.
 
 32
 00:01:18,845 --> 00:01:20,447
-Dari mengirim harian
+Dari mengirim laporan kemajuan melalui email,
 
 33
-00:01:20,513 --> 00:01:22,649
-laporan kemajuan melalui email,
+00:01:20,447 --> 00:01:22,649
+Dari mengirim laporan kemajuan melalui email,
 
 34
 00:01:23,116 --> 00:01:25,151
-untuk masuk menggunakan aplikasi kesehatan,
+Ke masuk menggunakan aplikasi Health,
 
 35
 00:01:25,518 --> 00:01:27,787
-untuk menghasilkan suara menggunakan
+Ke menghasilkan suara menggunakan
 
 36
 00:01:27,854 --> 00:01:29,622
-data dari catatan atau kalender,
+data dari Notes atau Calendar,
 
 37
 00:01:30,156 --> 00:01:31,057
-kemungkinan-kemungkinannya adalah
+kemungkinannya sangat luas dan dapat disesuaikan.
 
 38
-00:01:31,124 --> 00:01:33,159
-luas dan sangat dapat disesuaikan.
+00:01:31,057 --> 00:01:34,159
+kemungkinannya sangat luas dan dapat disesuaikan.
 
 39
 00:01:35,495 --> 00:01:37,664
-Untuk pengembang, mendukung pintasan
+Untuk pengembang, dukungan Shortcuts
 
 40
 00:01:38,064 --> 00:01:39,332
@@ -172,15 +172,15 @@ bahkan tanpa membukanya.
 
 44
 00:01:45,872 --> 00:01:48,308
-Aplikasi Pintasan adalah Visual Apple
+Aplikasi Shortcuts adalah antarmuka Visual Apple untuk membangun,
 
 45
-00:01:48,374 --> 00:01:49,642
-antarmuka untuk membangun,
+00:01:48,308 --> 00:01:49,642
+Aplikasi Shortcuts adalah antarmuka Visual Apple untuk membangun,
 
 46
-00:01:50,143 --> 00:01:52,078
-mengelola dan menjalankan pintasan.
+00:01:50,143 --> 00:01:52,778
+mengelola dan menjalankan Shortcuts.
 
 47
 00:01:53,513 --> 00:01:56,015
@@ -188,66 +188,66 @@ Ini menyediakan editor gaya drag and drop
 
 48
 00:01:56,082 --> 00:01:57,851
-di mana pengguna dapat berantai
+di mana pengguna dapat merantaikan tindakan dari sistem dan aplikasi pihak ketiga, untuk membuat
 
 49
-00:01:57,917 --> 00:01:59,586
-tindakan bersama dari keduanya
+00:01:57,851 --> 00:01:59,586
+di mana pengguna dapat merantaikan tindakan dari sistem dan aplikasi pihak ketiga, untuk membuat
 
 50
-00:01:59,652 --> 00:02:02,422
-sistem dan aplikasi pihak ketiga, untuk membuat
+00:01:59,586 --> 00:02:02,422
+di mana pengguna dapat merantaikan tindakan dari sistem dan aplikasi pihak ketiga, untuk membuat
 
 51
 00:02:02,489 --> 00:02:03,690
 otomatisasi yang kuat.
 
 52
-00:02:04,224 --> 00:02:05,425
+00:02:04,224 --> 00:02:05,925
 Tidak diperlukan kode.
 
 53
 00:02:06,926 --> 00:02:09,295
-Untuk pengembang, aplikasi Pintasan
+Untuk pengembang, aplikasi Shortcuts
 
 54
 00:02:09,362 --> 00:02:10,864
-adalah tempat aplikasi Anda terekspos
+adalah tempat dimana Intents aplikasi Anda terekspos dan menjadi hidup,
 
 55
-00:02:10,930 --> 00:02:12,866
-maksud aplikasi menjadi hidup,
+00:02:10,864 --> 00:02:12,866
+adalah tempat dimana Intents aplikasi Anda terekspos dan menjadi hidup,
 
 56
 00:02:12,966 --> 00:02:15,668
 memungkinkan pengguna untuk menemukan dan menggunakan
 
 57
-00:02:15,735 --> 00:02:18,371
+00:02:15,735 --> 00:02:18,971
 fungsionalitas dalam konteks yang sepenuhnya baru.
 
 58
-00:02:19,739 --> 00:02:22,242
-Ini bukan sekedar alat untuk pengguna tingkat lanjut.
+00:02:19,739 --> 00:02:22,642
+Ini bukan sekedar alat yang kuat untuk pengguna.
 
 59
-00:02:22,742 --> 00:02:25,111
+00:02:22,742 --> 00:02:25,511
 Ini adalah bagian penting dari cara pengguna memperluas
 
 60
-00:02:25,645 --> 00:02:27,580
+00:02:25,645 --> 00:02:28,580
 dan mempersonalisasi perangkat Apple mereka.
 
 61
 00:02:29,349 --> 00:02:31,684
-Otomatisasi adalah jenis jalan pintas yang
+Otomatisasi adalah jenis Shortcut yang
 
 62
 00:02:31,751 --> 00:02:33,086
 berjalan secara otomatis berdasarkan
 
 63
-00:02:33,152 --> 00:02:34,554
+00:02:33,152 --> 00:02:35,154
 pada pemicu yang telah ditentukan sebelumnya,
 
 64
@@ -264,7 +264,7 @@ aksesori seperti tag NFC dan AirTags.
 
 67
 00:02:45,665 --> 00:02:48,735
-Tidak seperti pintasan biasa, otomatisasi
+Tidak seperti Shortcut biasa, otomatisasi
 
 68
 00:02:48,801 --> 00:02:51,271
@@ -295,7 +295,7 @@ ketika mereka terhubung ke Bluetooth mobil
 atau untuk menonaktifkan notifikasi saat
 
 75
-00:03:08,621 --> 00:03:10,256
+00:03:08,621 --> 00:03:10,856
 mereka membuka aplikasi meditasi.
 
 76
@@ -304,14 +304,14 @@ Pengembang dapat memanfaatkan sistem ini
 
 77
 00:03:14,060 --> 00:03:15,562
-dengan mengekspos maksud aplikasi yang
+dengan mengekspos Intent aplikasi yang
 
 78
-00:03:15,628 --> 00:03:17,630
+00:03:15,628 --> 00:03:17,930
 pengguna dapat menggabungkan ke dalam otomatisasi,
 
 79
-00:03:17,697 --> 00:03:20,833
+00:03:17,997 --> 00:03:20,833
 memungkinkan aplikasi Anda merespons
 
 80
@@ -320,18 +320,18 @@ ke pemicu dunia nyata
 
 81
 00:03:22,735 --> 00:03:24,304
-dan menjadi bagian dari sebuah kesatuan yang utuh,
+dan menjadi bagian dari sebuah pengalaman yang lancar dan kontekstual.
 
 82
-00:03:24,804 --> 00:03:26,172
-pengalaman yang sadar konteks.
+00:03:24,304 --> 00:03:26,772
+dan menjadi bagian dari sebuah pengalaman yang lancar dan kontekstual.
 
 83
 00:03:27,674 --> 00:03:30,143
-Inti dari setiap jalan pintas
+Inti dari setiap Shortcut
 
 84
-00:03:30,210 --> 00:03:31,711
+00:03:30,210 --> 00:03:32,311
 atau otomatisasi adalah suatu tindakan.
 
 85
@@ -339,7 +339,7 @@ atau otomatisasi adalah suatu tindakan.
 satu tugas tunggal yang
 
 86
-00:03:34,280 --> 00:03:35,882
+00:03:34,280 --> 00:03:36,882
 dapat dilakukan oleh perangkat pengguna.
 
 87
@@ -360,19 +360,19 @@ melalui kerangka App Intents.
 
 91
 00:03:47,360 --> 00:03:48,561
-Tindakan yang Anda berikan
+Tindakan yang Anda berikan menjadi sebuah komponen dasar
 
 92
-00:03:48,628 --> 00:03:50,063
-menjadi sebuah blok bangunan
+00:03:48,561 --> 00:03:50,063
+Tindakan yang Anda berikan menjadi sebuah komponen dasar
 
 93
 00:03:50,129 --> 00:03:51,497
-yang dapat disertakan oleh pengguna
+yang dapat disertakan oleh pengguna dengan Shortcut mereka sendiri,
 
 94
-00:03:51,564 --> 00:03:53,132
-dengan jalan pintas mereka sendiri,
+00:03:51,497 --> 00:03:53,132
+yang dapat disertakan oleh pengguna dengan Shortcut mereka sendiri,
 
 95
 00:03:53,633 --> 00:03:56,369
@@ -384,11 +384,11 @@ berguna dan terintegrasi di seluruh sistem.
 
 97
 00:03:59,372 --> 00:04:01,808
-Dengan merancang secara cermat makna,
+Dengan merancang secara cermat tindakan yang penuh makna dan sadar konteks,
 
 98
-00:04:02,208 --> 00:04:03,543
-tindakan yang sadar konteks,
+00:04:01,808 --> 00:04:03,543
+Dengan merancang secara cermat tindakan yang penuh makna dan sadar konteks,
 
 99
 00:04:04,010 --> 00:04:05,745
@@ -403,7 +403,7 @@ Anda memperluas aplikasi Anda ke
 rutinitas harian pengguna
 
 102
-00:04:10,016 --> 00:04:12,385
+00:04:10,016 --> 00:04:13,385
 dengan cara yang kuat dan personal.
 
 103
@@ -412,15 +412,15 @@ Terima kasih sudah menonton,
 
 104
 00:04:16,489 --> 00:04:17,824
-dan kami menghargai perhatian Anda
+dan kami menghargai perhatian Anda untuk menjelajah
 
 105
-00:04:18,024 --> 00:04:19,392
-kali ini untuk menjelajah
+00:04:17,824 --> 00:04:19,392
+dan kami menghargai perhatian Anda untuk menjelajah
 
 106
 00:04:19,459 --> 00:04:20,893
-pintasan Apple bersama kami.
+Shortcut Apple bersama kami.
 
 107
 00:04:21,327 --> 00:04:22,095
@@ -428,19 +428,19 @@ Seperti yang telah Anda lihat,
 
 108
 00:04:22,662 --> 00:04:24,063
-pintasan dan otomatisasi
+Shortcut dan otomatisasi
 
 109
 00:04:24,264 --> 00:04:27,266
-adalah cara yang ampuh untuk menciptakan lebih banyak cairan,
+adalah cara yang ampuh untuk menciptakan pengalaman yang lebih lancar, dan lebih personal di seluruh ekosistem Apple.
 
 110
-00:04:27,667 --> 00:04:28,434
-mempersonalisasi pengalaman
+00:04:27,266 --> 00:04:28,434
+adalah cara yang ampuh untuk menciptakan pengalaman yang lebih lancar, dan lebih personal di seluruh ekosistem Apple.
 
 111
-00:04:28,501 --> 00:04:30,603
-di seluruh ekosistem Apple.
+00:04:28,434 --> 00:04:31,203
+adalah cara yang ampuh untuk menciptakan pengalaman yang lebih lancar, dan lebih personal di seluruh ekosistem Apple.
 
 112
 00:04:31,471 --> 00:04:34,841
