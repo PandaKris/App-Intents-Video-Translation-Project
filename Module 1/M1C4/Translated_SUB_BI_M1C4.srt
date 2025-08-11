@@ -4,23 +4,23 @@ Hai! Dalam video ini Anda akan menyelam
 
 2
 00:00:02,402 --> 00:00:03,636
-ke dalam blok bangunan
+ke dalam komponen penting
 
 3
-00:00:03,703 --> 00:00:05,205
+00:00:03,703 --> 00:00:05,405
 yang membuat interaksi sistem
 
 4
 00:00:05,472 --> 00:00:07,207
-seperti jalan pintas,
+seperti Shortcut, Siri, dan Spotlight dapat bekerja. App Intents.
 
 5
-00:00:07,273 --> 00:00:08,942
-Kemungkinan Siri dan Spotlight.
+00:00:07,207 --> 00:00:10,542
+seperti Shortcut, Siri, dan Spotlight dapat bekerja. App Intents.
 
 6
 00:00:10,810 --> 00:00:13,346
-Jika Anda sudah menjelajahi apa itu jalan pintas
+Jika Anda sudah menjelajahi apa itu Shortcut
 
 7
 00:00:13,413 --> 00:00:16,016
@@ -32,7 +32,7 @@ Anda siap untuk menyelami satu lapisan lebih dalam.
 
 9
 00:00:21,755 --> 00:00:23,590
-Maksud aplikasi adalah bagaimana aplikasi Anda
+App Intents adalah bagaimana aplikasi Anda
 
 10
 00:00:23,656 --> 00:00:25,291
@@ -40,23 +40,23 @@ berkomunikasi dengan sistem,
 
 11
 00:00:25,625 --> 00:00:26,659
-membuat fitur dapat ditemukan,
+membuat fitur aplikasi dapat ditemukan, ditindaklanjuti, dan lebih cerdas.
 
 12
-00:00:26,726 --> 00:00:29,729
-dapat ditindaklanjuti dan lebih cerdas.
+00:00:26,659 --> 00:00:30,729
+membuat fitur aplikasi dapat ditemukan, ditindaklanjuti, dan lebih cerdas.
 
 13
 00:00:31,030 --> 00:00:32,899
-Apakah Anda ingin mengintegrasikan
+Antara Anda ingin mengintegrasikan
 
 14
 00:00:32,966 --> 00:00:35,035
-dengan Siri, nyalakan widget Anda
+dengan Siri, memperkuat widget Anda
 
 15
 00:00:35,268 --> 00:00:38,038
-atau persiapkan aplikasi Anda untuk kecerdasan aplikasi,
+atau mempersiapkan aplikasi Anda untuk Apple Intelligence,
 
 16
 00:00:38,471 --> 00:00:40,673
@@ -64,27 +64,27 @@ memahami App Intent sangatlah penting
 
 17
 00:00:40,740 --> 00:00:41,975
-untuk membuka kunci yang mulus
+untuk membuka pengalaman yang mulus dan kontekstual.
 
 18
-00:00:42,042 --> 00:00:43,910
-pengalaman kontekstual.
+00:00:41,975 --> 00:00:44,510
+untuk membuka pengalaman yang mulus dan kontekstual.
 
 19
 00:00:45,011 --> 00:00:47,881
-Diagram ini menggambarkan peran Aplikasi
+Diagram ini menggambarkan peran App Intents sebagai jembatan antara
 
 20
-00:00:47,947 --> 00:00:50,216
-Maksud sebagai jembatan antara
+00:00:47,881 --> 00:00:50,216
+Diagram ini menggambarkan peran App Intents sebagai jembatan antara
 
 21
 00:00:50,283 --> 00:00:51,584
-aplikasi dan fitur sistem Anda
+aplikasi Anda dan fitur sistem yang digunakan pengguna setiap hari.
 
 22
-00:00:51,651 --> 00:00:53,987
-pengguna berinteraksi setiap hari.
+00:00:51,584 --> 00:00:53,987
+aplikasi Anda dan fitur sistem yang digunakan pengguna setiap hari.
 
 23
 00:00:55,088 --> 00:00:57,157
@@ -92,27 +92,27 @@ Di bagian bawah, kami memiliki aplikasi Anda
 
 24
 00:00:57,223 --> 00:00:58,558
-berisi semua logika Anda,
+berisi semua logika, fitur dan data Anda.
 
 25
-00:00:58,625 --> 00:01:00,794
-fitur dan data.
+00:00:58,558 --> 00:01:00,794
+berisi semua logika, fitur dan data Anda.
 
 26
 00:01:02,228 --> 00:01:03,363
-Di atasnya duduk
+Di atasnya terdapat lapisan App Intents,
 
 27
-00:01:03,430 --> 00:01:04,631
-lapisan Maksud Aplikasi,
+00:01:03,363 --> 00:01:04,631
+Di atasnya terdapat lapisan App Intents,
 
 28
 00:01:04,898 --> 00:01:07,600
-yang mengekspos tindakan spesifik dari Anda
+yang mengekspos tindakan spesifik dari
 
 29
 00:01:07,667 --> 00:01:10,904
-aplikasi dengan cara yang terstruktur dan dapat dibaca sistem.
+aplikasi Anda dengan cara yang terstruktur dan dapat dibaca sistem.
 
 30
 00:01:11,738 --> 00:01:14,741
@@ -120,15 +120,15 @@ Kemudian, di bagian paling atas, Anda melihat
 
 31
 00:01:14,808 --> 00:01:16,076
-pengalaman sistem seperti Siri,
+pengalaman sistem seperti Siri, Spotlight dan Shortcut.
 
 32
-00:01:16,142 --> 00:01:18,344
-Sorotan dan Pintasan.
+00:01:16,076 --> 00:01:19,344
+pengalaman sistem seperti Siri, Spotlight dan Shortcut.
 
 33
 00:01:20,313 --> 00:01:21,915
-Ubin hijau ini mewakili
+Petak hijau ini mewakili
 
 34
 00:01:21,981 --> 00:01:23,683
@@ -139,8 +139,8 @@ fitur yang dihadapi pengguna
 yang menjadi lebih pintar dan lebih berguna ketika
 
 36
-00:01:26,619 --> 00:01:29,122
-aplikasi Anda menyediakan maksud yang terdefinisi dengan baik.
+00:01:26,619 --> 00:01:29,822
+aplikasi Anda menyediakan Intents yang terdefinisi dengan baik.
 
 37
 00:01:30,256 --> 00:01:33,259
@@ -152,11 +152,11 @@ aplikasi Anda terhubung ke ekosistem Apple yang lebih luas,
 
 39
 00:01:36,496 --> 00:01:38,731
-memungkinkan hal yang alami dan mulus
+memungkinkan pengalaman pengguna yang alami, mulus, dan cerdas.
 
 40
-00:01:38,798 --> 00:01:40,767
-dan pengalaman pengguna yang cerdas.
+00:01:38,731 --> 00:01:40,767
+memungkinkan pengalaman pengguna yang alami, mulus, dan cerdas.
 
 41
 00:01:43,403 --> 00:01:45,538
@@ -168,39 +168,39 @@ App Intents cocok, mari kita bicarakan
 
 43
 00:01:47,307 --> 00:01:50,577
-tentang apa sebenarnya maksud suatu maksud.
+tentang apa sebenarnya suatu Intent itu.
 
 44
 00:01:51,244 --> 00:01:53,813
-Maksud adalah suatu pernyataan yang jelas dan berdiri sendiri
+Intent adalah suatu tindakan yang jelas dan berdiri sendiri yang mewakili
 
 45
-00:01:53,880 --> 00:01:55,348
-tindakan yang mewakili
+00:01:53,813 --> 00:01:55,348
+Intent adalah suatu tindakan yang jelas dan berdiri sendiri yang mewakili
 
 46
-00:01:55,415 --> 00:01:57,217
+00:01:55,415 --> 00:01:58,717
 sesuatu yang dapat dilakukan aplikasi Anda.
 
 47
-00:01:58,518 --> 00:02:00,320
+00:01:58,918 --> 00:02:00,820
 Ini bukan layar atau fitur,
 
 48
-00:02:00,386 --> 00:02:02,655
+00:02:00,986 --> 00:02:03,255
 itu tugas yang spesifik.
 
 49
 00:02:03,356 --> 00:02:07,961
-Seperti Log 500 mL air,
+Seperti "Masukkan 500 mL air",
 
 50
 00:02:08,027 --> 00:02:11,464
-mulai latihan kekuatan atau kirim 20 dolar ke Alex.
+"mulai latihan kekuatan" atau "kirim 20 dolar ke Alex".
 
 51
 00:02:12,332 --> 00:02:14,534
-Setiap maksud didefinisikan dengan
+Setiap Intent didefinisikan dengan
 
 52
 00:02:14,601 --> 00:02:16,903
@@ -212,18 +212,18 @@ seperti parameter, input dan output,
 
 54
 00:02:20,140 --> 00:02:22,842
-jadi sistem tahu persisnya
+jadi sistem tahu persisnya bagaimana mendeskripsikan dan mengeksekusinya.
 
 55
-00:02:22,909 --> 00:02:24,210
-bagaimana mendeskripsikan dan mengeksekusinya.
+00:02:22,842 --> 00:02:24,210
+jadi sistem tahu persisnya bagaimana mendeskripsikan dan mengeksekusinya.
 
 56
 00:02:25,011 --> 00:02:27,046
-Anda dapat memikirkan maksudnya
+Anda dapat memikirkan Intents
 
 57
-00:02:27,113 --> 00:02:28,448
+00:02:27,113 --> 00:02:28,848
 sebagai kosakata aplikasi Anda.
 
 58
@@ -235,16 +235,16 @@ Seperangkat hal yang dapat dilakukannya,
 dijelaskan dengan cara yang
 
 60
-00:02:33,753 --> 00:02:36,556
+00:02:33,753 --> 00:02:37,556
 ramah manusia dan dapat dibaca mesin.
 
 61
 00:02:38,091 --> 00:02:39,225
-Dan di sinilah semuanya terjadi
+Dan di sinilah semuanya menjadi lebih menarik.
 
 62
-00:02:39,292 --> 00:02:40,827
-menjadi lebih menarik.
+00:02:39,225 --> 00:02:40,827
+Dan di sinilah semuanya menjadi lebih menarik.
 
 63
 00:02:42,362 --> 00:02:44,497
@@ -252,27 +252,27 @@ Padahal, di masa lalu, hal itu sudah cukup
 
 64
 00:02:44,564 --> 00:02:45,999
-untuk mengekspos aplikasi utama Anda
+untuk mengekspos fitur aplikasi utama Anda sebagai Intents,
 
 65
-00:02:46,065 --> 00:02:48,334
-fitur sebagai maksud,
+00:02:45,999 --> 00:02:48,334
+untuk mengekspos fitur aplikasi utama Anda sebagai Intents,
 
 66
 00:02:48,401 --> 00:02:49,169
-Pedoman baru Apple
+Pedoman baru Apple mendorong pendekatan yang lebih luas.
 
 67
-00:02:49,235 --> 00:02:51,471
-mendorong pendekatan yang lebih luas.
+00:02:49,169 --> 00:02:51,471
+Pedoman baru Apple mendorong pendekatan yang lebih luas.
 
 68
 00:02:51,739 --> 00:02:53,473
-Segala hal yang dilakukan aplikasi Anda
+Segala hal yang dilakukan aplikasi Anda harus berupa App Intent.
 
 69
-00:02:54,941 --> 00:02:55,608
-harus berupa maksud Aplikasi.
+00:02:53,473 --> 00:02:56,608
+Segala hal yang dilakukan aplikasi Anda harus berupa App Intent.
 
 70
 00:02:58,611 --> 00:02:59,646
@@ -292,11 +292,11 @@ sistem dapat memahami dan berinteraksi dengannya.
 
 74
 00:03:07,587 --> 00:03:08,388
-Ini adalah pergeseran ke arah
+Ini adalah pergeseran ke arah membuat Aplikasi Anda lebih modular,
 
 75
-00:03:08,454 --> 00:03:10,089
-membuat Aplikasi Anda lebih modular,
+00:03:08,388 --> 00:03:10,089
+Ini adalah pergeseran ke arah membuat Aplikasi Anda lebih modular,
 
 76
 00:03:10,356 --> 00:03:12,825
@@ -308,11 +308,11 @@ di seluruh ekosistem.
 
 78
 00:03:16,262 --> 00:03:19,165
-Sekarang setelah kita membahas apa itu App Intent
+Sekarang setelah kita membahas apa itu App Intent dan mengapa hal itu penting,
 
 79
-00:03:19,232 --> 00:03:21,367
-apa itu dan mengapa hal itu penting,
+00:03:19,165 --> 00:03:21,367
+Sekarang setelah kita membahas apa itu App Intent dan mengapa hal itu penting,
 
 80
 00:03:21,801 --> 00:03:24,003
@@ -328,11 +328,11 @@ Dalam modul praktik, kita akan fokus pada
 
 83
 00:03:30,043 --> 00:03:31,444
-sisi pengembang
+sisi pengembang dari kerangka kerja App Intents,
 
 84
-00:03:31,511 --> 00:03:32,845
-dari kerangka kerja maksud Aplikasi,
+00:03:31,444 --> 00:03:32,845
+sisi pengembang dari kerangka kerja App Intents,
 
 85
 00:03:33,246 --> 00:03:36,182
@@ -340,7 +340,7 @@ mengeksplorasi kemampuannya,
 
 86
 00:03:36,249 --> 00:03:38,518
-memahami cara mendefinisikan dan menyusun maksud
+memahami cara mendefinisikan dan menyusun Intents
 
 87
 00:03:38,985 --> 00:03:41,621
@@ -364,23 +364,23 @@ Itu berarti kamu bisa
 
 92
 00:03:52,665 --> 00:03:54,367
-tentukan semua maksud Anda
+tentukan semua Intent Anda
 
 93
 00:03:54,434 --> 00:03:55,602
-dan terhubung dengan sistem
+dan terhubung dengan fitur sistem hanya menggunakan kode,
 
 94
-00:03:55,668 --> 00:03:57,670
-fitur hanya menggunakan kode,
+00:03:55,602 --> 00:03:57,670
+dan terhubung dengan fitur sistem hanya menggunakan kode,
 
 95
 00:03:58,137 --> 00:03:59,906
-bukan file atau eksternal
+Tidak membutuhkan konfigurasi file atau eksternal.
 
 96
-00:03:59,973 --> 00:04:01,140
-konfigurasi yang dibutuhkan.
+00:03:59,906 --> 00:04:01,140
+Tidak membutuhkan konfigurasi file atau eksternal.
 
 97
 00:04:02,342 --> 00:04:03,843
@@ -396,11 +396,11 @@ melacak perubahan melalui kontrol versi,
 
 100
 00:04:08,715 --> 00:04:09,415
-dan pertahankan
+dan membuat alur kerja sederhana dan dapat mudah berkembang.
 
 101
-00:04:09,482 --> 00:04:11,651
-alur kerja sederhana dan terukur.
+00:04:09,415 --> 00:04:12,651
+dan membuat alur kerja sederhana dan dapat mudah berkembang.
 
 102
 00:04:14,287 --> 00:04:15,188
@@ -408,7 +408,7 @@ Untuk menyimpulkan semuanya,
 
 103
 00:04:15,655 --> 00:04:17,357
-Tujuan dari model ini adalah
+Tujuan dari modul ini adalah
 
 104
 00:04:17,423 --> 00:04:19,125
@@ -416,11 +416,11 @@ untuk membantu Anda lebih memahami
 
 105
 00:04:19,459 --> 00:04:20,793
-relevansi sistem
+relevansi pengalaman sistem di ekosistem Apple.
 
 106
-00:04:20,860 --> 00:04:22,996
-pengalaman di ekosistem Apple.
+00:04:20,793 --> 00:04:22,996
+relevansi pengalaman sistem di ekosistem Apple.
 
 107
 00:04:23,563 --> 00:04:25,798
@@ -432,11 +432,11 @@ Siri
 
 109
 00:04:26,700 --> 00:04:27,500
-Jalan Pintas
+Shortcuts
 
 110
 00:04:27,800 --> 00:04:28,100
-dan Sorotan
+dan Spotlight
 
 111
 00:04:28,500 --> 00:04:31,900
@@ -444,23 +444,23 @@ dan menyadari bahwa semua itu didukung oleh
 
 112
 00:04:32,271 --> 00:04:34,707
-Maksud Aplikasi, ditentukan oleh Anda, sang pengembang.
+App Intents, ditentukan oleh Anda, sang pengembang.
 
 113
 00:04:36,242 --> 00:04:38,478
-Maksud ini adalah apa yang memungkinkan aplikasi Anda
+Intents ini adalah apa yang memungkinkan aplikasi Anda
 
 114
 00:04:38,544 --> 00:04:40,913
 untuk benar-benar terhubung dengan sistem
 
 115
-00:04:40,980 --> 00:04:43,483
+00:04:40,980 --> 00:04:44,483
 dan memberikan interaksi yang kaya dan personal.
 
 116
-00:04:47,553 --> 00:04:49,889
-Ada banyak sekali kemungkinan kasus penggunaan.
+00:04:47,553 --> 00:04:50,589
+Ada banyak sekali kemungkinan kasus penggunaan,
 
 117
 00:04:50,923 --> 00:04:53,259
@@ -476,11 +476,11 @@ Terima kasih sudah menonton!
 
 120
 00:04:59,065 --> 00:05:01,200
-Kami harap ini memberi Anda awal yang jelas
+Kami harap ini memberi Anda titik awal yang jelas untuk membuat aplikasi Anda lebih
 
 121
-00:05:01,267 --> 00:05:03,036
-titik untuk membuat aplikasi Anda lebih
+00:05:01,200 --> 00:05:03,036
+Kami harap ini memberi Anda titik awal yang jelas untuk membuat aplikasi Anda lebih
 
 122
 00:05:03,102 --> 00:05:04,470
