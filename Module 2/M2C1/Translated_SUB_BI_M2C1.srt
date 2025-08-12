@@ -8,7 +8,7 @@ kita akan membahas evolusi antarmuka pengguna
 
 3
 00:00:05,372 --> 00:00:08,008
-dan bagaimana kecerdasan buatan
+dan bagaimana Kecerdasan Buatan (AI)
 
 4
 00:00:08,074 --> 00:00:10,443
@@ -19,7 +19,7 @@ memperkenalkan paradigma baru yang akan
 mengubah sepenuhnya cara kita berinteraksi
 
 6
-00:00:12,746 --> 00:00:14,347
+00:00:12,746 --> 00:00:15,347
 dengan komputer dan perangkat.
 
 7
@@ -48,11 +48,11 @@ model ini mengharuskan pengguna untuk mendefinisikan
 
 13
 00:00:33,967 --> 00:00:36,669
-seluruh alur kerja yang dilakukan komputer
+seluruh alur kerja yang diperlukan komputer untuk eksekusi, menjalankan program,
 
 14
-00:00:36,736 --> 00:00:38,405
-diperlukan untuk mengeksekusi, menjalankan program,
+00:00:36,669 --> 00:00:38,405
+seluruh alur kerja yang diperlukan komputer untuk eksekusi, menjalankan program,
 
 15
 00:00:38,671 --> 00:00:40,273
@@ -60,11 +60,11 @@ dan kemudian menunggu hasilnya.
 
 16
 00:00:40,907 --> 00:00:43,610
-Contohnya adalah pemrosesan
+Contohnya adalah pemrosesan transaksi bank untuk penggajian.
 
 17
-00:00:43,676 --> 00:00:45,712
-transaksi bank untuk penggajian.
+00:00:43,610 --> 00:00:45,712
+Contohnya adalah pemrosesan transaksi bank untuk penggajian.
 
 18
 00:00:46,045 --> 00:00:48,248
@@ -75,32 +75,32 @@ Sejumlah kartu berlubang dimasukkan
 ke dalam mesin, yang menghitung
 
 20
-00:00:51,184 --> 00:00:52,886
+00:00:51,184 --> 00:00:53,586
 gaji karyawan secara berurutan.
 
 21
-00:00:53,887 --> 00:00:55,855
+00:00:53,887 --> 00:00:56,455
 Tanpa campur tangan manusia selama proses berlangsung,
 
 22
-00:00:55,922 --> 00:00:58,591
-interaksi dengan
+00:00:56,622 --> 00:00:58,591
+interaksi dengan komputernya sangat terbatas.
 
 23
-00:00:58,658 --> 00:01:00,794
-komputernya sangat terbatas.
+00:00:58,591 --> 00:01:00,794
+interaksi dengan komputernya sangat terbatas.
 
 24
-00:01:01,494 --> 00:01:04,330
+00:01:01,494 --> 00:01:04,930
 Jika hasilnya salah atau mengandung kesalahan,
 
 25
-00:01:04,397 --> 00:01:07,567
-mungkin butuh waktu berhari-hari untuk mendaftar
+00:01:05,197 --> 00:01:07,567
+mungkin butuh waktu berhari-hari untuk melakukan koreksi dan kemudian
 
 26
-00:01:07,634 --> 00:01:08,768
-koreksi dan kemudian
+00:01:07,567 --> 00:01:08,768
+mungkin butuh waktu berhari-hari untuk melakukan koreksi dan kemudian
 
 27
 00:01:08,835 --> 00:01:10,136
@@ -132,30 +132,30 @@ dan menerima tanggapan dari komputer,
 
 34
 00:01:28,488 --> 00:01:30,023
-memungkinkan terus menerus
+memungkinkan penyesuaian terus menerus berdasarkan hasilnya.
 
 35
-00:01:30,090 --> 00:01:32,358
-penyesuaian berdasarkan hasil.
+00:01:30,023 --> 00:01:32,358
+memungkinkan penyesuaian terus menerus berdasarkan hasilnya.
 
 36
 00:01:33,259 --> 00:01:35,829
-Model ini berkembang melalui tiga
+Model ini berkembang melalui tiga generasi teknologi antarmuka.
 
 37
-00:01:35,895 --> 00:01:38,264
-generasi teknologi antarmuka.
+00:01:35,829 --> 00:01:38,864
+Model ini berkembang melalui tiga generasi teknologi antarmuka.
 
 38
-00:01:39,766 --> 00:01:42,569
-Generasi Pertama, Antarmuka Baris Perintah
+00:01:39,766 --> 00:01:43,569
+Generasi Pertama, Antarmuka Baris Perintah (CLI)
 
 39
 00:01:43,870 --> 00:01:46,005
 Generasi Kedua,
 
 40
-00:01:46,072 --> 00:01:47,974
+00:01:46,072 --> 00:01:48,774
 Terminal Berbasis Teks Layar Penuh.
 
 41
@@ -163,16 +163,16 @@ Terminal Berbasis Teks Layar Penuh.
 Generasi Ketiga,
 
 42
-00:01:51,077 --> 00:01:52,445
-antarmuka pengguna grafis
+00:01:51,077 --> 00:01:53,445
+antarmuka pengguna grafis (GUI)
 
 43
 00:01:53,680 --> 00:01:56,182
-Yang terakhir tetap dominan selama
+Generasi yang terakhir tetap dominan selama
 
 44
 00:01:56,249 --> 00:01:58,685
-hampir 40 tahun, sejak saat itu
+hampir 40 tahun, sejak saat
 
 45
 00:01:58,751 --> 00:02:01,654
@@ -180,7 +180,7 @@ peluncuran Macintosh pada tahun 1984
 
 46
 00:02:03,356 --> 00:02:06,593
-Keuntungan utama dari antarmuka pengguna grafis
+Keuntungan utama dari antarmuka pengguna grafis (GUI)
 
 47
 00:02:06,659 --> 00:02:09,162
@@ -191,28 +191,28 @@ adalah umpan balik visual mereka setelah setiap perintah,
 menyediakan pengguna dengan
 
 49
-00:02:11,297 --> 00:02:12,532
+00:02:11,297 --> 00:02:12,932
 pembaruan status yang jelas.
 
 50
-00:02:13,766 --> 00:02:16,569
+00:02:13,766 --> 00:02:16,869
 Format ini telah mendominasi selama lebih dari 60 tahun,
 
 51
-00:02:16,636 --> 00:02:19,739
-tapi sekarang AI sedang berubah
+00:02:16,936 --> 00:02:19,739
+tapi sekarang AI sedang mengubah dinamika interaksi ini,
 
 52
-00:02:19,806 --> 00:02:21,174
-dinamika interaksi,
+00:02:19,739 --> 00:02:21,174
+tapi sekarang AI sedang mengubah dinamika interaksi ini,
 
 53
 00:02:21,908 --> 00:02:24,077
 memunculkan paradigma ketiga.
 
 54
-00:02:25,011 --> 00:02:27,247
-Spesifikasi Hasil Berbasis Maksud
+00:02:25,011 --> 00:02:27,947
+Spesifikasi Hasil Berbasis Intent
 
 55
 00:02:28,281 --> 00:02:30,850
@@ -224,22 +224,22 @@ apa yang mereka inginkan, dan sistem yang didukung oleh
 
 57
 00:02:33,953 --> 00:02:36,723
-kecerdasan buatan menafsirkan
+Kecerdasan Buatan (AI) menafsirkan
 
 58
 00:02:36,789 --> 00:02:40,026
-maksud pengguna dan menjalankan yang diperlukan
+intensi pengguna dan menjalankan tindakan yang diperlukan untuk memberikan hasil yang diharapkan.
 
 59
-00:02:40,093 --> 00:02:42,262
-tindakan untuk menyampaikan
+00:02:40,026 --> 00:02:42,262
+intensi pengguna dan menjalankan tindakan yang diperlukan untuk memberikan hasil yang diharapkan.
 
 60
-00:02:42,795 --> 00:02:43,429
-hasil yang diharapkan.
+00:02:42,262 --> 00:02:43,929
+intensi pengguna dan menjalankan tindakan yang diperlukan untuk memberikan hasil yang diharapkan.
 
 61
-00:02:43,496 --> 00:02:45,365
+00:02:44,196 --> 00:02:45,365
 Misalnya,
 
 62
@@ -276,7 +276,7 @@ penting untuk dicatat bahwa agen AI
 
 70
 00:03:09,956 --> 00:03:12,759
-dapat salah menafsirkan maksud pengguna.
+dapat salah menafsirkan intensi pengguna.
 
 71
 00:03:13,726 --> 00:03:16,563
@@ -287,7 +287,7 @@ Pengguna mungkin gagal mengartikulasikan
 permintaan dengan benar,
 
 73
-00:03:18,131 --> 00:03:21,734
+00:03:19,731 --> 00:03:22,734
 mengarah pada hasil yang tidak diharapkan.
 
 74
@@ -304,14 +304,14 @@ Ada pedoman yang bila diterapkan
 
 77
 00:03:36,449 --> 00:03:39,619
-untuk agen AI, membuat maksud lebih efektif
+untuk agen AI, membuat Intent lebih efektif
 
 78
 00:03:39,686 --> 00:03:41,721
 dan efisien, dan akan
 
 79
-00:03:41,788 --> 00:03:43,389
+00:03:41,788 --> 00:03:44,389
 disajikan dalam video berikutnya.
 
 80
@@ -319,9 +319,9 @@ disajikan dalam video berikutnya.
 Saya harap Anda menikmati diskusi ini.
 
 81
-00:03:48,728 --> 00:03:49,395
+00:03:48,728 --> 00:03:49,995
 Terima kasih atas perhatiannya,
 
 82
-00:03:49,462 --> 00:03:51,764
+00:03:50,462 --> 00:03:52,764
 dan sampai jumpa di lain waktu. Selamat tinggal!
