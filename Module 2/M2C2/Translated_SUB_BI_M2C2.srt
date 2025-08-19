@@ -4,31 +4,31 @@ Halo, dalam video ini saya akan menyajikan
 
 2
 00:00:02,569 --> 00:00:05,038
-pedoman kegunaan untuk merancang sistem
+pedoman kegunaan untuk merancang pengalaman sistem dengan agen AI
 
 3
-00:00:05,105 --> 00:00:07,273
-pengalaman dengan agen AI
+00:00:05,038 --> 00:00:07,273
+pedoman kegunaan untuk merancang pengalaman sistem dengan agen AI
 
 4
-00:00:07,607 --> 00:00:10,243
-untuk membuat lebih intuitif dan transparan
+00:00:07,607 --> 00:00:10,843
+untuk membuat interaksi lebih intuitif dan transparan
 
 5
-00:00:10,310 --> 00:00:12,012
-interaksi yang selaras
+00:00:10,910 --> 00:00:12,012
+yang selaras dengan harapan pengguna.
 
 6
-00:00:12,078 --> 00:00:13,580
-dengan harapan pengguna.
+00:00:12,012 --> 00:00:14,580
+yang selaras dengan harapan pengguna.
 
 7
 00:00:16,483 --> 00:00:19,753
-Tapi pertama-tama, mari kita pahami apa itu AI
+Tapi pertama-tama, mari kita pahami apa itu agen AI secara definisi.
 
 8
-00:00:19,819 --> 00:00:21,688
-agen menurut definisinya.
+00:00:19,753 --> 00:00:21,988
+Tapi pertama-tama, mari kita pahami apa itu agen AI secara definisi.
 
 9
 00:00:23,456 --> 00:00:26,793
@@ -44,26 +44,26 @@ membuat keputusan dan melaksanakan tugas tanpa
 
 12
 00:00:32,432 --> 00:00:35,101
-kebutuhan untuk interaksi manusia yang konstan dengan
+kebutuhan untuk interaksi manusia dengan antarmuka, seperti Siri.
 
 13
-00:00:35,168 --> 00:00:37,203
-antarmuka, seperti Siri.
+00:00:35,101 --> 00:00:38,203
+kebutuhan untuk interaksi manusia dengan antarmuka, seperti Siri.
 
 14
 00:00:38,571 --> 00:00:40,673
-Penting untuk diingat bahwa ini
+Penting untuk diingat bahwa sebagian pedoman ini didasarkan pada
 
 15
-00:00:40,740 --> 00:00:42,809
-Pedoman sebagian didasarkan pada
+00:00:40,673 --> 00:00:42,809
+Penting untuk diingat bahwa sebagian pedoman ini didasarkan pada
 
 16
 00:00:42,876 --> 00:00:46,346
 10 heuristik kegunaan Nielsen,
 
 17
-00:00:46,413 --> 00:00:48,415
+00:00:46,413 --> 00:00:48,915
 yang telah terbukti selama bertahun-tahun.
 
 18
@@ -75,24 +75,24 @@ Dan karena ini adalah interaksi antara
 manusia dan mesin,
 
 20
-00:00:54,287 --> 00:00:56,189
+00:00:54,287 --> 00:00:56,989
 mereka dapat diterapkan pada agen AI.
 
 21
 00:00:57,424 --> 00:00:59,092
-Mari kita sampaikan pedoman ini.
+Mari kita lihat pedoman ini.
 
 22
-00:01:00,126 --> 00:01:02,796
+00:01:00,126 --> 00:01:03,796
 Pertama, tetapkan ekspektasi yang jelas di awal.
 
 23
 00:01:04,397 --> 00:01:07,534
-Pengguna harus tahu apa itu agen AI
+Pengguna harus tahu apa yang dapat dan tidak dapat dilakukan agen AI,
 
 24
-00:01:07,600 --> 00:01:11,438
-apa yang mampu dilakukan dan apa yang tidak mampu dilakukan,
+00:01:07,534 --> 00:01:11,438
+Pengguna harus tahu apa yang dapat dan tidak dapat dilakukan agen AI,
 
 25
 00:01:11,504 --> 00:01:13,239
@@ -107,12 +107,12 @@ keterbatasan dan kemampuan ini
 dengan cara yang sederhana dan objektif,
 
 28
-00:01:19,546 --> 00:01:21,748
+00:01:19,546 --> 00:01:22,548
 menghindari terciptanya harapan yang tidak realistis.
 
 29
 00:01:22,782 --> 00:01:25,518
-Misalnya, tujuan aplikasi adalah tips kesehatan
+Misalnya, sebuah intent mengenai tips kesehatan
 
 30
 00:01:25,585 --> 00:01:27,620
@@ -120,59 +120,59 @@ dalam aplikasi kebiasaan kesehatan.
 
 31
 00:01:28,555 --> 00:01:31,458
-Maksudnya bisa jadi: "Dapatkan tips kesehatan
+Intentnya bisa jadi: "Berikan tips mengenai kesehatan" dan menerima tanggapan seperti,
 
 32
-00:01:31,524 --> 00:01:34,027
-dan Kebiasaan Kesehatan" dan menerima tanggapan seperti,
+00:01:31,458 --> 00:01:34,027
+Intentnya bisa jadi: "Berikan tips mengenai kesehatan" dan menerima tanggapan seperti,
 
 33
-00:01:34,094 --> 00:01:36,296
+00:01:34,094 --> 00:01:36,596
 "Anda ingin mendapat tips tentang topik apa?
 
 34
-00:01:36,362 --> 00:01:38,298
-Ingat, aku tidak bisa
+00:01:36,662 --> 00:01:38,298
+Ingat, aku tidak bisa memberikan diagnosis medis."
 
 35
-00:01:38,364 --> 00:01:39,866
-memberikan diagnosis medis."
+00:01:38,298 --> 00:01:40,866
+Ingat, aku tidak bisa memberikan diagnosis medis."
 
 36
 00:01:41,034 --> 00:01:42,802
-Dengan cara ini, maksud aplikasi akan menjadi
+Dengan cara ini, intent aplikasi telah
 
 37
 00:01:42,869 --> 00:01:45,038
-dikonfigurasikan agar pengguna jelas
+dikonfigurasikan agar pengguna memahami jelas
 
 38
 00:01:45,105 --> 00:01:47,540
-memahami asisten,
+kemampuan dan keterbatasan asisten,
 
 39
-00:01:47,607 --> 00:01:50,076
-kemampuan dan keterbatasan,
+00:01:47,540 --> 00:01:50,076
+kemampuan dan keterbatasan asisten,
 
 40
-00:01:50,143 --> 00:01:51,978
+00:01:50,143 --> 00:01:52,978
 menghindari ekspektasi yang tidak realistis.
 
 41
 00:01:53,446 --> 00:01:56,382
-Kedua, cocokkan perilaku agen dengan
+Kedua, cocokkan perilaku agen AI dengan
 
 42
-00:01:56,449 --> 00:01:58,017
+00:01:56,449 --> 00:01:58,517
 konteks dan norma pengguna.
 
 43
 00:01:58,818 --> 00:02:01,421
-Agen AI harus mengidentifikasi konteksnya
+Agen AI harus mengidentifikasi konteks dan saat user sedang memakai,
 
 44
-00:02:01,488 --> 00:02:05,158
-dan saat pengguna berada di dalamnya,
+00:02:01,421 --> 00:02:05,158
+Agen AI harus mengidentifikasi konteks dan saat user sedang memakai,
 
 45
 00:02:05,225 --> 00:02:07,560
@@ -184,7 +184,7 @@ beradaptasi dengan konteks budaya.
 
 47
 00:02:10,730 --> 00:02:13,333
-Misalnya, maksud aplikasi dikonfigurasi
+Misalnya, intent aplikasi dikonfigurasi
 
 48
 00:02:13,399 --> 00:02:16,002
@@ -192,7 +192,7 @@ untuk mencegah pengguna menerima pengingat
 
 49
 00:02:16,069 --> 00:02:19,072
-atau pemberitahuan saat rapat.
+atau notifikasi saat rapat.
 
 50
 00:02:19,772 --> 00:02:22,642
@@ -204,19 +204,19 @@ sedang dalam rapat melalui kalender
 
 52
 00:02:26,746 --> 00:02:29,015
-dan setelah itu berakhir,
+dan setelah rapat itu berakhir,
 
 53
-00:02:29,082 --> 00:02:30,316
-mengirimkan pengingat atau pemberitahuan.
+00:02:29,082 --> 00:02:31,316
+mengirimkan pengingat atau notifikasi.
 
 54
 00:02:31,951 --> 00:02:34,220
-Tujuan aplikasi akan menghormati
+Intent aplikasi akan menghormati konteks pengguna,
 
 55
-00:02:34,287 --> 00:02:35,622
-konteks pengguna,
+00:02:34,220 --> 00:02:35,622
+Intent aplikasi akan menghormati konteks pengguna,
 
 56
 00:02:35,688 --> 00:02:38,458
@@ -227,7 +227,7 @@ menghindari notifikasi pada saat yang tidak diinginkan.
 Ketiga, menyediakan
 
 58
-00:02:40,393 --> 00:02:42,962
+00:02:40,393 --> 00:02:43,962
 transparansi dan kemudahan menjelaskan.
 
 59
@@ -252,27 +252,27 @@ pembenaran sederhana atau antarmuka
 
 64
 00:02:59,979 --> 00:03:01,514
-itu menunjukkan bagaimana hal itu sampai
+yang menunjukkan bagaimana agen AI dapat hasil rekomendasi itu.
 
 65
-00:03:01,581 --> 00:03:03,249
-pada rekomendasi itu.
+00:03:01,514 --> 00:03:03,949
+yang menunjukkan bagaimana agen AI dapat hasil rekomendasi itu.
 
 66
 00:03:04,317 --> 00:03:06,920
-Misalnya, maksud aplikasi berupa petunjuk kerja
+Misalnya, intent aplikasi berupa petunjuk ke tempat kerja dalam aplikasi peta.
 
 67
-00:03:06,986 --> 00:03:09,322
-dalam aplikasi peta.
+00:03:06,920 --> 00:03:09,322
+Misalnya, intent aplikasi berupa petunjuk ke tempat kerja dalam aplikasi peta.
 
 68
 00:03:10,890 --> 00:03:13,893
-Maksudnya bisa jadi: "Dapatkan petunjuk arah
+Intentnya bisa jadi: "Dapatkan petunjuk arah ke tempat kerja" dan akan memberikan pilihan rute
 
 69
-00:03:13,960 --> 00:03:17,163
-untuk bekerja" dan akan kembali dengan pilihan rute
+00:03:13,893 --> 00:03:17,163
+Intentnya bisa jadi: "Dapatkan petunjuk arah ke tempat kerja" dan akan memberikan pilihan rute
 
 70
 00:03:17,230 --> 00:03:18,965
@@ -284,7 +284,7 @@ dan pilihan terbaik.
 
 72
 00:03:21,568 --> 00:03:23,269
-Dalam kasus ini, maksud aplikasi akan
+Dalam kasus ini, intent aplikasi akan
 
 73
 00:03:23,336 --> 00:03:25,772
@@ -304,18 +304,18 @@ untuk memahami logika sistem.
 
 77
 00:03:34,781 --> 00:03:36,249
-Keempat, mendukung pengguna
+Keempat, mendukung kontrol pengguna dan mudah untuk keluar.
 
 78
-00:03:36,316 --> 00:03:38,184
-kontrol dan pelarian yang mudah.
+00:03:36,249 --> 00:03:38,984
+Keempat, mendukung kontrol pengguna dan mudah untuk keluar.
 
 79
 00:03:39,285 --> 00:03:42,589
 Berdasarkan heuristik kegunaan ketiga,
 
 80
-00:03:42,655 --> 00:03:43,823
+00:03:42,655 --> 00:03:44,523
 kontrol dan kebebasan pengguna.
 
 81
@@ -328,31 +328,31 @@ mampu mengungkapkan, mengoreksi,
 
 83
 00:03:50,697 --> 00:03:52,832
-konfirmasi dan bahkan batalkan apa
+konfirmasi dan bahkan batalkan apa yang disajikan dengan mudah.
 
 84
-00:03:52,899 --> 00:03:54,400
-disajikan dengan mudah.
+00:03:52,832 --> 00:03:54,900
+konfirmasi dan bahkan batalkan apa yang disajikan dengan mudah.
 
 85
 00:03:55,401 --> 00:03:56,836
-Keputusan akhir harus
+Keputusan akhir harus selalu menjadi milik pengguna.
 
 86
-00:03:56,903 --> 00:03:58,605
-selalu menjadi milik pengguna.
+00:03:56,836 --> 00:03:59,405
+Keputusan akhir harus selalu menjadi milik pengguna.
 
 87
 00:03:59,672 --> 00:04:02,609
-Misalnya, maksud aplikasi ditingkatkan
+Misalnya, intent aplikasi untuk meningkatkan kualitas gambar dalam aplikasi penyuntingan foto.
 
 88
-00:04:02,675 --> 00:04:05,612
-gambar dalam aplikasi penyuntingan foto.
+00:04:02,609 --> 00:04:05,612
+Misalnya, intent aplikasi untuk meningkatkan kualitas gambar dalam aplikasi penyuntingan foto.
 
 89
 00:04:06,579 --> 00:04:09,782
-Maksudnya bisa jadi: "Dapatkan peningkatan otomatis"
+Intentnya bisa jadi: "Dapatkan peningkatan otomatis"
 
 90
 00:04:10,617 --> 00:04:13,052
@@ -368,7 +368,7 @@ kecerahan dan saturasi.
 
 93
 00:04:19,425 --> 00:04:21,227
-Tujuan aplikasi ini adalah untuk memastikan bahwa
+Intent aplikasi ini adalah untuk memastikan bahwa
 
 94
 00:04:21,294 --> 00:04:23,329
@@ -379,7 +379,7 @@ Pengguna memiliki kontrol total,
 mencegah tindakan yang tidak diinginkan
 
 96
-00:04:25,298 --> 00:04:26,499
+00:04:25,298 --> 00:04:27,499
 dan memungkinkan penyesuaian cepat.
 
 97
@@ -387,7 +387,7 @@ dan memungkinkan penyesuaian cepat.
 Kelima, menangani kesalahan
 
 98
-00:04:29,669 --> 00:04:31,537
+00:04:29,669 --> 00:04:31,937
 dan ketidakpastian dengan anggun.
 
 99
@@ -399,23 +399,23 @@ Berdasarkan heuristik kegunaan kesembilan,
 membantu pengguna mengenali, mendiagnosis
 
 101
-00:04:38,077 --> 00:04:40,213
+00:04:38,077 --> 00:04:40,713
 dan pulih dari kesalahan.
 
 102
 00:04:41,314 --> 00:04:44,283
-Agen AI harus mengenali kapan itu
+Agen AI harus mengenali kapan dia salah atau tidak pasti dan
 
 103
-00:04:44,350 --> 00:04:46,686
-salah atau tidak pasti dan
+00:04:44,283 --> 00:04:46,686
+Agen AI harus mengenali kapan dia salah atau tidak pasti dan
 
 104
-00:04:46,753 --> 00:04:48,855
-tangani ini secara intuitif.
+00:04:46,753 --> 00:04:49,855
+bisa menangani ini secara intuitif.
 
 105
-00:04:50,323 --> 00:04:52,392
+00:04:50,323 --> 00:04:52,792
 Hal ini termasuk menghindari tindakan berisiko,
 
 106
@@ -428,7 +428,7 @@ menawarkan pengguna langkah berikutnya.
 
 108
 00:04:58,331 --> 00:05:01,000
-Misalnya, maksud aplikasi untuk menambah
+Misalnya, intent aplikasi untuk menambah
 
 109
 00:05:01,067 --> 00:05:03,336
@@ -439,12 +439,12 @@ daftar putar di aplikasi musik streaming.
 Saat lagu sedang diputar, pengguna bisa
 
 111
-00:05:06,472 --> 00:05:07,707
-mengaktifkan maksudnya.
+00:05:06,472 --> 00:05:08,707
+mengaktifkan intentnya.
 
 112
 00:05:08,875 --> 00:05:11,978
-Tambahkan musik ke daftar putar Latihan dan terima
+"Tambahkan musik ke daftar putar Latihan" dan terima
 
 113
 00:05:12,045 --> 00:05:14,314
@@ -455,11 +455,11 @@ tanggapan seperti, "Saya tidak dapat menemukan
 Daftar Putar Latihan.
 
 115
-00:05:16,249 --> 00:05:17,050
+00:05:16,249 --> 00:05:18,050
 "Apa yang ingin Anda lakukan?"
 
 116
-00:05:17,116 --> 00:05:20,386
+00:05:18,116 --> 00:05:20,386
 dan akan memberikan pilihan.
 
 117
@@ -472,7 +472,7 @@ atau pilih daftar putar yang ada.
 
 119
 00:05:26,326 --> 00:05:28,028
-Dengan cara ini, maksud aplikasi bisa jadi
+Dengan cara ini, intent aplikasi bisa jadi
 
 120
 00:05:28,095 --> 00:05:31,065
@@ -495,8 +495,8 @@ tindakan alternatif.
 Keenam, aktifkan
 
 125
-00:05:40,040 --> 00:05:41,475
-umpan balik dan pembelajaran.
+00:05:40,040 --> 00:05:41,975
+umpan balik terus-menerus dan pembelajaran.
 
 126
 00:05:42,309 --> 00:05:44,511
@@ -504,14 +504,14 @@ Cara sederhana untuk mengumpulkan umpan balik adalah
 
 127
 00:05:44,578 --> 00:05:46,113
-untuk menawarkan peringkat atau cepat
+untuk menawarkan peringkat atau survei cepat setelah sebuah interaksi.
 
 128
-00:05:46,180 --> 00:05:48,215
-survei setelah interaksi.
+00:05:46,113 --> 00:05:48,215
+untuk menawarkan peringkat atau survei cepat setelah sebuah interaksi.
 
 129
-00:05:49,149 --> 00:05:50,618
+00:05:49,149 --> 00:05:51,618
 Hal ini memungkinkan sistem untuk terus menerus
 
 130
@@ -520,15 +520,15 @@ disesuaikan berdasarkan respons pengguna.
 
 131
 00:05:55,022 --> 00:05:57,358
-Misalnya, maksud aplikasi adalah film
+Misalnya, intent aplikasi untuk rekomendasi film dan series di aplikasi streaming.
 
 132
-00:05:57,424 --> 00:05:59,827
-dan rekomendasi serial di aplikasi streaming.
+00:05:57,358 --> 00:05:59,827
+Misalnya, intent aplikasi untuk rekomendasi film dan series di aplikasi streaming.
 
 133
 00:06:00,861 --> 00:06:01,962
-Maksudnya bisa jadi
+Intentnya bisa jadi
 
 134
 00:06:02,029 --> 00:06:03,364
@@ -572,15 +572,15 @@ perilaku pengguna dari waktu ke waktu.
 
 144
 00:06:27,055 --> 00:06:29,824
-Izinkan agen AI belajar dari pengguna
+Izinkan agen AI belajar dari preferensi pengguna
 
 145
 00:06:29,891 --> 00:06:31,292
-preferensi dari waktu ke waktu
+dari waktu ke waktu secara transparan.
 
 146
-00:06:31,359 --> 00:06:32,527
-secara transparan.
+00:06:31,292 --> 00:06:32,527
+dari waktu ke waktu secara transparan.
 
 147
 00:06:33,561 --> 00:06:35,764
@@ -596,7 +596,7 @@ persetujuan dan kontrol pengguna.
 
 150
 00:06:40,502 --> 00:06:42,303
-Misalnya, maksud aplikasi berupa jadwal
+Misalnya, intent aplikasi berupa jadwal
 
 151
 00:06:42,370 --> 00:06:44,005
@@ -604,7 +604,7 @@ rapat di aplikasi rapat.
 
 152
 00:06:44,939 --> 00:06:47,408
-Maksudnya bisa jadi "Jadwalkan rapat untuk besok"
+Intentnya bisa jadi "Jadwalkan rapat untuk besok"
 
 153
 00:06:47,475 --> 00:06:50,111
@@ -628,15 +628,15 @@ Jika pengguna mengonfirmasi bahwa rapat telah dibuat,
 
 158
 00:07:01,389 --> 00:07:04,025
-maksud aplikasi akan belajar
+intent aplikasi akan belajar
 
 159
 00:07:04,092 --> 00:07:06,294
-waktu yang disukai pengguna dengan mereka
+waktu yang disukai pengguna dengan izin mereka
 
 160
 00:07:06,361 --> 00:07:09,030
-izin untuk meningkatkan pengalaman masa depan.
+untuk meningkatkan pengalaman masa depan.
 
 161
 00:07:09,998 --> 00:07:12,033
@@ -644,7 +644,7 @@ Berikut adalah beberapa panduan untuk membuat
 
 162
 00:07:12,100 --> 00:07:14,836
-tujuan aplikasi yang lebih efisien dan efektif.
+intent aplikasi yang lebih efisien dan efektif.
 
 163
 00:07:16,037 --> 00:07:18,339
@@ -659,17 +659,17 @@ Anda meningkatkan integrasi aplikasi Anda dengan sistem
 dan memberikan pengalaman pengguna yang lebih lancar.
 
 166
-00:07:28,315 --> 00:07:30,484
+00:07:26,315 --> 00:07:29,484
 Saya harap Anda menikmati konten kami tentang
 
 167
-00:07:30,551 --> 00:07:32,785
-desain untuk maksud aplikasi.
+00:07:29,551 --> 00:07:31,785
+desain untuk intent aplikasi.
 
 168
-00:07:32,952 --> 00:07:34,754
+00:07:31,952 --> 00:07:33,754
 Terima kasih atas waktu dan perhatian Anda.
 
 169
-00:07:34,821 --> 00:07:36,923
+00:07:33,821 --> 00:07:35,923
 Sampai jumpa nanti. Selamat tinggal!
