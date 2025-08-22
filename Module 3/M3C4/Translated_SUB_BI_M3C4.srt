@@ -4,19 +4,19 @@ Hai! Dalam video ini, kita akan melihat
 
 2
 00:00:02,602 --> 00:00:03,603
-bagaimana cara mengaksesnya
+bagaimana cara mengakses shortcut yang kita buat menggunakan Siri.
 
 3
-00:00:03,670 --> 00:00:05,605
-pintasan yang kami buat menggunakan Siri.
+00:00:03,603 --> 00:00:05,605
+bagaimana cara mengakses shortcut yang kita buat menggunakan Siri.
 
 4
 00:00:06,439 --> 00:00:08,441
-Kami juga akan menjelajahi cara menambahkan yang berbeda
+Kita juga akan menjelajahi cara menambahkan frasa yang berbeda
 
 5
 00:00:08,508 --> 00:00:11,111
-frasa untuk memicu pintasan dan memeriksa
+untuk memicu shortcut dan memeriksa
 
 6
 00:00:11,177 --> 00:00:13,246
@@ -24,7 +24,7 @@ bagaimana tampilannya di Pencarian Spotlight.
 
 7
 00:00:16,182 --> 00:00:18,218
-Pintasan yang kita buat di video terakhir
+Shortcut yang kita buat di video terakhir
 
 8
 00:00:18,284 --> 00:00:20,253
@@ -48,15 +48,15 @@ Misalnya, Anda bisa mengatakan
 
 13
 00:00:31,631 --> 00:00:33,366
-Siri akan segera berjalan
+Siri akan segera menjalankan shortcut dan membuka
 
 14
-00:00:33,433 --> 00:00:34,834
-jalan pintas dan buka
+00:00:33,366 --> 00:00:34,834
+Siri akan segera menjalankan shortcut dan membuka
 
 15
 00:00:34,901 --> 00:00:36,503
-layar favorit di aplikasi kami.
+layar favorit di aplikasi kita.
 
 16
 00:00:37,470 --> 00:00:38,738
@@ -75,12 +75,12 @@ Setiap frasa yang Anda tambahkan di sini ditafsirkan
 secara harfiah oleh Siri, jadi itu
 
 20
-00:00:45,245 --> 00:00:46,813
-penting untuk berpikir seperti Anda
+00:00:45,245 --> 00:00:47,313
+penting untuk berpikir seperti pengguna Anda
 
 21
-00:00:46,913 --> 00:00:49,449
-pengguna dan mencoba mengantisipasi perbedaan
+00:00:47,413 --> 00:00:49,449
+dan mencoba mengantisipasi perbedaan
 
 22
 00:00:49,516 --> 00:00:51,484
@@ -91,8 +91,8 @@ cara mereka mengucapkan perintah yang sama.
 Selain itu, setiap frasa harus menyertakan nama aplikasi.
 
 24
-00:00:54,587 --> 00:00:57,557
-Itulah mengapa kami menggunakan .applicationName
+00:00:54,587 --> 00:00:58,557
+Itulah mengapa kita menggunakan .applicationName
 
 25
 00:00:59,492 --> 00:01:01,694
@@ -104,15 +104,15 @@ untuk memberikan beberapa variasi
 
 27
 00:01:03,563 --> 00:01:04,998
-frasa untuk maksud yang sama,
+frasa untuk intent yang sama,
 
 28
 00:01:05,532 --> 00:01:07,934
-sehingga pengguna dapat secara alami mengatakan apa yang mereka rasakan
+sehingga pengguna dapat secara alami mengatakan apa yang mereka biasanya berkata dan masih
 
 29
-00:01:08,001 --> 00:01:09,602
-tepat untuk mereka dan masih
+00:01:07,934 --> 00:01:09,602
+sehingga pengguna dapat secara alami mengatakan apa yang mereka biasanya berkata dan masih
 
 30
 00:01:09,669 --> 00:01:10,904
@@ -120,7 +120,7 @@ mendapatkan hasil yang diharapkan.
 
 31
 00:01:12,272 --> 00:01:14,140
-Berikut contoh di mana kami menambahkan beberapa
+Berikut contoh di mana kita menambahkan beberapa
 
 32
 00:01:14,207 --> 00:01:16,042
@@ -136,15 +136,15 @@ Sekarang mari kita coba beberapa frasa
 
 35
 00:01:20,947 --> 00:01:22,916
-kami menambahkan dan melihat bagaimana Siri merespons.
+yang kita tambahkan dan melihat bagaimana Siri merespons.
 
 36
 00:01:23,917 --> 00:01:25,585
-Aku akan mengatakan beberapa hal
+Aku akan mengatakan beberapa variasi kata yang berbeda, seperti
 
 37
-00:01:25,652 --> 00:01:28,021
-variasi yang berbeda, seperti
+00:01:25,585 --> 00:01:28,021
+Aku akan mengatakan beberapa variasi kata yang berbeda, seperti
 
 38
 00:01:28,088 --> 00:01:30,857
@@ -156,23 +156,23 @@ dan "pergi ke favorit di Kopi".
 
 40
 00:01:35,328 --> 00:01:37,664
-Dan seperti yang akan Anda lihat, Siri benar
+Dan seperti yang akan Anda lihat, Siri mengenali masing-masing frasa dan
 
 41
-00:01:37,730 --> 00:01:39,766
-mengenali masing-masing dan
+00:01:37,664 --> 00:01:39,766
+Dan seperti yang akan Anda lihat, Siri mengenali masing-masing frasa dan
 
 42
 00:01:39,833 --> 00:01:41,401
-menjalankan pintasan yang kita buat.
+menjalankan shortcut yang kita buat.
 
 43
 00:01:43,336 --> 00:01:45,138
-Dan bagian terbaiknya adalah kita tidak membutuhkannya
+Dan bagian terbaiknya adalah kita tidak perlu
 
 44
 00:01:45,205 --> 00:01:47,740
-untuk menulis kode tambahan apa pun untuk pintasan kami
+menulis kode tambahan apa pun untuk shortcut kita
 
 45
 00:01:47,807 --> 00:01:48,808
@@ -188,27 +188,27 @@ Anda dapat mengaksesnya dengan menarik ke bawah untuk membuka
 
 48
 00:01:54,714 --> 00:01:57,016
-Sorotan dan mengetik nama aplikasi
+Spotlight dan mengetik nama aplikasi
 
 49
 00:01:57,083 --> 00:01:59,552
-atau bahkan bagian dari judul pintasan.
+atau bahkan bagian dari judul shortcut.
 
 50
 00:02:03,656 --> 00:02:04,424
-Dan itu saja untuk ini
+Dan itu saja untuk modul ini, terima kasih telah menonton!
 
 51
-00:02:04,491 --> 00:02:05,859
-modul, terima kasih telah menonton!
+00:02:04,424 --> 00:02:05,859
+Dan itu saja untuk modul ini, terima kasih telah menonton!
 
 52
 00:02:06,493 --> 00:02:08,394
-Kita telah melihat cara membuat maksud aplikasi,
+Kita telah melihat cara membuat App Intent,
 
 53
 00:02:08,728 --> 00:02:10,964
-mengubahnya menjadi jalan pintas, dan membuatnya
+mengubahnya menjadi shortcut, dan membuatnya
 
 54
 00:02:11,030 --> 00:02:12,999
@@ -228,24 +228,24 @@ niat yang lebih kompleks,
 
 58
 00:02:18,671 --> 00:02:20,273
-terintegrasi dengan sistem tambahan
+terintegrasi dengan sistem fitur tambahan, untuk membuat
 
 59
-00:02:20,340 --> 00:02:21,875
-fitur, untuk membuat Anda
+00:02:20,273 --> 00:02:21,875
+terintegrasi dengan sistem fitur tambahan, untuk membuat
 
 60
 00:02:21,941 --> 00:02:23,243
-aplikasi yang bahkan lebih hebat.
+aplikasi Anda jauh lebih hebat.
 
 61
 00:02:24,444 --> 00:02:25,678
-Terima kasih telah menonton dan saya akan
+Terima kasih telah menonton dan sampai jumpa di modul berikutnya.
 
 62
-00:02:25,745 --> 00:02:27,046
-sampai jumpa di modul berikutnya.
+00:02:25,678 --> 00:02:27,046
+Terima kasih telah menonton dan sampai jumpa di modul berikutnya.
 
 63
-00:02:27,580 --> 00:02:27,780
+00:02:27,580 --> 00:02:28,780
 Selamat tinggal.
