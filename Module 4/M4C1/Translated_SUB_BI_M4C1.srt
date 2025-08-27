@@ -4,11 +4,11 @@ Pada modul sebelumnya, kita telah melihat cara
 
 2
 00:00:02,102 --> 00:00:02,936
-membuat maksud aplikasi.
+membuat App Intent.
 
 3
 00:00:03,737 --> 00:00:06,106
-Ubahlah menjadi jalan pintas, dan buatlah
+Mengubahnya menjadi shortcut, dan membuatnya
 
 4
 00:00:06,172 --> 00:00:08,241
@@ -16,11 +16,11 @@ dapat diakses melalui Siri dan Spotlight.
 
 5
 00:00:08,942 --> 00:00:11,111
-Hal ini memberi kami beberapa cara untuk mengekspos
+Hal ini memberi kita beberapa cara untuk mengekspos
 
 6
 00:00:11,177 --> 00:00:13,413
-fitur dari aplikasi kami ke sistem.
+fitur dari aplikasi kita ke sistem.
 
 7
 00:00:13,880 --> 00:00:15,715
@@ -36,26 +36,26 @@ Halo, nama saya Sergio, dan dalam modul ini,
 
 10
 00:00:22,355 --> 00:00:23,690
-kita akan
+kita akan belajar cara membuat App Intent diparameterisasi,
 
 11
-00:00:23,757 --> 00:00:25,291
-pelajari cara membuat App Intent diparameterisasi,
+00:00:23,690 --> 00:00:25,691
+kita akan belajar cara membuat App Intent diparameterisasi,
 
 12
-00:00:25,358 --> 00:00:27,861
-menambahkan lapisan baru
+00:00:25,758 --> 00:00:27,861
+menambahkan lapisan interaksi baru dengan pengguna.
 
 13
-00:00:27,927 --> 00:00:29,629
-interaksi dengan pengguna.
+00:00:27,861 --> 00:00:29,629
+menambahkan lapisan interaksi baru dengan pengguna.
 
 14
 00:00:31,164 --> 00:00:33,867
-Mari kita mulai dengan membuat maksud kedua
+Mari kita mulai dengan membuat Intent kedua
 
 15
-00:00:33,933 --> 00:00:35,935
+00:00:33,933 --> 00:00:36,935
 disebut ProductDetailIntent.
 
 16
@@ -64,7 +64,7 @@ Ini akan menyajikan informasi yang relevan
 
 17
 00:00:39,005 --> 00:00:40,607
-tentang salah satu produk kami
+tentang salah satu produk kita
 
 18
 00:00:40,673 --> 00:00:42,909
@@ -72,7 +72,7 @@ tanpa perlu membuka aplikasi.
 
 19
 00:00:43,977 --> 00:00:45,178
-Di sini kami mendeklarasikan
+Di sini kita mendeklarasikan
 
 20
 00:00:45,245 --> 00:00:47,580
@@ -92,47 +92,47 @@ Sekarang mari kita lihat
 
 24
 00:00:54,054 --> 00:00:55,155
-Struktur kedai kopi.
+Struktur CoffeeShop.
 
 25
 00:00:56,389 --> 00:00:58,391
-Pada model sebelumnya, kita melihat bagaimana
+Pada model sebelumnya, kita melihat bagaimana cara untuk
 
 26
 00:00:58,458 --> 00:01:00,360
 menyuntikkan ketergantungan ini menggunakan
 
 27
-00:01:00,427 --> 00:01:01,694
+00:01:00,427 --> 00:01:02,694
 AppDependencyManager.
 
 28
 00:01:02,929 --> 00:01:04,864
-Sekarang mari kita perbarui ProductDetailIntent
+Sekarang mari kita perbarui ProductDetailIntent untuk menerima parameter,
 
 29
-00:01:04,931 --> 00:01:06,766
-untuk menerima parameter,
+00:01:04,864 --> 00:01:07,466
+Sekarang mari kita perbarui ProductDetailIntent untuk menerima parameter,
 
 30
 00:01:07,667 --> 00:01:09,102
-nama produk itu
+nama produk yang dapat ditentukan pengguna.
 
 31
-00:01:09,169 --> 00:01:10,637
-pengguna dapat menentukannya.
+00:01:09,102 --> 00:01:10,637
+nama produk yang dapat ditentukan pengguna.
 
 32
 00:01:11,604 --> 00:01:14,040
-Kami menggunakan pembungkus properti parameter
+Kita menggunakan parameter Property Wrapper
 
 33
 00:01:14,107 --> 00:01:15,408
-untuk mendefinisikan string opsional
+untuk mendefinisikan string opsional yang menyimpan nama produk.
 
 34
-00:01:15,475 --> 00:01:16,843
-yang memuat nama produk.
+00:01:15,408 --> 00:01:16,843
+untuk mendefinisikan string opsional yang menyimpan nama produk.
 
 35
 00:01:18,111 --> 00:01:20,280
@@ -140,15 +140,15 @@ Di dalam metode perform,
 
 36
 00:01:20,346 --> 00:01:22,549
-kami memeriksa apakah nilai ini sudah ditetapkan.
+kita memeriksa apakah nilai ini sudah ditetapkan.
 
 37
 00:01:23,183 --> 00:01:24,951
-Jika tidak, kami meminta pengguna
+Jika tidak, kita meminta nilai ini dari pengguna menggunakan nilai request,
 
 38
-00:01:25,018 --> 00:01:26,920
-untuk itu menggunakan nilai permintaan,
+00:01:24,951 --> 00:01:26,920
+Jika tidak, kita meminta nilai ini dari pengguna menggunakan nilai request,
 
 39
 00:01:27,353 --> 00:01:29,656
@@ -156,7 +156,7 @@ yang berfungsi dalam konteks yang didukung
 
 40
 00:01:29,722 --> 00:01:31,758
-seperti Siri atau aplikasi pintasan.
+seperti Siri atau aplikasi Shortcuts.
 
 41
 00:01:33,660 --> 00:01:36,262
@@ -176,11 +176,11 @@ Setelah aplikasi Anda diinstal dan dikompilasi,
 
 45
 00:01:46,172 --> 00:01:47,474
-buka aplikasi Pintasan.
+buka aplikasi Shortcuts.
 
 46
 00:01:48,441 --> 00:01:50,009
-Buat pintasan baru.
+Buat shortcut baru.
 
 47
 00:01:51,978 --> 00:01:53,213
@@ -196,11 +196,11 @@ Kemudian, tambahkan tindakan kedua, tampilkan hasilnya
 
 50
 00:02:01,387 --> 00:02:03,323
-dan mengaturnya untuk ditampilkan
+dan mengaturnya untuk menampilkan hasil dari Intent sebelumnya.
 
 51
-00:02:03,389 --> 00:02:05,291
-hasil dari niat sebelumnya.
+00:02:03,323 --> 00:02:05,291
+dan mengaturnya untuk menampilkan hasil dari Intent sebelumnya.
 
 52
 00:02:07,393 --> 00:02:08,795
@@ -208,11 +208,11 @@ Sekarang ujilah.
 
 53
 00:02:09,696 --> 00:02:10,964
-Coba masukkan yang valid
+Coba masukkan nama produk yang benar seperti "Cafe".
 
 54
-00:02:11,030 --> 00:02:12,866
-nama produk seperti "Café".
+00:02:10,964 --> 00:02:12,866
+Coba masukkan nama produk yang benar seperti "Cafe".
 
 55
 00:02:16,336 --> 00:02:18,338
@@ -220,11 +220,11 @@ Anda seharusnya melihat harga yang benar.
 
 56
 00:02:20,006 --> 00:02:20,940
-Coba sesuatu yang tidak valid
+Coba sesuatu yang tidak benar seperti "Cafe com leite".
 
 57
-00:02:21,007 --> 00:02:22,408
-seperti "Kopi dengan Susu".
+00:02:20,940 --> 00:02:23,408
+Coba sesuatu yang tidak benar seperti "Cafe com leite".
 
 58
 00:02:25,145 --> 00:02:27,447
@@ -236,23 +236,23 @@ NOL
 
 60
 00:02:32,785 --> 00:02:35,922
-Dan selesai! Kami membuat parameter
+Dan selesai! Kita telah membuat App Intent dengan parameter,
 
 61
 00:02:35,989 --> 00:02:38,791
-maksud aplikasi, memproses input dan mengembalikan
+memproses input dan mengembalikan
 
 62
 00:02:38,858 --> 00:02:40,393
 nilai yang berdasarkan padanya.
 
 63
-00:02:40,693 --> 00:02:42,929
-Kami juga melihat cara membangun secara manual
+00:02:40,693 --> 00:02:43,529
+Kita juga melihat cara membangun shortcut secara manual
 
 64
-00:02:42,996 --> 00:02:45,064
-jalan pintas untuk memicu maksud tersebut.
+00:02:43,696 --> 00:02:45,064
+untuk memicu intent tersebut.
 
 65
 00:02:45,365 --> 00:02:47,400
@@ -264,11 +264,11 @@ menyediakan jenis output lainnya
 
 67
 00:02:49,769 --> 00:02:50,837
-dan cara membuatnya
+dan cara membuat shortcut secara otomatis.
 
 68
-00:02:50,904 --> 00:02:52,038
-pintasan secara otomatis.
+00:02:50,837 --> 00:02:52,038
+dan cara membuat shortcut secara otomatis.
 
 69
 00:02:52,972 --> 00:02:53,573
