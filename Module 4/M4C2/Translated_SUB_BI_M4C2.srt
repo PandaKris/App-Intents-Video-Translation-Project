@@ -1,10 +1,10 @@
 1
 00:00:00,533 --> 00:00:02,969
-Hai! Di video terakhir, kami membuat
+Hai! Di video terakhir, kita membuat
 
 2
 00:00:03,036 --> 00:00:04,337
-maksud Aplikasi yang menerima
+sebuah App Intent yang menerima
 
 3
 00:00:04,404 --> 00:00:06,373
@@ -12,47 +12,47 @@ parameter dan mengembalikan nilai.
 
 4
 00:00:06,973 --> 00:00:09,576
-Kami juga membuat pintasan secara manual
+Kita juga membuat shortcut secara manual
 
 5
 00:00:09,642 --> 00:00:12,212
 yang menggunakan nilai ini dalam serangkaian tindakan.
 
 6
-00:00:12,812 --> 00:00:14,447
-Sekarang, mari kita periksa yang lain
+00:00:12,812 --> 00:00:14,747
+Sekarang, mari kita periksa hasil lain
 
 7
-00:00:14,514 --> 00:00:16,416
-hasil yang dapat diberikan oleh App Intent
+00:00:14,814 --> 00:00:16,616
+yang dapat diberikan oleh App Intent
 
 8
 00:00:16,750 --> 00:00:17,717
-dan cara membuatnya
+dan cara membuat shortcut secara terprogram.
 
 9
-00:00:17,784 --> 00:00:19,085
-jalan pintas secara terprogram.
+00:00:17,717 --> 00:00:19,085
+dan cara membuat shortcut secara terprogram.
 
 10
 00:00:19,552 --> 00:00:20,220
-Ayo Mengkode!
+Mari kita mulai Coding!
 
 11
 00:00:23,089 --> 00:00:25,225
-Dalam ProductDetailIntent kami
+Dalam fungsi perform di ProductDetailIntent, mari tambahkan
 
 12
-00:00:25,291 --> 00:00:26,926
-melakukan fungsi, mari tambahkan
+00:00:25,225 --> 00:00:26,926
+Dalam fungsi perform di ProductDetailIntent, mari tambahkan
 
 13
 00:00:26,993 --> 00:00:28,995
-Menyediakan Dialog sebagai pengembalian,
+Provides Dialog sebagai pengembalian,
 
 14
 00:00:29,462 --> 00:00:31,231
-jadi kami mengembalikan dialog
+jadi kita mengembalikan dialog
 
 15
 00:00:31,297 --> 00:00:33,133
@@ -60,15 +60,15 @@ untuk menyajikannya dengan cara yang interaktif.
 
 16
 00:00:34,901 --> 00:00:35,902
-Di sini, kami menambahkan
+Di sini, kita menambahkan
 
 17
 00:00:35,969 --> 00:00:37,704
-menyediakan dialog sebagai balasan
+Provides dialog sebagai balasan
 
 18
 00:00:37,971 --> 00:00:39,773
-dari fungsi yang kita maksudkan.
+dari fungsi perform di Intent kita.
 
 19
 00:00:40,507 --> 00:00:42,475
@@ -84,7 +84,7 @@ ke nilai pengembalian yang juga kami simpan.
 
 22
 00:00:48,415 --> 00:00:50,016
-Kami menambahkan IntentDialog
+Kita menambahkan IntentDialog
 
 23
 00:00:50,083 --> 00:00:51,851
@@ -96,7 +96,7 @@ sehingga pengguna dapat menggunakannya saat
 
 25
 00:00:55,355 --> 00:00:56,856
-berinteraksi dengan maksud ini.
+berinteraksi dengan Intent ini.
 
 26
 00:00:58,158 --> 00:01:00,193
@@ -104,15 +104,15 @@ Sekarang kita memiliki dua kemungkinan cara
 
 27
 00:01:00,260 --> 00:01:01,995
-berinteraksi dengan niat kita.
+berinteraksi dengan Intent kita.
 
 28
 00:01:03,696 --> 00:01:04,364
-Mari berkreasi
+Mari membuat shortcut yang menggunakan Intent kita.
 
 29
-00:01:04,431 --> 00:01:06,533
-jalan pintas yang menggunakan maksud kita.
+00:01:04,364 --> 00:01:06,533
+Mari membuat shortcut yang menggunakan Intent kita.
 
 30
 00:01:10,203 --> 00:01:12,872
@@ -120,15 +120,15 @@ Mari kita ganti namanya menjadi My Coffee Shortcut.
 
 31
 00:01:17,110 --> 00:01:19,112
-Sekarang, saat menggunakan pintasan ini,
+Sekarang, saat menggunakan shortcut ini,
 
 32
 00:01:19,412 --> 00:01:20,513
-ini menyajikan kita
+ini menyajikan kita dialog untuk memasukkan produk
 
 33
-00:01:20,580 --> 00:01:22,082
-dialog untuk memasukkan produk
+00:01:20,513 --> 00:01:22,082
+ini menyajikan kita dialog untuk memasukkan produk
 
 34
 00:01:22,415 --> 00:01:23,316
@@ -136,27 +136,27 @@ dan itu menyajikan
 
 35
 00:01:23,383 --> 00:01:25,218
-keluaran juga dalam dialog kita.
+output juga dalam dialog kita.
 
 36
 00:01:26,619 --> 00:01:28,822
-Kita dapat menambahkan pintasan, mengatur
+Kita dapat menambahkan shortcut, mengatur
 
 37
 00:01:28,888 --> 00:01:30,190
-parameter dalam maksud
+parameter dalam intentnya
 
 38
 00:01:30,256 --> 00:01:32,592
-dirinya sendiri dan akan menggunakan ini
+sendiri dan akan menggunakan parameter ini
 
 39
 00:01:32,659 --> 00:01:34,894
-parameter untuk memberi kita harga tanpa
+untuk memberi kita harganya tanpa meminta parameter.
 
 40
-00:01:34,961 --> 00:01:36,229
-meminta parameter.
+00:01:34,894 --> 00:01:36,229
+untuk memberi kita harganya tanpa meminta parameter.
 
 41
 00:01:39,499 --> 00:01:41,734
@@ -164,15 +164,15 @@ Dalam video ini, kita belajar cara berinteraksi
 
 42
 00:01:41,801 --> 00:01:43,069
-dengan niat kami menggunakan
+dengan Intent kita menggunakan Shortcut dan Dialog.
 
 43
-00:01:43,136 --> 00:01:44,871
-pintasan dan dialog.
+00:01:43,069 --> 00:01:44,871
+dengan Intent kita menggunakan Shortcut dan Dialog.
 
 44
 00:01:45,538 --> 00:01:47,407
-Di video berikutnya, mari kita periksa cara melakukannya
+Di video berikutnya, mari kita periksa cara untuk
 
 45
 00:01:47,474 --> 00:01:49,042
