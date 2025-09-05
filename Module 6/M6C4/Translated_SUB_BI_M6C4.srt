@@ -1,14 +1,14 @@
 1
 00:00:00,166 --> 00:00:02,535
-Hai! Dalam video ini, kami akan menunjukkan cara
+Hai! Dalam video ini, kita akan menunjukkan cara
 
 2
-00:00:02,602 --> 00:00:04,404
-sesuaikan tampilan aplikasi Anda
+00:00:02,602 --> 00:00:04,804
+menyesuaikan tampilan App Shortcut Anda
 
 3
-00:00:04,471 --> 00:00:06,339
-pintasan di aplikasi Pintasan.
+00:00:04,871 --> 00:00:06,339
+di aplikasi Shortcuts.
 
 4
 00:00:07,240 --> 00:00:09,542
@@ -24,7 +24,7 @@ dapat membuat perbedaan besar.
 
 7
 00:00:12,879 --> 00:00:15,248
-Kami akan menjelaskan langkah demi langkah cara mendefinisikan
+Kita akan menjelaskan langkah demi langkah cara mendefinisikan
 
 8
 00:00:15,315 --> 00:00:16,149
@@ -36,23 +36,23 @@ sistem akan digunakan saat menampilkan
 
 10
 00:00:17,984 --> 00:00:18,752
-jalan pintas Anda.
+shortcut Anda.
 
 11
 00:00:21,855 --> 00:00:23,523
-Secara default, saat Anda membuat aplikasi
+Secara default, saat Anda membuat App Shortcut,
 
 12
 00:00:23,590 --> 00:00:25,358
-jalan pintas, sistem menggunakan
+sistem menggunakan ikon aplikasi Anda dengan warna standar.
 
 13
-00:00:25,425 --> 00:00:27,260
-ikon aplikasi Anda dengan standar
+00:00:25,358 --> 00:00:27,260
+sistem menggunakan ikon aplikasi Anda dengan warna standar.
 
 14
-00:00:27,694 --> 00:00:28,794
-warna.
+00:00:27,260 --> 00:00:28,794
+sistem menggunakan ikon aplikasi Anda dengan warna standar.
 
 15
 00:00:29,095 --> 00:00:30,864
@@ -68,11 +68,11 @@ Anda dapat menyesuaikan latar depan
 
 18
 00:00:35,602 --> 00:00:37,470
-dan latar belakang ubin pintasan.
+dan latar belakang ubin shortcut.
 
 19
 00:00:38,772 --> 00:00:40,807
-Untuk mengubah tampilan pintasan,
+Untuk mengubah tampilan shortcut,
 
 20
 00:00:40,874 --> 00:00:43,343
@@ -92,7 +92,7 @@ Anda menentukan nama warna.
 
 24
 00:00:51,718 --> 00:00:53,253
-Nama-nama warna ini harus cocok
+Nama-nama warna ini harus cocok dengan
 
 25
 00:00:53,319 --> 00:00:55,355
@@ -100,7 +100,7 @@ warna dalam katalog aset Anda.
 
 26
 00:00:55,889 --> 00:00:57,424
-Berikut adalah kode persisnya
+Berikut adalah kode persisnya yang
 
 27
 00:00:57,490 --> 00:00:59,292
@@ -112,7 +112,7 @@ Nama warna yang Anda tentukan terserah Anda.
 
 29
 00:01:03,196 --> 00:01:05,298
-Mereka tidak perlu persis seperti ShortcutsForeground
+Mereka tidak perlu persis ShortcutsForeground
 
 30
 00:01:05,365 --> 00:01:07,801
@@ -120,27 +120,27 @@ atau ShortcutsBackgroundTop.
 
 31
 00:01:08,701 --> 00:01:10,503
-Yang penting adalah nama-nama Anda
+Yang penting adalah nama-nama di
 
 32
 00:01:10,570 --> 00:01:12,639
-info.plist cocok persis
+info.plist cocok persis dengan
 
 33
 00:01:12,705 --> 00:01:14,541
-nama warna pada aset Anda
+nama warna pada aset katalog Anda.
 
 34
-00:01:14,607 --> 00:01:15,075
-katalog.
+00:01:14,541 --> 00:01:15,075
+nama warna pada aset katalog Anda.
 
 35
 00:01:15,942 --> 00:01:18,044
-Setelah selesai, buatlah pencocokannya
+Setelah selesai, buatlah set warna yang cocok dalam katalog aset.
 
 36
-00:01:18,111 --> 00:01:20,113
-set warna dalam katalog aset.
+00:01:18,044 --> 00:01:20,113
+Setelah selesai, buatlah set warna yang cocok dalam katalog aset.
 
 37
 00:01:20,647 --> 00:01:22,148
@@ -172,23 +172,23 @@ Warna latar depan digunakan untuk ikon
 
 44
 00:01:35,361 --> 00:01:36,896
-dan teks pintasan.
+dan teks dari shortcut.
 
 45
 00:01:37,597 --> 00:01:39,566
-Warna latar belakang menciptakan visual
+Warna latar belakang menciptakan dasar visual di belakang ikon.
 
 46
-00:01:39,632 --> 00:01:41,134
-pangkalan di belakang ikon.
+00:01:39,566 --> 00:01:41,134
+Warna latar belakang menciptakan dasar visual di belakang ikon.
 
 47
 00:01:42,302 --> 00:01:44,904
-Ini memberi pintasan Anda tampilan yang berbeda
+Ini memberi shortcut Anda tampilan yang berbeda dan bermerek di seluruh sistem.
 
 48
-00:01:44,971 --> 00:01:46,840
-dan penampilan bermerek di seluruh sistem.
+00:01:44,904 --> 00:01:46,840
+Ini memberi shortcut Anda tampilan yang berbeda dan bermerek di seluruh sistem.
 
 49
 00:01:47,674 --> 00:01:49,042
@@ -196,11 +196,11 @@ Mari kita lihat demo singkatnya.
 
 50
 00:01:49,742 --> 00:01:50,977
-Saya menambahkan kunci ke saya
+Saya menambahkan kunci ke info.plist saya persis seperti yang ditunjukkan.
 
 51
-00:01:51,044 --> 00:01:53,112
-info.plist persis seperti yang ditunjukkan.
+00:01:50,977 --> 00:01:53,112
+Saya menambahkan kunci ke info.plist saya persis seperti yang ditunjukkan.
 
 52
 00:01:53,880 --> 00:01:56,549
@@ -208,11 +208,11 @@ Kemudian, di katalog aset, saya membuat
 
 53
 00:01:56,616 --> 00:01:57,884
-warna putih disebut
+warna putih yang disebut
 
 54
 00:01:57,951 --> 00:01:58,952
-PintasanLatar Depan.
+ShortcutsForeground.
 
 55
 00:02:00,453 --> 00:02:02,489
@@ -228,11 +228,11 @@ sedikit lebih gelap, dengan nama-nama
 
 58
 00:02:05,658 --> 00:02:07,527
-PintasanLatar BelakangAtas dan
+ShortcutsBackgroundTop dan ShortcutsBackgroundBottom.
 
 59
-00:02:07,594 --> 00:02:09,095
-PintasanLatarBelakangBawah.
+00:02:07,527 --> 00:02:09,095
+ShortcutsBackgroundTop dan ShortcutsBackgroundBottom.
 
 60
 00:02:11,231 --> 00:02:13,333
@@ -240,11 +240,11 @@ Setelah membangun dan menjalankan aplikasi,
 
 61
 00:02:13,399 --> 00:02:14,834
-Saya membuka aplikasi pintasan.
+Saya membuka aplikasi Shortcuts.
 
 62
 00:02:15,768 --> 00:02:17,036
-Sekarang, jalan pintas saya
+Sekarang, shortcuts saya
 
 63
 00:02:17,103 --> 00:02:18,538
@@ -279,7 +279,7 @@ pengenalan di dalam sistem.
 Meskipun ini adalah hal kecil,
 
 71
-00:02:37,323 --> 00:02:38,858
+00:02:37,323 --> 00:02:39,858
 ini membantu aplikasi Anda menonjol.
 
 72
@@ -288,11 +288,11 @@ Dan selesai!
 
 73
 00:02:43,796 --> 00:02:45,231
-Sekarang Anda tahu cara menyesuaikannya
+Sekarang Anda tahu cara menyesuaikan
 
 74
 00:02:45,298 --> 00:02:46,833
-tampilan pintasan aplikasi Anda.
+tampilan shortcut aplikasi Anda.
 
 75
 00:02:47,433 --> 00:02:49,402

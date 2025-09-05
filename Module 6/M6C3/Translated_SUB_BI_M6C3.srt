@@ -8,7 +8,7 @@ tentang kasus penggunaan tertentu
 
 3
 00:00:03,737 --> 00:00:05,305
-untuk Maksud dan Pintasan Aplikasi,
+untuk App Intents dan Shortcuts,
 
 4
 00:00:05,872 --> 00:00:07,874
@@ -16,38 +16,38 @@ menggunakan gerakan meremas pada
 
 5
 00:00:07,941 --> 00:00:09,376
-Apple Pencil Pro. Ini bagus
+Apple Pencil Pro. Ini contoh bagus untuk bagaimana fleksibelnya
 
 6
-00:00:09,442 --> 00:00:10,944
-contoh bagaimana fleksibelnya ini
+00:00:09,376 --> 00:00:10,944
+Apple Pencil Pro. Ini contoh bagus untuk bagaimana fleksibelnya
 
 7
-00:00:11,011 --> 00:00:13,113
-alat-alat apa saja yang ada dan bagaimana alat-alat tersebut dapat beradaptasi dengan berbagai macam
+00:00:11,011 --> 00:00:13,413
+alat-alat ini dan bagaimana alat-alat tersebut dapat beradaptasi dengan berbagai macam
 
 8
-00:00:13,179 --> 00:00:14,247
-berbagai cara pengguna
+00:00:13,579 --> 00:00:14,247
+cara pengguna berinteraksi dengan perangkat mereka.
 
 9
-00:00:14,314 --> 00:00:15,815
-berinteraksi dengan perangkat mereka.
+00:00:14,247 --> 00:00:15,815
+cara pengguna berinteraksi dengan perangkat mereka.
 
 10
 00:00:19,853 --> 00:00:22,322
-Gerakan meremas adalah gerakan kecil,
+Gerakan meremas adalah tindakan yang kecil,
 
 11
 00:00:22,389 --> 00:00:24,557
-tindakan cepat yang dapat dilakukan pengguna dengan lembut
+cepat yang dapat dilakukan pengguna dengan secara lembut
 
 12
-00:00:24,624 --> 00:00:26,059
+00:00:24,624 --> 00:00:26,559
 menekan Apple Pencil Pro.
 
 13
-00:00:26,126 --> 00:00:28,695
+00:00:27,126 --> 00:00:28,695
 Ini dapat dihubungkan ke berbagai
 
 14
@@ -60,26 +60,26 @@ atau mengubah mode gambar
 
 16
 00:00:32,966 --> 00:00:35,135
-tanpa mengganggu aliran apa
+tanpa mengganggu aliran apa yang sedang dilakukan pengguna. Itu hanya
 
 17
-00:00:35,201 --> 00:00:37,537
-pengguna sedang melakukan. Itu hanya
+00:00:35,135 --> 00:00:37,537
+tanpa mengganggu aliran apa yang sedang dilakukan pengguna. Itu hanya
 
 18
 00:00:37,604 --> 00:00:39,239
 salah satu dari banyak cara sistem
 
 19
-00:00:39,305 --> 00:00:41,007
+00:00:39,305 --> 00:00:41,507
 dapat menanggapi gaya interaksi pribadi.
 
 20
-00:00:41,074 --> 00:00:43,176
+00:00:41,674 --> 00:00:43,476
 Seperti yang ditunjukkan dalam pengaturan,
 
 21
-00:00:43,243 --> 00:00:45,145
+00:00:43,543 --> 00:00:45,145
 pengguna dapat memilih apa
 
 22
@@ -108,11 +108,11 @@ pilihan paling kuat adalah
 
 28
 00:00:56,956 --> 00:00:59,893
-memilih pintasan. Ini memungkinkan pengguna
+memilih shortcut. Ini memungkinkan pengguna
 
 29
 00:00:59,959 --> 00:01:01,961
-untuk mendefinisikan secara tepat apa yang mereka inginkan
+untuk mendefinisikan secara tepat apa yang diinginkan
 
 30
 00:01:02,028 --> 00:01:03,096
@@ -132,11 +132,11 @@ hubungkan gerakan ini ke
 
 34
 00:01:09,803 --> 00:01:11,371
-jalan pintas yang mereka buat di
+shortcut yang mereka buat di
 
 35
 00:01:11,438 --> 00:01:13,973
-Aplikasi pintasan. Artinya, mereka dapat membangun
+Aplikasi Shortcuts. Artinya, mereka dapat membangun
 
 36
 00:01:14,040 --> 00:01:15,208
@@ -147,12 +147,12 @@ otomatisasi yang berjalan
 seketika saat mereka meremas pensil.
 
 38
-00:01:18,011 --> 00:01:19,279
-Ini adalah hal yang sangat spesifik
+00:01:18,011 --> 00:01:19,579
+Ini adalah skenario yang sangat spesifik
 
 39
-00:01:19,345 --> 00:01:20,980
-skenario tetapi sebagai pengembang,
+00:01:19,645 --> 00:01:20,980
+tetapi sebagai pengembang,
 
 40
 00:01:21,314 --> 00:01:23,216
@@ -160,7 +160,7 @@ kita dapat menggunakan App Intents yang sama dan
 
 41
 00:01:23,283 --> 00:01:25,351
-Pintasan yang telah kami definisikan
+Shortcut yang telah kami definisikan
 
 42
 00:01:25,418 --> 00:01:27,020
@@ -168,7 +168,7 @@ untuk mendukungnya. Ini menunjukkan
 
 43
 00:01:27,087 --> 00:01:29,055
-bagaimana pekerjaan yang kami lakukan untuk mendukung sistem
+bagaimana pekerjaan yang kita lakukan untuk mendukung sistem
 
 44
 00:01:29,122 --> 00:01:30,657
@@ -180,11 +180,11 @@ berbagai pengalaman pengguna.
 
 46
 00:01:33,359 --> 00:01:35,829
-Dari Pintasan yang ditempatkan di layar beranda
+Dari Shortcut yang ditempatkan di layar beranda
 
 47
 00:01:35,895 --> 00:01:37,597
-untuk gerakan yang sangat detail
+ke gerakan yang sangat detail
 
 48
 00:01:37,664 --> 00:01:39,666
@@ -212,23 +212,23 @@ juga bisa menciptakan
 
 54
 00:01:51,544 --> 00:01:53,546
-pintasan yang membuka ChatGPT
+shortcut yang membuka ChatGPT
 
 55
 00:01:53,780 --> 00:01:56,316
-untuk menanyakan pertanyaan cepat atau pertanyaan yang
+untuk menanyakan pertanyaan cepat atau tindakan yang
 
 56
 00:01:56,382 --> 00:01:58,885
 memulai pengatur waktu atau menempel
 
 57
-00:01:58,952 --> 00:02:01,621
-teks yang telah ditentukan. Bahkan teks kecil sekalipun
+00:01:58,952 --> 00:02:01,921
+teks yang telah ditentukan. Bahkan otomatisasi kecil
 
 58
-00:02:01,688 --> 00:02:04,624
-otomatisasi seperti ini dapat membantu pengguna merasa
+00:02:01,988 --> 00:02:04,624
+seperti ini dapat membantu pengguna merasa
 
 59
 00:02:04,691 --> 00:02:06,793
@@ -244,7 +244,7 @@ menyoroti kekuatan App Intents
 
 62
 00:02:11,197 --> 00:02:13,266
-dan Pintasan. Mereka tidak
+dan Shortcuts. Mereka tidak
 
 63
 00:02:13,333 --> 00:02:15,401
@@ -252,19 +252,19 @@ hanya untuk tindakan besar atau suara
 
 64
 00:02:15,468 --> 00:02:18,571
-perintah. Mereka juga dapat mendukung perintah kecil
+perintah. Mereka juga dapat mendukung interaksi kecil
 
 65
 00:02:18,638 --> 00:02:20,039
-dan interaksi yang tepat yang
+dan tepat yang terasa personal dan alami.
 
 66
-00:02:20,106 --> 00:02:21,574
-terasa personal dan alami.
+00:02:20,039 --> 00:02:21,574
+dan tepat yang terasa personal dan alami.
 
 67
 00:02:25,178 --> 00:02:27,247
-Terima kasih telah menonton. Apakah aplikasi Anda
+Terima kasih telah menonton. Antara aplikasi Anda
 
 68
 00:02:27,313 --> 00:02:28,882
@@ -284,12 +284,12 @@ seperti ini bisa membantu
 
 72
 00:02:34,287 --> 00:02:35,722
-Anda menciptakan yang lebih kaya dan
+Anda menciptakan pengalaman yang lebih kaya dan lebih responsif
 
 73
-00:02:35,788 --> 00:02:36,556
-lebih responsif
+00:02:35,722 --> 00:02:36,556
+Anda menciptakan pengalaman yang lebih kaya dan lebih responsif
 
 74
 00:02:36,623 --> 00:02:38,858
-pengalaman untuk aplikasi Anda. Sampai jumpa!
+untuk aplikasi Anda. Sampai jumpa!
