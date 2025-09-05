@@ -1,22 +1,22 @@
 1
 00:00:00,600 --> 00:00:02,802
-Halo! Pada modul sebelumnya, kita telah mempelajari
+Halo! Pada modul sebelumnya, kita belajar
 
 2
 00:00:02,869 --> 00:00:05,105
-cara menambahkan parameter ke maksud aplikasi
+cara menambahkan parameter ke App Intent
 
 3
-00:00:05,171 --> 00:00:06,539
-untuk membuatnya dapat disesuaikan.
+00:00:05,171 --> 00:00:06,939
+untuk membuatnya dapat dikustomisasi.
 
 4
 00:00:07,273 --> 00:00:09,409
-Kami juga melihat cara menggunakan parameter ini
+Kita juga melihat cara menggunakan parameter ini
 
 5
 00:00:09,476 --> 00:00:12,412
-dengan pintasan, Siri, dan widget.
+dengan Shortcuts, Siri, dan widget.
 
 6
 00:00:13,079 --> 00:00:15,682
@@ -32,31 +32,31 @@ dan membuat interaksi bahasa alami,
 
 9
 00:00:20,820 --> 00:00:22,022
-seperti permintaan Siri kalimat lengkap,
+seperti kalimat lengkap untuk permintaan Siri, kurang efektif.
 
 10
-00:00:22,088 --> 00:00:23,523
-kurang efektif.
+00:00:22,022 --> 00:00:24,523
+seperti kalimat lengkap untuk permintaan Siri, kurang efektif.
 
 11
 00:00:26,007 --> 00:00:28,395
-Hai, nama saya Sergio dan kita akan melihat bagaimana
+Hai, nama saya Sergio dan kita akan melihat cara
 
 12
 00:00:28,461 --> 00:00:29,529
-untuk mengatasi hal ini
+untuk mengatasi batasan ini menggunakan App Entity.
 
 13
-00:00:29,596 --> 00:00:31,898
-batasan menggunakan entitas Aplikasi.
+00:00:29,529 --> 00:00:31,898
+untuk mengatasi batasan ini menggunakan App Entity.
 
 14
 00:00:34,033 --> 00:00:36,703
-Entitas Aplikasi adalah sebuah konsep yang dimiliki oleh aplikasi Anda
+App Entity adalah sebuah konsep dimana aplikasi Anda
 
 15
 00:00:36,770 --> 00:00:38,905
-diekspos ke sistem App Intent.
+mengekspos sesuatu ke sistem App Intent.
 
 16
 00:00:39,639 --> 00:00:41,808
@@ -64,15 +64,15 @@ Ini adalah abstraksi kuat yang memungkinkan
 
 17
 00:00:41,875 --> 00:00:44,811
-data kustom dan dinamis yang akan digunakan di
+data kustom dan dinamis untuk digunakan di
 
 18
 00:00:44,878 --> 00:00:46,312
-pintasan dan widget.
+Shortcuts dan widget.
 
 19
 00:00:47,947 --> 00:00:51,217
-Mari kita ambil item baru sebagai contoh
+Mari kita lihat "MenuItem" sebagai contoh
 
 20
 00:00:51,284 --> 00:00:52,886
@@ -80,7 +80,7 @@ suatu entitas yang dapat diekspos oleh aplikasi kita.
 
 21
 00:00:53,620 --> 00:00:57,357
-Berikut MenuItemEntity.switt kami
+Berikut MenuItemEntity.swift kita
 
 22
 00:00:58,258 --> 00:01:00,827
@@ -96,11 +96,11 @@ Mari kita soroti elemen-elemen utamanya.
 
 25
 00:01:07,000 --> 00:01:08,468
-ID adalah sebuah identitas unik
+ID adalah sebuah identitas unik untuk entitas ini.
 
 26
-00:01:08,535 --> 00:01:10,403
-pengenal untuk entitas.
+00:01:08,468 --> 00:01:10,403
+ID adalah sebuah identitas unik untuk entitas ini.
 
 27
 00:01:12,205 --> 00:01:14,541
@@ -116,19 +116,19 @@ langsung dalam frasa.
 
 30
 00:01:19,579 --> 00:01:21,981
-Representasi tampilan mengontrol bagaimana
+displayRepresentation mengontrol bagaimana
 
 31
 00:01:22,048 --> 00:01:23,683
 entitas tersebut muncul kepada pengguna.
 
 32
-00:01:24,484 --> 00:01:26,085
-Di sini kami hanya menggunakan nama.
+00:01:24,484 --> 00:01:26,685
+Di sini kita hanya menggunakan nama.
 
 33
 00:01:27,620 --> 00:01:30,457
-TipeDisplayRepresentation adalah
+"typeDisplayRepresentation" adalah
 
 34
 00:01:30,523 --> 00:01:32,292
@@ -148,7 +148,7 @@ Dan akhirnya, inisialisasi memungkinkan kita
 
 38
 00:01:40,567 --> 00:01:43,937
-mudah dikonversi dari model MenuItem
+mudah mengkonversi dari model MenuItem
 
 39
 00:01:44,003 --> 00:01:45,772
@@ -156,15 +156,15 @@ ke struktur MenuItemEntity kita.
 
 40
 00:01:47,006 --> 00:01:49,375
-Tapi kita masih kehilangan pencarian
+Tapi kita masih kehilangan mekanisme pencarian, defaultQuery.
 
 41
-00:01:49,442 --> 00:01:51,344
-mekanisme, defaultQuery.
+00:01:49,375 --> 00:01:51,344
+Tapi kita masih kehilangan mekanisme pencarian, defaultQuery.
 
 42
 00:01:52,545 --> 00:01:54,514
-Mari kita terapkan kueri item menu,
+Mari kita terapkan kueri MenuItem,
 
 43
 00:01:54,881 --> 00:01:56,483
@@ -176,15 +176,15 @@ mencari dan menyarankan item.
 
 45
 00:01:59,619 --> 00:02:01,855
-Struktur ini sesuai dengan entitas
+Struktur ini mengikuti protokol EntityStringQuery
 
 46
-00:02:01,921 --> 00:02:03,423
-protokol kueri string.
+00:02:01,855 --> 00:02:03,423
+Struktur ini mengikuti protokol EntityStringQuery
 
 47
 00:02:04,123 --> 00:02:05,758
-Mari kita uraikan.
+Mari kita lihat lebih dalam.
 
 48
 00:02:06,726 --> 00:02:07,927
@@ -196,7 +196,7 @@ Mengambil entitas berdasarkan ID mereka,
 
 50
 00:02:10,763 --> 00:02:13,900
-dibutuhkan oleh semua pertanyaan.
+dibutuhkan oleh semua kueri.
 
 51
 00:02:16,002 --> 00:02:18,138
@@ -208,11 +208,11 @@ mencari berdasarkan rangkaian teks.
 
 53
 00:02:20,673 --> 00:02:22,642
-Dalam kasus kami, kami mencari
+Dalam kasus kita, kita mencari
 
 54
 00:02:22,709 --> 00:02:24,677
-nama produk dalam model kami.
+nama produk dalam model kita.
 
 55
 00:02:26,312 --> 00:02:28,681
@@ -220,7 +220,7 @@ Entitas yang disarankan mengembalikan daftar default,
 
 56
 00:02:28,748 --> 00:02:31,851
-seperti favorit adalah penjual teratas,
+seperti favorit adalah penjual terbanyak,
 
 57
 00:02:32,318 --> 00:02:35,221
@@ -228,11 +228,11 @@ yang muncul sebagai saran pelengkapan otomatis.
 
 58
 00:02:36,156 --> 00:02:38,024
-Dan sekarang, mari kita gunakan ini
+Dan sekarang, mari kita gunakan entitas ini dalam Intent.
 
 59
-00:02:38,091 --> 00:02:40,560
-entitas dalam maksud sebenarnya.
+00:02:38,024 --> 00:02:40,560
+Dan sekarang, mari kita gunakan entitas ini dalam Intent.
 
 60
 00:02:43,763 --> 00:02:45,899
@@ -240,7 +240,7 @@ Perubahan utama di sini adalah menggunakan
 
 61
 00:02:45,965 --> 00:02:48,768
-MenuItemEntity alih-alih string mentah
+MenuItemEntity daripada menggunakan string mentah
 
 62
 00:02:48,835 --> 00:02:51,337
@@ -252,11 +252,11 @@ Kemudian, dalam fungsi perform,
 
 64
 00:02:55,642 --> 00:02:58,344
-kami menggunakan entitas ini untuk mengambil model sebenarnya
+kita menggunakan entitas ini untuk mengambil model data sebenarnya
 
 65
 00:02:58,411 --> 00:03:00,013
-data dari sistem kami.
+dari sistem kita.
 
 66
 00:03:00,947 --> 00:03:03,016
@@ -276,7 +276,7 @@ Mari kita lakukan ini dalam pengaturan aplikasi menggunakan
 
 70
 00:03:12,625 --> 00:03:15,428
-fungsi parameter pintasan aplikasi pembaruan.
+fungsi parameter updateAppShortcuts.
 
 71
 00:03:18,598 --> 00:03:19,566
@@ -296,11 +296,11 @@ memungkinkan integrasi Siri yang lebih baik,
 
 75
 00:03:28,741 --> 00:03:30,243
-saran widget, dan lainnya
+saran widget, dan interaksi shortcut yang lebih alami.
 
 76
-00:03:30,310 --> 00:03:32,178
-interaksi jalan pintas alami.
+00:03:30,243 --> 00:03:32,178
+saran widget, dan interaksi shortcut yang lebih alami.
 
 77
 00:03:32,679 --> 00:03:34,647
@@ -308,7 +308,7 @@ Pada video berikutnya, kita akan menjelajahi caranya
 
 78
 00:03:34,714 --> 00:03:36,583
-untuk membuat dan menggunakan pintasan ini,
+untuk membuat dan menggunakan shortcut ini,
 
 79
 00:03:36,916 --> 00:03:38,685

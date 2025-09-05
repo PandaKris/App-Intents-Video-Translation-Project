@@ -4,15 +4,15 @@ Hai! Di video terakhir, kita belajar bagaimana
 
 2
 00:00:03,169 --> 00:00:05,405
-untuk membuat entitas aplikasi untuk mewakili
+untuk membuat App Entity untuk mewakili
 
 3
 00:00:05,472 --> 00:00:08,208
-suatu konsep yang diekspos oleh aplikasi kami ke sistem.
+suatu konsep yang diekspos oleh aplikasi kita ke sistem.
 
 4
 00:00:08,508 --> 00:00:11,277
-Kami juga mengeksplorasi cara menggunakan kueri
+Kita juga mengeksplorasi cara menggunakan kueri
 
 5
 00:00:11,344 --> 00:00:13,179
@@ -20,35 +20,35 @@ untuk mencari entitas ini dan bagaimana
 
 6
 00:00:13,246 --> 00:00:15,315
-untuk mengintegrasikannya ke dalam maksud aplikasi.
+untuk mengintegrasikannya ke dalam App Intents.
 
 7
 00:00:15,815 --> 00:00:18,018
-Dalam video ini, kita akan mengambil ini
+Dalam video ini, kita akan membawa ini
 
 8
 00:00:18,084 --> 00:00:20,854
-selangkah lebih maju dan menggunakan maksud ini
+selangkah lebih maju dan menggunakan Intents tersebut
 
 9
 00:00:20,920 --> 00:00:22,322
-untuk membuat pintasan, keduanya
+untuk membuat shortcuts, baik secara manual dan terprogram.
 
 10
-00:00:22,389 --> 00:00:23,923
-secara manual dan terprogram.
+00:00:22,322 --> 00:00:23,923
+untuk membuat shortcuts, baik secara manual dan terprogram.
 
 11
 00:00:27,460 --> 00:00:30,530
-Mari kita mulai dengan membuka aplikasi Pintasan.
+Mari kita mulai dengan membuka aplikasi Shortcuts.
 
 12
-00:00:31,564 --> 00:00:33,666
-Ketuk tombol Tambah untuk membuat pintasan baru.
+00:00:31,564 --> 00:00:33,966
+Ketuk tombol Tambah untuk membuat shortcut baru.
 
 13
-00:00:33,733 --> 00:00:36,336
-Sebut saja "Kopi".
+00:00:34,133 --> 00:00:36,336
+Sebut saja "Coffee".
 
 14
 00:00:38,805 --> 00:00:40,206
@@ -60,23 +60,23 @@ Sekarang, pilih tindakannya
 
 16
 00:00:43,343 --> 00:00:45,745
-Saat Anda mengetuk "Produk", kami melihat daftar
+Saat Anda mengetuk "Produk", kita melihat daftar barang. Ini datang
 
 17
-00:00:45,812 --> 00:00:47,380
-dari item. Ini datang
+00:00:45,745 --> 00:00:47,380
+Saat Anda mengetuk "Produk", kita melihat daftar barang. Ini datang
 
 18
 00:00:47,447 --> 00:00:49,315
-dari entitas yang kami sarankan.
+dari entitas yang disarankan.
 
 19
 00:00:50,350 --> 00:00:53,319
-Saat kita mulai mengetik, sistem memanggil kita
+Saat kita mulai mengetik, sistem memanggil fungsi pencocokan string
 
 20
-00:00:53,386 --> 00:00:55,789
-fungsi pencocokan string
+00:00:53,319 --> 00:00:55,789
+Saat kita mulai mengetik, sistem memanggil fungsi pencocokan string
 
 21
 00:00:55,855 --> 00:00:57,257
@@ -88,15 +88,15 @@ Ayo pilih produknya. Selesai!
 
 23
 00:01:02,595 --> 00:01:05,732
-Sekarang kami memiliki jalan pintas yang menggunakan aplikasi kami
+Sekarang kita memiliki shortcut yang menggunakan App Entity kita sebagai parameter.
 
 24
-00:01:05,799 --> 00:01:07,500
-entitas sebagai parameter.
+00:01:05,732 --> 00:01:07,500
+Sekarang kita memiliki shortcut yang menggunakan App Entity kita sebagai parameter.
 
 25
 00:01:08,568 --> 00:01:11,304
-Kita juga dapat mendefinisikan pintasan ini dalam kode.
+Kita juga dapat mendefinisikan shortcut ini dalam kode.
 
 26
 00:01:12,839 --> 00:01:14,207
@@ -120,7 +120,7 @@ Hal ini hanya mungkin terjadi karena kita
 
 31
 00:01:24,284 --> 00:01:26,753
-menggunakan entitas aplikasi, yang memungkinkan kita
+menggunakan App Entity, yang memungkinkan kita
 
 32
 00:01:26,820 --> 00:01:29,322
@@ -132,23 +132,23 @@ yang membuat interaksi Siri
 
 34
 00:01:30,957 --> 00:01:33,226
-lebih alami dan percakapan.
+lebih alami dan lebih percakapan.
 
 35
 00:01:34,160 --> 00:01:35,094
-Kembali ke aplikasi Pintasan,
+Kembali ke aplikasi Shortcuts,
 
 36
 00:01:35,161 --> 00:01:36,329
 Mari kita coba.
 
 37
-00:01:37,330 --> 00:01:41,901
-Buat pintasan baru lagi, cari
+00:01:38,330 --> 00:01:41,901
+Buat shortcut baru lagi, cari
 
 38
 00:01:41,968 --> 00:01:43,703
-tindakan "Kopi",
+tindakan "Coffee",
 
 39
 00:01:43,770 --> 00:01:46,172
@@ -156,23 +156,23 @@ dan pilih "Buka detail produk".
 
 40
 00:01:47,907 --> 00:01:50,944
-Sekarang ketuk "Pilih produk", dan sekali
+Sekarang ketuk "Pilih produk", dan sekali lagi kita melihat menu barang dari kueri.
 
 41
-00:01:51,010 --> 00:01:52,545
-sekali lagi kita melihat menunya
+00:01:50,944 --> 00:01:52,545
+Sekarang ketuk "Pilih produk", dan sekali lagi kita melihat menu barang dari kueri.
 
 42
-00:01:52,612 --> 00:01:53,880
-item dari kueri.
+00:01:52,545 --> 00:01:53,880
+Sekarang ketuk "Pilih produk", dan sekali lagi kita melihat menu barang dari kueri.
 
 43
 00:01:56,349 --> 00:01:57,617
-Ketik nama "Pemicu
+Mengetikkan nama akan memicu fungsi pencocokan string kita.
 
 44
-00:01:57,684 --> 00:01:59,452
-fungsi string pencocokan kami".
+00:01:57,617 --> 00:01:59,452
+Mengetikkan nama akan memicu fungsi pencocokan string kita.
 
 45
 00:02:01,554 --> 00:02:03,323
@@ -180,7 +180,7 @@ Mari kita uji ini dengan Siri.
 
 46
 00:02:04,624 --> 00:02:07,460
-Tampilkan espresso dalam kopi.
+Tampilkan espresso di kopi.
 
 47
 00:02:10,096 --> 00:02:12,532
@@ -188,7 +188,7 @@ Siri memahami nama produk
 
 48
 00:02:12,599 --> 00:02:14,801
-dan meneruskannya langsung ke tujuan kita.
+dan meneruskannya langsung ke Intent kita.
 
 49
 00:02:15,635 --> 00:02:17,637
@@ -204,7 +204,7 @@ secara bermakna, hanya
 
 52
 00:02:21,541 --> 00:02:23,910
-dimungkinkan karena entitas aplikasi.
+dimungkinkan karena App Entity.
 
 53
 00:02:29,382 --> 00:02:31,117
@@ -212,15 +212,15 @@ Jadi, dalam video ini, kita melihat bagaimana
 
 54
 00:02:31,184 --> 00:02:33,086
-interaksi dengan maksud aplikasi melalui
+interaksi dengan App Intent melalui
 
 55
 00:02:33,152 --> 00:02:35,855
-pintasan dan Siri menjadi jauh lebih lancar
+Shortcuts dan Siri menjadi jauh lebih lancar
 
 56
 00:02:35,922 --> 00:02:38,458
-dan bertenaga saat menggunakan entitas aplikasi.
+dan kuat saat menggunakan App Entity.
 
 57
 00:02:38,925 --> 00:02:40,827
